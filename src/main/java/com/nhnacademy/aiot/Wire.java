@@ -14,7 +14,8 @@ public class Wire {
         msgQueue.offer(msg);
     }
 
-    public boolean hasMessage() {
+    public boolean hasMessage() { 
+        
         return !msgQueue.isEmpty();
     }
 
