@@ -1,5 +1,6 @@
 package com.nhnacademy.aiot.node;
 
+import com.nhnacademy.aiot.Wire;
 import lombok.extern.log4j.Log4j2;
 
 @Log4j2
@@ -12,8 +13,10 @@ public class DebugNode extends Node{
 
     @Override
     public void process() {
-        if(inputWires[0].hasMessage()){
-            log.info(inputWires[0].get());
+        for (Wire wire : inputPorts[0].getWires()) {
+            if(wire.hasMessage()){
+                log.info(wire.get());
+            }
         }
     }
 

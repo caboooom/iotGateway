@@ -6,6 +6,8 @@ import org.json.simple.parser.ParseException;
 
 public class JSONUtils {
 
+    private static JSONParser jsonParser = new JSONParser();
+
     private JSONUtils(){
         
     }
@@ -23,5 +25,10 @@ public class JSONUtils {
         }
 
         return false;
+    }
+
+    public static JSONParser getParser(){
+
+        return jsonParser;
     }
 }

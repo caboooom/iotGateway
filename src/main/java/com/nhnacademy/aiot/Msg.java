@@ -32,7 +32,7 @@ public class Msg {
     @Override
     public String toString() {
         
-        return "{" + "topic : " + topic  
+        return "{" + "topic : \"" + topic +"\", "
                    + "payload :" + payload + "}";
     }
 }   
