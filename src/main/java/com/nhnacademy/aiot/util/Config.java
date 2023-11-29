@@ -35,7 +35,7 @@ public class Config {
 
             if (commandLine.hasOption("c")) {
                 String jsonFilePath = commandLine.getOptionValue("c");
-                readConfigFromJson(jsonFilePath);
+                //readConfigFromJson(jsonFilePath);
             }
         } catch (Exception e) {
             e.printStackTrace();

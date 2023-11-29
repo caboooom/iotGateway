@@ -6,6 +6,21 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.nhnacademy.aiot.Main",
+            "projectName": "gateway",
+            "args": [
+                "--an",
+                "asdasdas",
+                "-s",
+                "temperature,humidity,co2",
+                "-c",
+                "file"
+            ]
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -16,7 +31,14 @@
             "request": "launch",
             "mainClass": "com.nhnacademy.aiot.Main",
             "projectName": "iotGateway",
-            "args": ["--an", "asdasdas" , "-s" , "temperature,humidity,co2", "-c","file"]
+            "args": [
+                "--an",
+                "asdasdas",
+                "-s",
+                "temperature,humidity,co2",
+                "-c",
+                "file"
+            ]
         }
     ]
 }

@@ -22,7 +22,7 @@ public class MqttOutNode extends Node {
     public void process() {
         for (Port port : inputPorts) {
             for (Wire wire : port.getWires()) {
-                pubMQTT(wire);
+               // pubMQTT(wire);
             }
         }
     }
