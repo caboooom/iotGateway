@@ -14,7 +14,7 @@ public class DebugNode extends Node{
     public void process() {
         for (Wire wire : inputPorts[0].getWires()) {
             if(wire.hasMessage()){
-                log.debug(getClass().getSimpleName() + " " +wire.get());
+                log.debug(getClass().getSimpleName() + " " + wire.get());
             }
         }
     }
