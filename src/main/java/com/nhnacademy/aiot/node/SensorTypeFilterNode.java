@@ -55,8 +55,6 @@ public class SensorTypeFilterNode extends Node {
         JSONObject outPayload = new JSONObject();
         outPayload.put("time", System.currentTimeMillis());
         outPayload.put(sensor, sensorValue);
-        outMsg.setPayload(outPayload);
-
         return outMsg;
     }
 }

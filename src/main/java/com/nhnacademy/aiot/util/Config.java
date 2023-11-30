@@ -3,84 +3,87 @@ package com.nhnacademy.aiot.util;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
-
 import org.apache.commons.cli.Options;
-import org.apache.commons.cli.ParseException;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+import com.nhnacademy.aiot.enums.CmdOptions;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.DefaultParser;
-import static com.nhnacademy.aiot.util.PropertiesKeys.*;
 
 public class Config {
+
     String[] args;
+    private static final String SINGLE_LEVEL_WILDCARD = "+";
     private static final Properties properties = new Properties();
 
     public Config(String[] args) {
         this.args = args;
         initiateProperties();
     }
-    
-    public static String getProperty(String key){
+
+    public static String getProperty(String key) {
 
         return properties.getProperty(key);
     }
 
     public void initiateProperties() {
 
-        properties.setProperty(APPLICATION_NAME.getKey() ,  "+");
+        properties.setProperty(CmdOptions.APPLICATION_NAME.getKey(), SINGLE_LEVEL_WILDCARD);
     }
 
     public void set() {
 
         Options options = new Options();
 
-        options.addOption(null, "an", true, null);
-        options.addOption("s", null, true, "Argument는 ','로 구분된 문자열로 주어짐");
-        options.addOption("c", null, true, "JSON 형식의 설정파일을 argument로 받는다.");
+        options.addOption(null, CmdOptions.APPLICATION_NAME.getValue(), true, null);
+        options.addOption(CmdOptions.SENSOR_TYPES.getValue(), null, true,
+                CmdOptions.SENSOR_TYPES.getDescription());
+        options.addOption(CmdOptions.CONFIG_FILE.getValue(), null, true,
+                CmdOptions.CONFIG_FILE.getDescription());
 
         CommandLineParser parser = new DefaultParser();
         try {
             CommandLine commandLine = parser.parse(options, args);
 
-            if (commandLine.hasOption("c")){
-                String filePath = commandLine.getOptionValue("c");
+            if (commandLine.hasOption(CmdOptions.CONFIG_FILE.getValue())) {
+                String filePath = commandLine.getOptionValue(CmdOptions.CONFIG_FILE.getValue());
 
-                try{
-                    JSONParser jsonParser = JSONUtils.getParser();
-                    JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader(filePath));
+                JSONParser jsonParser = JSONUtils.getParser();
+                JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader(filePath));
 
-                    if (jsonObject.get("applicationName") != null){
-                        properties.setProperty("applicationName", jsonObject.get("applicationName").toString());
-                    }
-                    if (jsonObject.get("sensors") != null){
-                        String sensorListStr = ((JSONArray)jsonObject.get("sensors")).toString(); // " ['temperature', 'humidity', 'co2'] "
-                        properties.setProperty("sensorTypes", sensorListStr.substring(1, sensorListStr.length()-1)); // " 'temperature', 'humidity', 'co2' "
+                if (jsonObject.get(CmdOptions.APPLICATION_NAME.getKey()) != null) {
+                    properties.setProperty(CmdOptions.APPLICATION_NAME.getKey(),
+                            jsonObject.get(CmdOptions.APPLICATION_NAME.getKey()).toString());
+                }
+                
+                if (jsonObject.get(CmdOptions.SENSOR_TYPES.getKey()) != null) {
+                    String sensorTypes =
+                            ((JSONArray) jsonObject.get(CmdOptions.SENSOR_TYPES.getKey()))
+                                    .toString();
+                    sensorTypes = sensorTypes.substring(1, sensorTypes.length() - 1);
+                    properties.setProperty(CmdOptions.SENSOR_TYPES.getKey(), sensorTypes);
+                }
+
+                // 요구사항: 설정 파일과 cmd line argument가 함께 주어질 경우 cmd line argument가 우선된다.
+                // 따라서 겹치는 내용이 있으면 cmd l ine argument가 기존의 내용을 덮어쓴다.
+                if (commandLine.hasOption(CmdOptions.APPLICATION_NAME.getValue())) {
+                    properties.setProperty(CmdOptions.APPLICATION_NAME.getKey(),
+                            commandLine.getOptionValue(CmdOptions.APPLICATION_NAME.getValue()));
+                }
+
+                if (commandLine.hasOption(CmdOptions.SENSOR_TYPES.getValue())) {
+                    properties.setProperty(CmdOptions.SENSOR_TYPES.getKey(),
+                            commandLine.getOptionValue(CmdOptions.SENSOR_TYPES.getValue()));
+                }
 
             }
-            
-            // 요구사항: 설정 파일과 cmd line argument가 함께 주어질 경우 cmd line argument가 우선된다.
-            // 따라서 겹치는  내용이 있으면 cmd l ine argument가 기존의 내용을 덮어쓴다.
-            if(commandLine.hasOption("an")){
-                properties.setProperty("applicationName", commandLine.getOptionValue("an"));
-            }
+        } catch (ParseException | org.apache.commons.cli.ParseException | IOException e) {
 
-            if (commandLine.hasOption("s")){
-                properties.setProperty("sensorTypes", commandLine.getOptionValue("s"));
-            }  
-            
-        } catch (ParseException e) {
-            
             e.printStackTrace();
-        } catch (IOException e){
-
-        } catch (org.json.simple.parser.ParseException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
+        } 
     }
 }
 
-        

@@ -11,40 +11,41 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
 import com.nhnacademy.aiot.Msg;
+import com.nhnacademy.aiot.enums.CmdOptions;
 import com.nhnacademy.aiot.util.Config;
 import com.nhnacademy.aiot.util.JSONUtils;
 
-public class MqttInNode extends Node{
+public class MqttInNode extends Node {
 
     private final String TOPIC;
 
     public MqttInNode(int outputWireCount) {
-        super(0 ,outputWireCount);
-        TOPIC = "application/" + Config.properties.getProperty("applicationName") + "/device/+/+/up";
+        super(0, outputWireCount);
+        this.TOPIC = "application/" + Config.getProperty(CmdOptions.APPLICATION_NAME.getKey())
+                + "/device/+/+/up";
     }
 
-    public Msg createMsg(String topic, String payload){
-            if(JSONUtils.isJson(payload)){
-                    try {
-                        JSONObject jsonObject = (JSONObject) JSONUtils.getParser().parse(payload);
-                        return new Msg(topic, jsonObject);
+    public Msg createMsg(String topic, String payload) {
+        if (JSONUtils.isJson(payload)) {
+            try {
+                JSONObject jsonObject = (JSONObject) JSONUtils.getParser().parse(payload);
+                return new Msg(topic, jsonObject);
 
-                    } catch (ParseException e) {
-                        //error count++
-                    }
+            } catch (ParseException e) {
+                // error count++
             }
-            return null;
+        }
+        return null;
     }
 
     @Override
     public void process() {
         String publisherId = UUID.randomUUID().toString();
         try (IMqttClient client = new MqttClient("tcp://ems.nhnacademy.com:1883", publisherId)) {
-
-            setMqttOptions();
-
             client.connect();
+            setMqttOptions();
             CountDownLatch receivedSignal = new CountDownLatch(50);
+
             IMqttMessageListener listener = (topic, msg) -> {
                 String payload = new String(msg.getPayload());
                 Msg outMsg = createMsg(topic, payload);
@@ -53,17 +54,16 @@ public class MqttInNode extends Node{
                 }
                 receivedSignal.countDown();
             };
-            
             client.subscribe(TOPIC, listener);
             receivedSignal.await(1, TimeUnit.MINUTES);
             client.disconnect();
         } catch (MqttException e) {
             e.printStackTrace();
         } 
-         catch (InterruptedException e) {
-             e.printStackTrace();
+        catch (InterruptedException e) {
+            e.printStackTrace();
         }
-        
+
     }
 
     private MqttConnectOptions setMqttOptions() {
@@ -76,5 +76,5 @@ public class MqttInNode extends Node{
     }
 
 
-    
+
 }

@@ -17,7 +17,6 @@ public class Main {
         MqttOutNode mqttOutNode = new MqttOutNode(1);
         SensorTypeFilterNode filterNode = new SensorTypeFilterNode(1, 1);
         Node debugNode = new DebugNode();
-
         
         Wire wire = new Wire();
         Wire wire1 = new Wire();
@@ -38,9 +37,5 @@ public class Main {
         mqttOutNode.start();
         debugNode.start();
         filterNode.start();
-        
-
-       
     }
-
 }

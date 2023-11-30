@@ -250,3 +250,119 @@
 [DEBUG] 2023-11-30T09:37:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":19.8,"time":1701304638688}}
 [DEBUG] 2023-11-30T09:37:19  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":23.0,"time":1701304638688}}
 [DEBUG] 2023-11-30T09:37:19  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":632.0,"time":1701304638688}}
+[INFO] 2023-11-30T15:59:59  MqttOutNode - start
+[INFO] 2023-11-30T15:59:59  DebugNode - start
+[INFO] 2023-11-30T15:59:59  MqttInNode - start
+[INFO] 2023-11-30T16:00:30  MqttInNode - start
+[INFO] 2023-11-30T16:00:30  MqttOutNode - start
+[INFO] 2023-11-30T16:00:30  DebugNode - start
+[INFO] 2023-11-30T16:01:26  MqttOutNode - start
+[INFO] 2023-11-30T16:01:26  MqttInNode - start
+[INFO] 2023-11-30T16:01:26  DebugNode - start
+[INFO] 2023-11-30T16:01:57  MqttOutNode - start
+[INFO] 2023-11-30T16:01:57  MqttInNode - start
+[INFO] 2023-11-30T16:01:57  DebugNode - start
+[DEBUG] 2023-11-30T16:02:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:02:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:02:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:02:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:02:18  DebugNode {topic : "24e124128c140101/d/co2", payload :null}
+[DEBUG] 2023-11-30T16:02:21  DebugNode {topic : "24e124126d152919/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:02:21  DebugNode {topic : "24e124126d152919/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:02:21  DebugNode {topic : "24e124136d151485/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:02:21  DebugNode {topic : "24e124136d151485/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:02:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:02:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:02:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:02:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:02:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:02:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:02:45  DebugNode {topic : "24e124136d151547/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:02:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:02:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:02:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:02:50  DebugNode {topic : "24e124128c067999/d/co2", payload :null}
+[INFO] 2023-11-30T16:02:56  DebugNode - start
+[INFO] 2023-11-30T16:02:56  MqttInNode - start
+[INFO] 2023-11-30T16:02:56  MqttOutNode - start
+[INFO] 2023-11-30T16:02:58  MqttInNode - start
+[INFO] 2023-11-30T16:02:58  DebugNode - start
+[INFO] 2023-11-30T16:02:58  MqttOutNode - start
+[DEBUG] 2023-11-30T16:03:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:19  DebugNode {topic : "24e124128c140101/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:19  DebugNode {topic : "24e124128c140101/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:19  DebugNode {topic : "24e124128c140101/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:19  DebugNode {topic : "24e124128c140101/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:19  DebugNode {topic : "24e124128c140101/d/co2", payload :null}
+[DEBUG] 2023-11-30T16:03:19  DebugNode {topic : "24e124128c140101/d/co2", payload :null}
+[DEBUG] 2023-11-30T16:03:19  DebugNode {topic : "24e124128c140101/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:19  DebugNode {topic : "24e124128c140101/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:19  DebugNode {topic : "24e124128c140101/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:19  DebugNode {topic : "24e124128c140101/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:19  DebugNode {topic : "24e124128c140101/d/co2", payload :null}
+[DEBUG] 2023-11-30T16:03:19  DebugNode {topic : "24e124128c140101/d/co2", payload :null}
+[DEBUG] 2023-11-30T16:03:27  DebugNode {topic : "24e124126d152969/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:27  DebugNode {topic : "24e124126d152969/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:28  DebugNode {topic : "24e124126d152969/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:28  DebugNode {topic : "24e124126d152969/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:37  DebugNode {topic : "24e124785c389010/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:37  DebugNode {topic : "24e124785c389010/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:45  DebugNode {topic : "24e124136d151547/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:45  DebugNode {topic : "24e124136d151547/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:03:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:03:50  DebugNode {topic : "24e124128c067999/d/co2", payload :null}
+[DEBUG] 2023-11-30T16:03:50  DebugNode {topic : "24e124128c067999/d/co2", payload :null}
+[DEBUG] 2023-11-30T16:04:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:04:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:04:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:04:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:04:19  DebugNode {topic : "24e124128c140101/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:04:19  DebugNode {topic : "24e124128c140101/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:04:19  DebugNode {topic : "24e124128c140101/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:04:19  DebugNode {topic : "24e124128c140101/d/co2", payload :null}
+[DEBUG] 2023-11-30T16:04:19  DebugNode {topic : "24e124128c140101/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:04:19  DebugNode {topic : "24e124128c140101/d/co2", payload :null}
+[DEBUG] 2023-11-30T16:04:22  DebugNode {topic : "24e124126d152919/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:04:22  DebugNode {topic : "24e124126d152919/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:04:22  DebugNode {topic : "24e124126d152919/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:04:23  DebugNode {topic : "24e124126d152919/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:04:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:04:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:04:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:04:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:04:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:04:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:04:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:04:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:04:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:04:37  DebugNode {topic : "24e124785c389010/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:04:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:04:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:04:45  DebugNode {topic : "24e124136d151547/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:04:45  DebugNode {topic : "24e124136d151547/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:04:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:04:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:04:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:04:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :null}
+[DEBUG] 2023-11-30T16:04:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:04:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :null}
+[DEBUG] 2023-11-30T16:04:50  DebugNode {topic : "24e124128c067999/d/co2", payload :null}
+[DEBUG] 2023-11-30T16:04:50  DebugNode {topic : "24e124128c067999/d/co2", payload :null}
