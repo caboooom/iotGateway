@@ -250,3 +250,22 @@
 [DEBUG] 2023-11-30T09:37:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":19.8,"time":1701304638688}}
 [DEBUG] 2023-11-30T09:37:19  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":23.0,"time":1701304638688}}
 [DEBUG] 2023-11-30T09:37:19  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":632.0,"time":1701304638688}}
+[INFO] 2023-11-30T16:30:27  MqttOutNode - start
+[INFO] 2023-11-30T16:30:27  MqttInNode - start
+[INFO] 2023-11-30T16:30:27  DebugNode - start
+[INFO] 2023-11-30T16:37:05  DebugNode - start
+[INFO] 2023-11-30T16:37:05  MqttInNode - start
+[INFO] 2023-11-30T16:37:05  MqttOutNode - start
+[INFO] 2023-11-30T16:42:04  MqttInNode - start
+[INFO] 2023-11-30T16:42:04  MqttOutNode - start
+[INFO] 2023-11-30T16:42:04  DebugNode - start
+[INFO] 2023-11-30T16:44:45  MqttInNode - start
+[INFO] 2023-11-30T16:44:45  MqttOutNode - start
+[INFO] 2023-11-30T16:44:45  DebugNode - start
+[INFO] 2023-11-30T16:46:09  DebugNode - start
+[INFO] 2023-11-30T16:46:09  MqttInNode - start
+[INFO] 2023-11-30T16:46:09  MqttOutNode - start
+[DEBUG] 2023-11-30T16:46:13  DebugNode {topic : "/d/24e124126d152590/p/classroom/e/humidity", payload :{"humidity":32.5,"time":1701330373608}}
+[DEBUG] 2023-11-30T16:46:13  DebugNode {topic : "/d/24e124785c389818/p/class_a/e/humidity", payload :{"humidity":29.0,"time":1701330373709}}
+[DEBUG] 2023-11-30T16:46:18  DebugNode {topic : "/d/24e124128c140101/p/class_b/e/humidity", payload :{"humidity":20.0,"time":1701330378876}}
+[DEBUG] 2023-11-30T16:46:19  DebugNode {topic : "/d/24e124128c140101/p/class_b/e/humidity", payload :{"humidity":20.0,"time":1701330379188}}

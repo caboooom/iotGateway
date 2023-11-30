@@ -32,6 +32,15 @@ public class MqttInNode extends Node{
             return null;
     }
 
+    private MqttConnectOptions setMqttOptions() {
+        MqttConnectOptions options = new MqttConnectOptions();
+        options.setAutomaticReconnect(true);
+        options.setCleanSession(true);
+        options.setConnectionTimeout(10);
+        options.setWill("test/will", "Disconnected".getBytes(), 1, false);
+        return options;
+    }
+
     @Override
     public void process() {
         String publisherId = UUID.randomUUID().toString();
@@ -59,18 +68,5 @@ public class MqttInNode extends Node{
          catch (InterruptedException e) {
              e.printStackTrace();
         }
-        
     }
-
-    private MqttConnectOptions setMqttOptions() {
-        MqttConnectOptions options = new MqttConnectOptions();
-        options.setAutomaticReconnect(true);
-        options.setCleanSession(true);
-        options.setConnectionTimeout(10);
-        options.setWill("test/will", "Disconnected".getBytes(), 1, false);
-        return options;
-    }
-
-
-    
 }

@@ -8,7 +8,6 @@ import lombok.extern.log4j.Log4j2;
 
 @Log4j2
 public class SensorTypeFilterNode extends Node {
-
     String[] sensorTypes;
 
     public SensorTypeFilterNode(int inputPortCount, int outputPortCount) {
@@ -30,11 +29,6 @@ public class SensorTypeFilterNode extends Node {
         }
     }
 
-
-
-
-
-
     private void processMessage(Msg msg) {
         JSONObject payload = (JSONObject) msg.getPayload().get("object");
 
@@ -52,7 +46,6 @@ public class SensorTypeFilterNode extends Node {
             }
         }
     }
-
 
     private Msg createMessage(String deviceId, String sensor, Double sensorValue, String place) {
         Msg outMsg = new Msg();

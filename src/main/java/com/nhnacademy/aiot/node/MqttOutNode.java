@@ -12,7 +12,6 @@ import com.nhnacademy.aiot.Wire;
 
 public class MqttOutNode extends Node {
 
-
     public MqttOutNode(int inputWireCount) {
         super(inputWireCount, 0);
     }
@@ -48,8 +47,6 @@ public class MqttOutNode extends Node {
             }
         }
     }
-
-
 }
 
 
