@@ -1,3 +1,4 @@
+
 package com.nhnacademy.aiot;
 
 import java.util.LinkedList;
