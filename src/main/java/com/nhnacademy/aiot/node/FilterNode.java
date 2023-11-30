@@ -5,20 +5,18 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.Wire;
+import lombok.extern.log4j.Log4j2;
 import org.json.simple.JSONObject;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 // Filter 는 SensorTypeFilterNode 처럼 개별로 만들지 말고,
 // FilterNode를 만들고 여기에 설정을 통해서 SensorType, Branch 등을 필터링 할 수 있도록 만들어 보세요
 // TODO Branch
+
+@Log4j2
 public class FilterNode extends Node{
     String[] sensorTypes;
     ObjectMapper objectMapper = new ObjectMapper();
-    JsonNode payload;
+    static JsonNode payload;
 
     public FilterNode(int inputPortCount, int outputPortCount, String[] sensorTypes) {
         super(inputPortCount, outputPortCount);
@@ -42,14 +40,12 @@ public class FilterNode extends Node{
     private void processMsg(String msgString, String[] sensorTypes) throws JsonProcessingException {
         payload = objectMapper.readTree(msgString);
 
-        int quantity = sensorTypes.length;
-
-        for (int i = 0; i < quantity; i++){
-            Double value = payload.path("object").path(sensorTypes[i]).asDouble();
+        for (String sensorType : sensorTypes) {
+            Double value = payload.path("object").path(sensorType).asDouble();
             String deviceId = getData("object", "deviceInfo", "devEui");
             String place = getData("deviceInfo", "tags", "place");
 
-            Msg outMsg = createMessage(deviceId, place, sensorTypes[i], value);
+            Msg outMsg = createMessage(deviceId, place, sensorType, value);
             out(outMsg);
         }
     }
