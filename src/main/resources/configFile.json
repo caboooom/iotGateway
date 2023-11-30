@@ -1,0 +1,4 @@
+{ "applicationName" : "9a87910d-fc6c-4f10-a6fd-a626a1ca6b4a",
+"sensors" : ["temperature", "humidity", "co2", "tvoc"] }
+
+

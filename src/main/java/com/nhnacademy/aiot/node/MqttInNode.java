@@ -11,12 +11,16 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
 import com.nhnacademy.aiot.Msg;
+import com.nhnacademy.aiot.util.Config;
 import com.nhnacademy.aiot.util.JSONUtils;
 
 public class MqttInNode extends Node{
 
+    private final String TOPIC;
+
     public MqttInNode(int outputWireCount) {
         super(0 ,outputWireCount);
+        TOPIC = "application/" + Config.properties.getProperty("applicationName") + "/device/+/+/up";
     }
 
     public Msg createMsg(String topic, String payload){
@@ -49,8 +53,8 @@ public class MqttInNode extends Node{
                 }
                 receivedSignal.countDown();
             };
-            String[] topics = {"+/+/device/+/+/up","+/+/device/+/+/up"}; // 여러 토픽
-            client.subscribe( topics , new IMqttMessageListener[] {listener,listener} );
+            
+            client.subscribe(TOPIC, listener);
             receivedSignal.await(1, TimeUnit.MINUTES);
             client.disconnect();
         } catch (MqttException e) {
