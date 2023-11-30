@@ -13,7 +13,7 @@ public class Main {
         MqttInNode mqttInNode = new MqttInNode(2);
         MqttOutNode mqttOutNode = new MqttOutNode(1);
         SensorTypeFilterNode filterNode = new SensorTypeFilterNode(1, 1);
-        FilterNode fn = new FilterNode(1, 1, args);
+//        FilterNode fn = new FilterNode(1, 1, args);
         Node debugNode = new DebugNode();
 
         Wire wire = new Wire();
@@ -21,13 +21,13 @@ public class Main {
         Wire wire2 = new Wire();
 
         mqttInNode.setOutputWire(0, wire);
-//        filterNode.setInputWire(0, wire);
-        fn.setInputWire(0, wire);
+        filterNode.setInputWire(0, wire);
+//        fn.setInputWire(0, wire);
 
-//        filterNode.setOutputWire(0, wire1);
-//        filterNode.setOutputWire(0, wire2);
-        fn.setOutputWire(0, wire1);
-        fn.setOutputWire(0, wire2);
+        filterNode.setOutputWire(0, wire1);
+        filterNode.setOutputWire(0, wire2);
+//        fn.setOutputWire(0, wire1);
+//        fn.setOutputWire(0, wire2);
 
 
 
@@ -38,8 +38,8 @@ public class Main {
         mqttInNode.start();
         mqttOutNode.start();
         debugNode.start();
-//        filterNode.start();
-        fn.start();
+        filterNode.start();
+//        fn.start();
        
     }
 
