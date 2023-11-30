@@ -6,7 +6,6 @@ import java.util.Properties;
 
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
-import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.apache.commons.cli.CommandLine;
@@ -28,15 +27,6 @@ public class Config {
 
         properties.setProperty("applicationName", "+");
 
-        properties.setProperty("Infrared", "false");
-        properties.setProperty("temperature", "false");
-        properties.setProperty("pressure", "false");
-        properties.setProperty("illumination", "false");
-        properties.setProperty("visible", "false");
-        properties.setProperty("activity", "false");
-        properties.setProperty("humidity", "false");
-        properties.setProperty("co2", "false");
-        properties.setProperty("tvoc", "false");
     }
 
     public void set(){
@@ -68,10 +58,9 @@ public class Config {
                         properties.setProperty("applicationName", jsonObject.get("applicationName").toString());
                     }
                     if (jsonObject.get("sensors") != null){
-                        JSONArray sensorList = jsonObject.getJSONArray("sensors");
-                        for (Object s : sensorList){
-                            properties.setProperty((String)s, "true");
-                        }
+                        String sensorListStr = jsonObject.getJSONArray("sensors").toString(); // " ['temperature', 'humidity', 'co2'] "
+                        properties.setProperty("sensorType", sensorListStr.substring(1, sensorListStr.length()-1)); // " 'temperature', 'humidity', 'co2' "
+
                     }
                 } catch(Exception e){
                     e.printStackTrace();
@@ -85,10 +74,7 @@ public class Config {
             }
 
             if (commandLine.hasOption("s")){
-                String[] sensors = commandLine.getOptionValue("s").split(",");
-                for(String s : sensors){
-                    properties.setProperty(s, "true");
-                }
+                properties.setProperty("sensorType", commandLine.getOptionValue("s"));
             }
             
         } catch (ParseException e) {
