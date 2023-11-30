@@ -15,7 +15,6 @@ public class MultiInputNode extends Node{
     @Override
     public void process() {
 
-
         for(Port inputPort : inputPorts ){
            
             if(!inputPort.hasMessage()){

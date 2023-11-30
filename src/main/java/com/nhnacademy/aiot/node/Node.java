@@ -1,6 +1,5 @@
 package com.nhnacademy.aiot.node;
 
-import java.util.concurrent.atomic.AtomicInteger;
 import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.Port;
 import com.nhnacademy.aiot.Wire;
@@ -8,6 +7,7 @@ import lombok.extern.log4j.Log4j2;
 
 @Log4j2
 public class Node implements Runnable {
+    
     private Thread thread;
     protected Port[] inputPorts;
     protected Port[] outputPorts;
