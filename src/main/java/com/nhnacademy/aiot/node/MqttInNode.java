@@ -14,7 +14,7 @@ import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.util.JSONUtils;
 
 public class MqttInNode extends Node{
-
+    private final String SERVER_URI = "tcp://ems.nhnacademy.com:1883";
     public MqttInNode(int outputWireCount) {
         super(0 ,outputWireCount);
     }
@@ -35,7 +35,7 @@ public class MqttInNode extends Node{
     @Override
     public void process() {
         String publisherId = UUID.randomUUID().toString();
-        try (IMqttClient client = new MqttClient("tcp://ems.nhnacademy.com:1883", publisherId)) {
+        try (IMqttClient client = new MqttClient(SERVER_URI, publisherId)) {
 
             setMqttOptions();
 

@@ -250,3 +250,1052 @@
 [DEBUG] 2023-11-30T09:37:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":19.8,"time":1701304638688}}
 [DEBUG] 2023-11-30T09:37:19  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":23.0,"time":1701304638688}}
 [DEBUG] 2023-11-30T09:37:19  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":632.0,"time":1701304638688}}
+[INFO] 2023-11-30T12:48:25  MqttOutNode1 - start
+[INFO] 2023-11-30T12:48:25  DebugNode3 - start
+[INFO] 2023-11-30T12:48:25  MqttInNode0 - start
+[DEBUG] 2023-11-30T12:48:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":24.200000000000003,"time":1701316113690}}
+[DEBUG] 2023-11-30T12:48:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701316113690}}
+[DEBUG] 2023-11-30T12:48:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.200000000000003,"time":1701316114892}}
+[DEBUG] 2023-11-30T12:48:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":28.0,"time":1701316114892}}
+[DEBUG] 2023-11-30T12:48:37  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.7,"time":1701316117096}}
+[DEBUG] 2023-11-30T12:48:37  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701316117096}}
+[DEBUG] 2023-11-30T12:48:37  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":800.0,"time":1701316117096}}
+[DEBUG] 2023-11-30T12:48:37  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.0,"time":1701316117597}}
+[DEBUG] 2023-11-30T12:48:37  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.0,"time":1701316117597}}
+[DEBUG] 2023-11-30T12:48:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.6,"time":1701316117897}}
+[DEBUG] 2023-11-30T12:48:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.5,"time":1701316117897}}
+[INFO] 2023-11-30T12:48:51  MqttInNode0 - start
+[INFO] 2023-11-30T12:48:51  MqttOutNode1 - start
+[INFO] 2023-11-30T12:48:51  DebugNode3 - start
+[DEBUG] 2023-11-30T12:49:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316153868}}
+[DEBUG] 2023-11-30T12:49:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316153868}}
+[DEBUG] 2023-11-30T12:49:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.8,"time":1701316158879}}
+[DEBUG] 2023-11-30T12:49:19  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316158879}}
+[DEBUG] 2023-11-30T12:49:19  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1103.0,"time":1701316158879}}
+[INFO] 2023-11-30T12:49:31  MqttInNode0 - start
+[INFO] 2023-11-30T12:49:31  MqttOutNode1 - start
+[INFO] 2023-11-30T12:49:31  DebugNode3 - start
+[DEBUG] 2023-11-30T12:49:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.200000000000003,"time":1701316174825}}
+[DEBUG] 2023-11-30T12:49:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.5,"time":1701316174825}}
+[DEBUG] 2023-11-30T12:49:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.700000000000003,"time":1701316177932}}
+[DEBUG] 2023-11-30T12:49:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316177932}}
+[DEBUG] 2023-11-30T12:49:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.8,"time":1701316186248}}
+[DEBUG] 2023-11-30T12:49:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.5,"time":1701316186248}}
+[DEBUG] 2023-11-30T12:49:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.8,"time":1701316189857}}
+[DEBUG] 2023-11-30T12:49:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316189857}}
+[DEBUG] 2023-11-30T12:49:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1374.0,"time":1701316189857}}
+[DEBUG] 2023-11-30T12:50:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316213907}}
+[DEBUG] 2023-11-30T12:50:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316213907}}
+[DEBUG] 2023-11-30T12:50:16  DebugNode {topic : "24e124725d081175/d/temperature", payload :{"temperature":15.5,"time":1701316216613}}
+[DEBUG] 2023-11-30T12:50:16  DebugNode {topic : "24e124725d081175/d/humidity", payload :{"humidity":39.5,"time":1701316216613}}
+[DEBUG] 2023-11-30T12:50:16  DebugNode {topic : "24e124725d081175/d/co2", payload :{"co2":680.0,"time":1701316216613}}
+[DEBUG] 2023-11-30T12:50:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316218816}}
+[DEBUG] 2023-11-30T12:50:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316218816}}
+[DEBUG] 2023-11-30T12:50:19  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1110.0,"time":1701316218816}}
+[DEBUG] 2023-11-30T12:50:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":24.3,"time":1701316233748}}
+[DEBUG] 2023-11-30T12:50:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701316233748}}
+[DEBUG] 2023-11-30T12:50:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.200000000000003,"time":1701316234851}}
+[DEBUG] 2023-11-30T12:50:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316234851}}
+[DEBUG] 2023-11-30T12:50:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.8,"time":1701316237857}}
+[DEBUG] 2023-11-30T12:50:37  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316237857}}
+[DEBUG] 2023-11-30T12:50:38  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.8,"time":1701316238959}}
+[DEBUG] 2023-11-30T12:50:39  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":32.0,"time":1701316238959}}
+[DEBUG] 2023-11-30T12:50:39  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":813.0,"time":1701316238959}}
+[DEBUG] 2023-11-30T12:50:39  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.0,"time":1701316239360}}
+[DEBUG] 2023-11-30T12:50:39  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.5,"time":1701316239360}}
+[DEBUG] 2023-11-30T12:50:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316246276}}
+[DEBUG] 2023-11-30T12:50:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.5,"time":1701316246276}}
+[DEBUG] 2023-11-30T12:50:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316250084}}
+[DEBUG] 2023-11-30T12:50:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316250084}}
+[DEBUG] 2023-11-30T12:50:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1353.0,"time":1701316250084}}
+[DEBUG] 2023-11-30T12:51:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316273938}}
+[DEBUG] 2023-11-30T12:51:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316273938}}
+[DEBUG] 2023-11-30T12:51:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316278747}}
+[DEBUG] 2023-11-30T12:51:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316278747}}
+[DEBUG] 2023-11-30T12:51:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1110.0,"time":1701316278747}}
+[DEBUG] 2023-11-30T12:51:30  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.6,"time":1701316290569}}
+[DEBUG] 2023-11-30T12:51:30  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701316290569}}
+[DEBUG] 2023-11-30T12:51:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":24.400000000000002,"time":1701316293775}}
+[DEBUG] 2023-11-30T12:51:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701316293775}}
+[DEBUG] 2023-11-30T12:51:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":24.400000000000002,"time":1701316293875}}
+[DEBUG] 2023-11-30T12:51:34  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701316293875}}
+[DEBUG] 2023-11-30T12:51:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.200000000000003,"time":1701316294777}}
+[DEBUG] 2023-11-30T12:51:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316294777}}
+[DEBUG] 2023-11-30T12:51:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316297983}}
+[DEBUG] 2023-11-30T12:51:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316297983}}
+[DEBUG] 2023-11-30T12:51:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":19.0,"time":1701316306205}}
+[DEBUG] 2023-11-30T12:51:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.5,"time":1701316306205}}
+[DEBUG] 2023-11-30T12:51:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.8,"time":1701316309814}}
+[DEBUG] 2023-11-30T12:51:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316309814}}
+[DEBUG] 2023-11-30T12:51:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1353.0,"time":1701316309814}}
+[DEBUG] 2023-11-30T12:52:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316333962}}
+[DEBUG] 2023-11-30T12:52:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316333962}}
+[DEBUG] 2023-11-30T12:52:14  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316334062}}
+[DEBUG] 2023-11-30T12:52:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316334062}}
+[DEBUG] 2023-11-30T12:52:19  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.8,"time":1701316339269}}
+[DEBUG] 2023-11-30T12:52:19  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316339269}}
+[DEBUG] 2023-11-30T12:52:19  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1110.0,"time":1701316339269}}
+[DEBUG] 2023-11-30T12:52:22  DebugNode {topic : "24e124136d151485/d/temperature", payload :{"temperature":22.1,"time":1701316342073}}
+[DEBUG] 2023-11-30T12:52:22  DebugNode {topic : "24e124136d151485/d/humidity", payload :{"humidity":18.5,"time":1701316342073}}
+[INFO] 2023-11-30T12:52:22  MqttOutNode_1 - start
+[INFO] 2023-11-30T12:52:22  MqttInNode_0 - start
+[INFO] 2023-11-30T12:52:22  DebugNode_3 - start
+[DEBUG] 2023-11-30T12:52:26  DebugNode {topic : "24e124136d151561/d/temperature", payload :{"temperature":15.700000000000001,"time":1701316346247}}
+[DEBUG] 2023-11-30T12:52:26  DebugNode {topic : "24e124136d151561/d/temperature", payload :{"temperature":15.700000000000001,"time":1701316346278}}
+[DEBUG] 2023-11-30T12:52:26  DebugNode {topic : "24e124136d151561/d/humidity", payload :{"humidity":32.0,"time":1701316346247}}
+[DEBUG] 2023-11-30T12:52:26  DebugNode {topic : "24e124136d151561/d/humidity", payload :{"humidity":32.0,"time":1701316346279}}
+[DEBUG] 2023-11-30T12:52:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":24.1,"time":1701316353763}}
+[DEBUG] 2023-11-30T12:52:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":24.1,"time":1701316353795}}
+[DEBUG] 2023-11-30T12:52:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701316353763}}
+[DEBUG] 2023-11-30T12:52:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701316353795}}
+[DEBUG] 2023-11-30T12:52:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.200000000000003,"time":1701316354766}}
+[DEBUG] 2023-11-30T12:52:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316354766}}
+[DEBUG] 2023-11-30T12:52:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.8,"time":1701316357903}}
+[DEBUG] 2023-11-30T12:52:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.8,"time":1701316357972}}
+[DEBUG] 2023-11-30T12:52:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316357903}}
+[DEBUG] 2023-11-30T12:52:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316357972}}
+[DEBUG] 2023-11-30T12:52:40  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.7,"time":1701316360709}}
+[DEBUG] 2023-11-30T12:52:40  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.7,"time":1701316360779}}
+[DEBUG] 2023-11-30T12:52:40  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701316360709}}
+[DEBUG] 2023-11-30T12:52:40  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701316360779}}
+[DEBUG] 2023-11-30T12:52:40  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":818.0,"time":1701316360709}}
+[DEBUG] 2023-11-30T12:52:40  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":818.0,"time":1701316360779}}
+[DEBUG] 2023-11-30T12:52:41  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.7,"time":1701316360809}}
+[DEBUG] 2023-11-30T12:52:41  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.7,"time":1701316360879}}
+[DEBUG] 2023-11-30T12:52:41  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701316360809}}
+[DEBUG] 2023-11-30T12:52:41  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701316360879}}
+[DEBUG] 2023-11-30T12:52:41  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":818.0,"time":1701316360809}}
+[DEBUG] 2023-11-30T12:52:41  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":818.0,"time":1701316360879}}
+[DEBUG] 2023-11-30T12:52:41  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.0,"time":1701316361010}}
+[DEBUG] 2023-11-30T12:52:41  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.0,"time":1701316361079}}
+[DEBUG] 2023-11-30T12:52:41  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.0,"time":1701316361010}}
+[DEBUG] 2023-11-30T12:52:41  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.0,"time":1701316361079}}
+[DEBUG] 2023-11-30T12:52:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":19.0,"time":1701316366221}}
+[DEBUG] 2023-11-30T12:52:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":19.0,"time":1701316366290}}
+[DEBUG] 2023-11-30T12:52:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316366221}}
+[DEBUG] 2023-11-30T12:52:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316366290}}
+[DEBUG] 2023-11-30T12:52:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":19.0,"time":1701316366321}}
+[DEBUG] 2023-11-30T12:52:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":19.0,"time":1701316366390}}
+[DEBUG] 2023-11-30T12:52:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316366321}}
+[DEBUG] 2023-11-30T12:52:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316366390}}
+[DEBUG] 2023-11-30T12:52:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316369997}}
+[DEBUG] 2023-11-30T12:52:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316370027}}
+[DEBUG] 2023-11-30T12:52:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316369997}}
+[DEBUG] 2023-11-30T12:52:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316370027}}
+[DEBUG] 2023-11-30T12:52:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1393.0,"time":1701316369997}}
+[DEBUG] 2023-11-30T12:52:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1393.0,"time":1701316370027}}
+[DEBUG] 2023-11-30T12:53:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316393874}}
+[DEBUG] 2023-11-30T12:53:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316393943}}
+[DEBUG] 2023-11-30T12:53:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316393874}}
+[DEBUG] 2023-11-30T12:53:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316393943}}
+[DEBUG] 2023-11-30T12:53:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316398785}}
+[DEBUG] 2023-11-30T12:53:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316398854}}
+[DEBUG] 2023-11-30T12:53:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316398785}}
+[DEBUG] 2023-11-30T12:53:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316398854}}
+[DEBUG] 2023-11-30T12:53:19  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1110.0,"time":1701316398785}}
+[DEBUG] 2023-11-30T12:53:19  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1110.0,"time":1701316398854}}
+[DEBUG] 2023-11-30T12:53:19  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316398886}}
+[DEBUG] 2023-11-30T12:53:19  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316398954}}
+[DEBUG] 2023-11-30T12:53:19  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316398886}}
+[DEBUG] 2023-11-30T12:53:19  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316398954}}
+[DEBUG] 2023-11-30T12:53:19  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1110.0,"time":1701316398886}}
+[DEBUG] 2023-11-30T12:53:19  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1110.0,"time":1701316398954}}
+[DEBUG] 2023-11-30T12:53:32  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.6,"time":1701316412381}}
+[DEBUG] 2023-11-30T12:53:32  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.6,"time":1701316412415}}
+[DEBUG] 2023-11-30T12:53:32  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701316412381}}
+[DEBUG] 2023-11-30T12:53:32  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701316412415}}
+[DEBUG] 2023-11-30T12:53:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.8,"time":1701316413683}}
+[DEBUG] 2023-11-30T12:53:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.8,"time":1701316413717}}
+[DEBUG] 2023-11-30T12:53:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701316413683}}
+[DEBUG] 2023-11-30T12:53:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701316413717}}
+[DEBUG] 2023-11-30T12:53:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316414785}}
+[DEBUG] 2023-11-30T12:53:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316414820}}
+[DEBUG] 2023-11-30T12:53:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316414785}}
+[DEBUG] 2023-11-30T12:53:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316414820}}
+[DEBUG] 2023-11-30T12:53:38  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316417993}}
+[DEBUG] 2023-11-30T12:53:38  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316418026}}
+[DEBUG] 2023-11-30T12:53:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316417993}}
+[DEBUG] 2023-11-30T12:53:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316418026}}
+[DEBUG] 2023-11-30T12:53:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316426213}}
+[DEBUG] 2023-11-30T12:53:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316426245}}
+[DEBUG] 2023-11-30T12:53:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.5,"time":1701316426213}}
+[DEBUG] 2023-11-30T12:53:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.5,"time":1701316426245}}
+[DEBUG] 2023-11-30T12:53:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.8,"time":1701316429721}}
+[DEBUG] 2023-11-30T12:53:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.8,"time":1701316429751}}
+[DEBUG] 2023-11-30T12:53:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316429721}}
+[DEBUG] 2023-11-30T12:53:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316429751}}
+[DEBUG] 2023-11-30T12:53:49  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1393.0,"time":1701316429721}}
+[DEBUG] 2023-11-30T12:53:49  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1393.0,"time":1701316429751}}
+[DEBUG] 2023-11-30T12:54:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316453879}}
+[DEBUG] 2023-11-30T12:54:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316453902}}
+[DEBUG] 2023-11-30T12:54:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316453879}}
+[DEBUG] 2023-11-30T12:54:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316453903}}
+[DEBUG] 2023-11-30T12:54:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.6,"time":1701316458692}}
+[DEBUG] 2023-11-30T12:54:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.6,"time":1701316458713}}
+[DEBUG] 2023-11-30T12:54:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316458692}}
+[DEBUG] 2023-11-30T12:54:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316458713}}
+[DEBUG] 2023-11-30T12:54:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1105.0,"time":1701316458692}}
+[DEBUG] 2023-11-30T12:54:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1105.0,"time":1701316458713}}
+[DEBUG] 2023-11-30T12:54:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.6,"time":1701316473827}}
+[DEBUG] 2023-11-30T12:54:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.6,"time":1701316473845}}
+[DEBUG] 2023-11-30T12:54:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316473827}}
+[DEBUG] 2023-11-30T12:54:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316473845}}
+[DEBUG] 2023-11-30T12:54:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316474729}}
+[DEBUG] 2023-11-30T12:54:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316474746}}
+[DEBUG] 2023-11-30T12:54:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316474729}}
+[DEBUG] 2023-11-30T12:54:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316474746}}
+[DEBUG] 2023-11-30T12:54:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316477852}}
+[DEBUG] 2023-11-30T12:54:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316477936}}
+[DEBUG] 2023-11-30T12:54:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316477852}}
+[DEBUG] 2023-11-30T12:54:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316477936}}
+[DEBUG] 2023-11-30T12:54:42  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.8,"time":1701316482546}}
+[DEBUG] 2023-11-30T12:54:42  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.8,"time":1701316482563}}
+[DEBUG] 2023-11-30T12:54:42  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701316482546}}
+[DEBUG] 2023-11-30T12:54:42  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701316482563}}
+[DEBUG] 2023-11-30T12:54:42  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":788.0,"time":1701316482546}}
+[DEBUG] 2023-11-30T12:54:42  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":788.0,"time":1701316482563}}
+[DEBUG] 2023-11-30T12:54:42  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.0,"time":1701316482847}}
+[DEBUG] 2023-11-30T12:54:42  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.0,"time":1701316482864}}
+[DEBUG] 2023-11-30T12:54:42  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.5,"time":1701316482847}}
+[DEBUG] 2023-11-30T12:54:43  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.5,"time":1701316482864}}
+[DEBUG] 2023-11-30T12:54:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316486171}}
+[DEBUG] 2023-11-30T12:54:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316486253}}
+[DEBUG] 2023-11-30T12:54:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316486171}}
+[DEBUG] 2023-11-30T12:54:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316486253}}
+[DEBUG] 2023-11-30T12:54:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.8,"time":1701316489962}}
+[DEBUG] 2023-11-30T12:54:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.8,"time":1701316489980}}
+[DEBUG] 2023-11-30T12:54:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701316489962}}
+[DEBUG] 2023-11-30T12:54:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701316489980}}
+[DEBUG] 2023-11-30T12:54:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1394.0,"time":1701316489962}}
+[DEBUG] 2023-11-30T12:54:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1394.0,"time":1701316489980}}
+[DEBUG] 2023-11-30T12:55:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316513926}}
+[DEBUG] 2023-11-30T12:55:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316513939}}
+[DEBUG] 2023-11-30T12:55:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316513926}}
+[DEBUG] 2023-11-30T12:55:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316513939}}
+[DEBUG] 2023-11-30T12:55:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316518637}}
+[DEBUG] 2023-11-30T12:55:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316518650}}
+[DEBUG] 2023-11-30T12:55:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316518637}}
+[DEBUG] 2023-11-30T12:55:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316518650}}
+[DEBUG] 2023-11-30T12:55:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1105.0,"time":1701316518637}}
+[DEBUG] 2023-11-30T12:55:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1105.0,"time":1701316518650}}
+[DEBUG] 2023-11-30T12:55:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.400000000000002,"time":1701316533774}}
+[DEBUG] 2023-11-30T12:55:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.400000000000002,"time":1701316533785}}
+[DEBUG] 2023-11-30T12:55:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316533774}}
+[DEBUG] 2023-11-30T12:55:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316533785}}
+[DEBUG] 2023-11-30T12:55:34  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.6,"time":1701316534275}}
+[DEBUG] 2023-11-30T12:55:34  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.6,"time":1701316534287}}
+[DEBUG] 2023-11-30T12:55:34  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701316534275}}
+[DEBUG] 2023-11-30T12:55:34  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701316534287}}
+[DEBUG] 2023-11-30T12:55:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316534776}}
+[DEBUG] 2023-11-30T12:55:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316534787}}
+[DEBUG] 2023-11-30T12:55:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316534776}}
+[DEBUG] 2023-11-30T12:55:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316534787}}
+[DEBUG] 2023-11-30T12:55:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":22.0,"time":1701316537883}}
+[DEBUG] 2023-11-30T12:55:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":22.0,"time":1701316537894}}
+[DEBUG] 2023-11-30T12:55:37  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316537883}}
+[DEBUG] 2023-11-30T12:55:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316537894}}
+[DEBUG] 2023-11-30T12:55:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316546204}}
+[DEBUG] 2023-11-30T12:55:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316546213}}
+[DEBUG] 2023-11-30T12:55:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316546204}}
+[DEBUG] 2023-11-30T12:55:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316546213}}
+[DEBUG] 2023-11-30T12:55:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316546304}}
+[DEBUG] 2023-11-30T12:55:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316546314}}
+[DEBUG] 2023-11-30T12:55:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316546304}}
+[DEBUG] 2023-11-30T12:55:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316546314}}
+[DEBUG] 2023-11-30T12:55:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316549612}}
+[DEBUG] 2023-11-30T12:55:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316549621}}
+[DEBUG] 2023-11-30T12:55:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316549612}}
+[DEBUG] 2023-11-30T12:55:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316549621}}
+[DEBUG] 2023-11-30T12:55:49  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1394.0,"time":1701316549612}}
+[DEBUG] 2023-11-30T12:55:49  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1394.0,"time":1701316549621}}
+[DEBUG] 2023-11-30T12:56:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316573865}}
+[DEBUG] 2023-11-30T12:56:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316573879}}
+[DEBUG] 2023-11-30T12:56:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316573865}}
+[DEBUG] 2023-11-30T12:56:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316573879}}
+[DEBUG] 2023-11-30T12:56:14  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316573965}}
+[DEBUG] 2023-11-30T12:56:14  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316573980}}
+[DEBUG] 2023-11-30T12:56:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316573965}}
+[DEBUG] 2023-11-30T12:56:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316573980}}
+[DEBUG] 2023-11-30T12:56:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316578591}}
+[DEBUG] 2023-11-30T12:56:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316578591}}
+[DEBUG] 2023-11-30T12:56:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1116.0,"time":1701316578591}}
+[DEBUG] 2023-11-30T12:56:19  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316579477}}
+[DEBUG] 2023-11-30T12:56:19  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316579477}}
+[DEBUG] 2023-11-30T12:56:19  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1116.0,"time":1701316579477}}
+[DEBUG] 2023-11-30T12:56:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.3,"time":1701316593712}}
+[DEBUG] 2023-11-30T12:56:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.3,"time":1701316593726}}
+[DEBUG] 2023-11-30T12:56:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316593712}}
+[DEBUG] 2023-11-30T12:56:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316593726}}
+[DEBUG] 2023-11-30T12:56:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.3,"time":1701316593812}}
+[DEBUG] 2023-11-30T12:56:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.3,"time":1701316593826}}
+[DEBUG] 2023-11-30T12:56:34  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316593812}}
+[DEBUG] 2023-11-30T12:56:34  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316593826}}
+[DEBUG] 2023-11-30T12:56:35  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316595115}}
+[DEBUG] 2023-11-30T12:56:35  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316595128}}
+[DEBUG] 2023-11-30T12:56:35  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316595115}}
+[DEBUG] 2023-11-30T12:56:35  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316595128}}
+[DEBUG] 2023-11-30T12:56:35  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316595215}}
+[DEBUG] 2023-11-30T12:56:35  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316595229}}
+[DEBUG] 2023-11-30T12:56:35  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316595215}}
+[DEBUG] 2023-11-30T12:56:35  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316595229}}
+[DEBUG] 2023-11-30T12:56:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":22.0,"time":1701316597921}}
+[DEBUG] 2023-11-30T12:56:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":22.0,"time":1701316597934}}
+[DEBUG] 2023-11-30T12:56:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316597921}}
+[DEBUG] 2023-11-30T12:56:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316597934}}
+[DEBUG] 2023-11-30T12:56:44  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.8,"time":1701316604449}}
+[DEBUG] 2023-11-30T12:56:44  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.8,"time":1701316604536}}
+[DEBUG] 2023-11-30T12:56:44  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701316604449}}
+[DEBUG] 2023-11-30T12:56:44  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701316604536}}
+[DEBUG] 2023-11-30T12:56:44  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":788.0,"time":1701316604449}}
+[DEBUG] 2023-11-30T12:56:44  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":788.0,"time":1701316604536}}
+[DEBUG] 2023-11-30T12:56:44  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.8,"time":1701316604549}}
+[DEBUG] 2023-11-30T12:56:44  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.8,"time":1701316604636}}
+[DEBUG] 2023-11-30T12:56:44  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701316604549}}
+[DEBUG] 2023-11-30T12:56:44  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701316604636}}
+[DEBUG] 2023-11-30T12:56:45  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":788.0,"time":1701316604549}}
+[DEBUG] 2023-11-30T12:56:45  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":788.0,"time":1701316604636}}
+[DEBUG] 2023-11-30T12:56:45  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.0,"time":1701316604650}}
+[DEBUG] 2023-11-30T12:56:45  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.0,"time":1701316604737}}
+[DEBUG] 2023-11-30T12:56:45  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.5,"time":1701316604650}}
+[DEBUG] 2023-11-30T12:56:45  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.5,"time":1701316604737}}
+[DEBUG] 2023-11-30T12:56:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.8,"time":1701316606240}}
+[DEBUG] 2023-11-30T12:56:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.8,"time":1701316606253}}
+[DEBUG] 2023-11-30T12:56:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316606240}}
+[DEBUG] 2023-11-30T12:56:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316606253}}
+[DEBUG] 2023-11-30T12:56:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316609847}}
+[DEBUG] 2023-11-30T12:56:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316609860}}
+[DEBUG] 2023-11-30T12:56:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316609847}}
+[DEBUG] 2023-11-30T12:56:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316609860}}
+[DEBUG] 2023-11-30T12:56:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1376.0,"time":1701316609847}}
+[DEBUG] 2023-11-30T12:56:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1376.0,"time":1701316609860}}
+[DEBUG] 2023-11-30T12:57:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316633902}}
+[DEBUG] 2023-11-30T12:57:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316633915}}
+[DEBUG] 2023-11-30T12:57:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316633902}}
+[DEBUG] 2023-11-30T12:57:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316633915}}
+[DEBUG] 2023-11-30T12:57:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.6,"time":1701316638612}}
+[DEBUG] 2023-11-30T12:57:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.6,"time":1701316638627}}
+[DEBUG] 2023-11-30T12:57:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316638612}}
+[DEBUG] 2023-11-30T12:57:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316638627}}
+[DEBUG] 2023-11-30T12:57:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1116.0,"time":1701316638612}}
+[DEBUG] 2023-11-30T12:57:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1116.0,"time":1701316638627}}
+[DEBUG] 2023-11-30T12:57:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.3,"time":1701316653742}}
+[DEBUG] 2023-11-30T12:57:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.3,"time":1701316653755}}
+[DEBUG] 2023-11-30T12:57:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316653742}}
+[DEBUG] 2023-11-30T12:57:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316653755}}
+[DEBUG] 2023-11-30T12:57:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316654743}}
+[DEBUG] 2023-11-30T12:57:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316654757}}
+[DEBUG] 2023-11-30T12:57:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316654743}}
+[DEBUG] 2023-11-30T12:57:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316654757}}
+[DEBUG] 2023-11-30T12:57:36  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.6,"time":1701316655959}}
+[DEBUG] 2023-11-30T12:57:36  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.6,"time":1701316656046}}
+[DEBUG] 2023-11-30T12:57:36  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701316655959}}
+[DEBUG] 2023-11-30T12:57:36  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701316656046}}
+[DEBUG] 2023-11-30T12:57:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":22.0,"time":1701316657849}}
+[DEBUG] 2023-11-30T12:57:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":22.0,"time":1701316657864}}
+[DEBUG] 2023-11-30T12:57:37  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316657849}}
+[DEBUG] 2023-11-30T12:57:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316657864}}
+[DEBUG] 2023-11-30T12:57:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316666169}}
+[DEBUG] 2023-11-30T12:57:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316666183}}
+[DEBUG] 2023-11-30T12:57:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316666169}}
+[DEBUG] 2023-11-30T12:57:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316666183}}
+[DEBUG] 2023-11-30T12:57:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316669677}}
+[DEBUG] 2023-11-30T12:57:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316669690}}
+[DEBUG] 2023-11-30T12:57:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316669677}}
+[DEBUG] 2023-11-30T12:57:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316669690}}
+[DEBUG] 2023-11-30T12:57:49  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1376.0,"time":1701316669677}}
+[DEBUG] 2023-11-30T12:57:49  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1376.0,"time":1701316669690}}
+[DEBUG] 2023-11-30T12:57:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316669777}}
+[DEBUG] 2023-11-30T12:57:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316669790}}
+[DEBUG] 2023-11-30T12:57:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316669777}}
+[DEBUG] 2023-11-30T12:57:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316669790}}
+[DEBUG] 2023-11-30T12:57:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1376.0,"time":1701316669777}}
+[DEBUG] 2023-11-30T12:57:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1376.0,"time":1701316669790}}
+[DEBUG] 2023-11-30T12:57:56  DebugNode {topic : "24e124126c457594/d/temperature", payload :{"temperature":4.7,"time":1701316676092}}
+[DEBUG] 2023-11-30T12:57:56  DebugNode {topic : "24e124126c457594/d/temperature", payload :{"temperature":4.7,"time":1701316676104}}
+[DEBUG] 2023-11-30T12:57:56  DebugNode {topic : "24e124136d150970/d/temperature", payload :{"temperature":19.200000000000003,"time":1701316676793}}
+[DEBUG] 2023-11-30T12:57:56  DebugNode {topic : "24e124136d150970/d/temperature", payload :{"temperature":19.200000000000003,"time":1701316676806}}
+[DEBUG] 2023-11-30T12:57:56  DebugNode {topic : "24e124136d150970/d/humidity", payload :{"humidity":26.5,"time":1701316676793}}
+[DEBUG] 2023-11-30T12:57:56  DebugNode {topic : "24e124136d150970/d/humidity", payload :{"humidity":26.5,"time":1701316676806}}
+[DEBUG] 2023-11-30T12:58:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316693833}}
+[DEBUG] 2023-11-30T12:58:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316693849}}
+[DEBUG] 2023-11-30T12:58:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316693833}}
+[DEBUG] 2023-11-30T12:58:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316693849}}
+[DEBUG] 2023-11-30T12:58:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316698544}}
+[DEBUG] 2023-11-30T12:58:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316698562}}
+[DEBUG] 2023-11-30T12:58:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316698544}}
+[DEBUG] 2023-11-30T12:58:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316698562}}
+[DEBUG] 2023-11-30T12:58:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1123.0,"time":1701316698544}}
+[DEBUG] 2023-11-30T12:58:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1123.0,"time":1701316698562}}
+[DEBUG] 2023-11-30T12:58:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.400000000000002,"time":1701316713780}}
+[DEBUG] 2023-11-30T12:58:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.400000000000002,"time":1701316713792}}
+[DEBUG] 2023-11-30T12:58:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316713780}}
+[DEBUG] 2023-11-30T12:58:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316713792}}
+[DEBUG] 2023-11-30T12:58:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316714782}}
+[DEBUG] 2023-11-30T12:58:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316714794}}
+[DEBUG] 2023-11-30T12:58:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316714782}}
+[DEBUG] 2023-11-30T12:58:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316714794}}
+[DEBUG] 2023-11-30T12:58:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316717889}}
+[DEBUG] 2023-11-30T12:58:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316717889}}
+[DEBUG] 2023-11-30T12:58:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.8,"time":1701316726208}}
+[DEBUG] 2023-11-30T12:58:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.8,"time":1701316726218}}
+[DEBUG] 2023-11-30T12:58:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.5,"time":1701316726208}}
+[DEBUG] 2023-11-30T12:58:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.5,"time":1701316726218}}
+[DEBUG] 2023-11-30T12:58:46  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.8,"time":1701316726308}}
+[DEBUG] 2023-11-30T12:58:46  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.8,"time":1701316726318}}
+[DEBUG] 2023-11-30T12:58:46  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701316726308}}
+[DEBUG] 2023-11-30T12:58:46  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701316726318}}
+[DEBUG] 2023-11-30T12:58:46  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":803.0,"time":1701316726308}}
+[DEBUG] 2023-11-30T12:58:46  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":803.0,"time":1701316726318}}
+[DEBUG] 2023-11-30T12:58:46  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.0,"time":1701316726408}}
+[DEBUG] 2023-11-30T12:58:46  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.0,"time":1701316726419}}
+[DEBUG] 2023-11-30T12:58:46  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.0,"time":1701316726408}}
+[DEBUG] 2023-11-30T12:58:46  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.0,"time":1701316726419}}
+[DEBUG] 2023-11-30T12:58:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316729814}}
+[DEBUG] 2023-11-30T12:58:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316729825}}
+[DEBUG] 2023-11-30T12:58:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316729814}}
+[DEBUG] 2023-11-30T12:58:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316729825}}
+[DEBUG] 2023-11-30T12:58:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1379.0,"time":1701316729814}}
+[DEBUG] 2023-11-30T12:58:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1379.0,"time":1701316729825}}
+[DEBUG] 2023-11-30T12:59:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316753964}}
+[DEBUG] 2023-11-30T12:59:14  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316753974}}
+[DEBUG] 2023-11-30T12:59:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316753964}}
+[DEBUG] 2023-11-30T12:59:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316753974}}
+[DEBUG] 2023-11-30T12:59:14  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316754064}}
+[DEBUG] 2023-11-30T12:59:14  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316754074}}
+[DEBUG] 2023-11-30T12:59:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316754064}}
+[DEBUG] 2023-11-30T12:59:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316754074}}
+[DEBUG] 2023-11-30T12:59:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316758574}}
+[DEBUG] 2023-11-30T12:59:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316758583}}
+[DEBUG] 2023-11-30T12:59:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.5,"time":1701316758574}}
+[DEBUG] 2023-11-30T12:59:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.5,"time":1701316758583}}
+[DEBUG] 2023-11-30T12:59:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1123.0,"time":1701316758574}}
+[DEBUG] 2023-11-30T12:59:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1123.0,"time":1701316758583}}
+[DEBUG] 2023-11-30T12:59:32  DebugNode {topic : "24e124136d151836/d/temperature", payload :{"temperature":20.900000000000002,"time":1701316772607}}
+[DEBUG] 2023-11-30T12:59:32  DebugNode {topic : "24e124136d151836/d/temperature", payload :{"temperature":20.900000000000002,"time":1701316772617}}
+[DEBUG] 2023-11-30T12:59:32  DebugNode {topic : "24e124136d151836/d/humidity", payload :{"humidity":24.0,"time":1701316772607}}
+[DEBUG] 2023-11-30T12:59:32  DebugNode {topic : "24e124136d151836/d/humidity", payload :{"humidity":24.0,"time":1701316772617}}
+[DEBUG] 2023-11-30T12:59:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.400000000000002,"time":1701316773710}}
+[DEBUG] 2023-11-30T12:59:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.400000000000002,"time":1701316773719}}
+[DEBUG] 2023-11-30T12:59:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316773710}}
+[DEBUG] 2023-11-30T12:59:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316773719}}
+[DEBUG] 2023-11-30T12:59:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316774812}}
+[DEBUG] 2023-11-30T12:59:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316774821}}
+[DEBUG] 2023-11-30T12:59:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316774812}}
+[DEBUG] 2023-11-30T12:59:35  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316774821}}
+[DEBUG] 2023-11-30T12:59:38  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.5,"time":1701316778018}}
+[DEBUG] 2023-11-30T12:59:38  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.5,"time":1701316778028}}
+[DEBUG] 2023-11-30T12:59:38  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701316778018}}
+[DEBUG] 2023-11-30T12:59:38  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701316778028}}
+[DEBUG] 2023-11-30T12:59:38  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316778118}}
+[DEBUG] 2023-11-30T12:59:38  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316778128}}
+[DEBUG] 2023-11-30T12:59:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316778118}}
+[DEBUG] 2023-11-30T12:59:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316778128}}
+[DEBUG] 2023-11-30T12:59:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":19.0,"time":1701316786146}}
+[DEBUG] 2023-11-30T12:59:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":19.0,"time":1701316786236}}
+[DEBUG] 2023-11-30T12:59:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.5,"time":1701316786146}}
+[DEBUG] 2023-11-30T12:59:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.5,"time":1701316786236}}
+[DEBUG] 2023-11-30T12:59:54  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316794754}}
+[DEBUG] 2023-11-30T12:59:54  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316794765}}
+[DEBUG] 2023-11-30T12:59:54  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701316794754}}
+[DEBUG] 2023-11-30T12:59:54  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701316794765}}
+[DEBUG] 2023-11-30T12:59:54  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1379.0,"time":1701316794754}}
+[DEBUG] 2023-11-30T12:59:55  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1379.0,"time":1701316794765}}
+[DEBUG] 2023-11-30T13:00:13  DebugNode {topic : "24e124725d081175/d/temperature", payload :{"temperature":15.5,"time":1701316812994}}
+[DEBUG] 2023-11-30T13:00:13  DebugNode {topic : "24e124725d081175/d/temperature", payload :{"temperature":15.5,"time":1701316813004}}
+[DEBUG] 2023-11-30T13:00:13  DebugNode {topic : "24e124725d081175/d/humidity", payload :{"humidity":39.5,"time":1701316812994}}
+[DEBUG] 2023-11-30T13:00:13  DebugNode {topic : "24e124725d081175/d/humidity", payload :{"humidity":39.5,"time":1701316813004}}
+[DEBUG] 2023-11-30T13:00:13  DebugNode {topic : "24e124725d081175/d/co2", payload :{"co2":685.0,"time":1701316812994}}
+[DEBUG] 2023-11-30T13:00:13  DebugNode {topic : "24e124725d081175/d/co2", payload :{"co2":685.0,"time":1701316813004}}
+[DEBUG] 2023-11-30T13:00:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316813896}}
+[DEBUG] 2023-11-30T13:00:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316813906}}
+[DEBUG] 2023-11-30T13:00:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316813896}}
+[DEBUG] 2023-11-30T13:00:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316813906}}
+[DEBUG] 2023-11-30T13:00:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316818504}}
+[DEBUG] 2023-11-30T13:00:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316818515}}
+[DEBUG] 2023-11-30T13:00:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316818504}}
+[DEBUG] 2023-11-30T13:00:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316818515}}
+[DEBUG] 2023-11-30T13:00:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1136.0,"time":1701316818504}}
+[DEBUG] 2023-11-30T13:00:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1136.0,"time":1701316818515}}
+[INFO] 2023-11-30T13:00:24  MqttOutNode_1 - start
+[INFO] 2023-11-30T13:00:24  DebugNode_3 - start
+[INFO] 2023-11-30T13:00:24  MqttInNode_0 - start
+[DEBUG] 2023-11-30T13:00:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.400000000000002,"time":1701316833751}}
+[DEBUG] 2023-11-30T13:00:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.400000000000002,"time":1701316833731}}
+[DEBUG] 2023-11-30T13:00:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.400000000000002,"time":1701316833739}}
+[DEBUG] 2023-11-30T13:00:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316833751}}
+[DEBUG] 2023-11-30T13:00:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316833731}}
+[DEBUG] 2023-11-30T13:00:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316833739}}
+[DEBUG] 2023-11-30T13:00:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316834732}}
+[DEBUG] 2023-11-30T13:00:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316834853}}
+[DEBUG] 2023-11-30T13:00:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316834732}}
+[DEBUG] 2023-11-30T13:00:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.3,"time":1701316834841}}
+[DEBUG] 2023-11-30T13:00:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316834853}}
+[DEBUG] 2023-11-30T13:00:35  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701316834841}}
+[DEBUG] 2023-11-30T13:00:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316837858}}
+[DEBUG] 2023-11-30T13:00:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316837838}}
+[DEBUG] 2023-11-30T13:00:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316837846}}
+[DEBUG] 2023-11-30T13:00:37  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316837859}}
+[DEBUG] 2023-11-30T13:00:37  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316837838}}
+[DEBUG] 2023-11-30T13:00:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316837846}}
+[DEBUG] 2023-11-30T13:00:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316846177}}
+[DEBUG] 2023-11-30T13:00:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316846155}}
+[DEBUG] 2023-11-30T13:00:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316846163}}
+[DEBUG] 2023-11-30T13:00:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.5,"time":1701316846177}}
+[DEBUG] 2023-11-30T13:00:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.5,"time":1701316846155}}
+[DEBUG] 2023-11-30T13:00:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.5,"time":1701316846163}}
+[DEBUG] 2023-11-30T13:00:48  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.8,"time":1701316848081}}
+[DEBUG] 2023-11-30T13:00:48  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701316848081}}
+[DEBUG] 2023-11-30T13:00:48  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.8,"time":1701316848158}}
+[DEBUG] 2023-11-30T13:00:48  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.8,"time":1701316848166}}
+[DEBUG] 2023-11-30T13:00:48  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":809.0,"time":1701316848081}}
+[DEBUG] 2023-11-30T13:00:48  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701316848158}}
+[DEBUG] 2023-11-30T13:00:48  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701316848166}}
+[DEBUG] 2023-11-30T13:00:48  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.0,"time":1701316848181}}
+[DEBUG] 2023-11-30T13:00:48  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":809.0,"time":1701316848158}}
+[DEBUG] 2023-11-30T13:00:48  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":809.0,"time":1701316848166}}
+[DEBUG] 2023-11-30T13:00:48  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.0,"time":1701316848181}}
+[DEBUG] 2023-11-30T13:00:48  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.0,"time":1701316848258}}
+[DEBUG] 2023-11-30T13:00:48  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.0,"time":1701316848267}}
+[DEBUG] 2023-11-30T13:00:48  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.0,"time":1701316848258}}
+[DEBUG] 2023-11-30T13:00:48  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.0,"time":1701316848267}}
+[DEBUG] 2023-11-30T13:00:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316849761}}
+[DEBUG] 2023-11-30T13:00:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316849884}}
+[DEBUG] 2023-11-30T13:00:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316849761}}
+[DEBUG] 2023-11-30T13:00:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316849870}}
+[DEBUG] 2023-11-30T13:00:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316849884}}
+[DEBUG] 2023-11-30T13:00:49  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1364.0,"time":1701316849761}}
+[DEBUG] 2023-11-30T13:00:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316849870}}
+[DEBUG] 2023-11-30T13:00:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1364.0,"time":1701316849884}}
+[DEBUG] 2023-11-30T13:00:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1364.0,"time":1701316849870}}
+[DEBUG] 2023-11-30T13:01:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316873924}}
+[DEBUG] 2023-11-30T13:01:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316873903}}
+[DEBUG] 2023-11-30T13:01:14  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316873908}}
+[DEBUG] 2023-11-30T13:01:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316873924}}
+[DEBUG] 2023-11-30T13:01:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316873903}}
+[DEBUG] 2023-11-30T13:01:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316873908}}
+[DEBUG] 2023-11-30T13:01:14  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316874024}}
+[DEBUG] 2023-11-30T13:01:14  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316874003}}
+[DEBUG] 2023-11-30T13:01:14  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316874009}}
+[DEBUG] 2023-11-30T13:01:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316874024}}
+[DEBUG] 2023-11-30T13:01:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316874003}}
+[DEBUG] 2023-11-30T13:01:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316874009}}
+[DEBUG] 2023-11-30T13:01:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316878432}}
+[DEBUG] 2023-11-30T13:01:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316878432}}
+[DEBUG] 2023-11-30T13:01:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316878511}}
+[DEBUG] 2023-11-30T13:01:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":20.700000000000003,"time":1701316878515}}
+[DEBUG] 2023-11-30T13:01:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1136.0,"time":1701316878432}}
+[DEBUG] 2023-11-30T13:01:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316878511}}
+[DEBUG] 2023-11-30T13:01:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701316878515}}
+[DEBUG] 2023-11-30T13:01:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1136.0,"time":1701316878511}}
+[DEBUG] 2023-11-30T13:01:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1136.0,"time":1701316878515}}
+[DEBUG] 2023-11-30T13:01:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.5,"time":1701316893659}}
+[DEBUG] 2023-11-30T13:01:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316893659}}
+[DEBUG] 2023-11-30T13:01:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.5,"time":1701316893735}}
+[DEBUG] 2023-11-30T13:01:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.5,"time":1701316893739}}
+[DEBUG] 2023-11-30T13:01:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.5,"time":1701316893759}}
+[DEBUG] 2023-11-30T13:01:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316893735}}
+[DEBUG] 2023-11-30T13:01:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316893739}}
+[DEBUG] 2023-11-30T13:01:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.5,"time":1701316893835}}
+[DEBUG] 2023-11-30T13:01:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316893759}}
+[DEBUG] 2023-11-30T13:01:34  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.5,"time":1701316893839}}
+[DEBUG] 2023-11-30T13:01:34  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316893835}}
+[DEBUG] 2023-11-30T13:01:34  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701316893839}}
+[DEBUG] 2023-11-30T13:01:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.400000000000002,"time":1701316894760}}
+[DEBUG] 2023-11-30T13:01:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.400000000000002,"time":1701316894837}}
+[DEBUG] 2023-11-30T13:01:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":26.5,"time":1701316894760}}
+[DEBUG] 2023-11-30T13:01:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.400000000000002,"time":1701316894840}}
+[DEBUG] 2023-11-30T13:01:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":26.5,"time":1701316894837}}
+[DEBUG] 2023-11-30T13:01:35  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":26.5,"time":1701316894840}}
+[DEBUG] 2023-11-30T13:01:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316897866}}
+[DEBUG] 2023-11-30T13:01:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316897942}}
+[DEBUG] 2023-11-30T13:01:37  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316897866}}
+[DEBUG] 2023-11-30T13:01:38  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316897947}}
+[DEBUG] 2023-11-30T13:01:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316897942}}
+[DEBUG] 2023-11-30T13:01:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701316897947}}
+[DEBUG] 2023-11-30T13:01:39  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.5,"time":1701316899568}}
+[DEBUG] 2023-11-30T13:01:39  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.5,"time":1701316899645}}
+[DEBUG] 2023-11-30T13:01:39  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701316899568}}
+[DEBUG] 2023-11-30T13:01:39  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701316899645}}
+[DEBUG] 2023-11-30T13:01:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316906183}}
+[DEBUG] 2023-11-30T13:01:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316906163}}
+[DEBUG] 2023-11-30T13:01:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316906261}}
+[DEBUG] 2023-11-30T13:01:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316906183}}
+[DEBUG] 2023-11-30T13:01:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316906163}}
+[DEBUG] 2023-11-30T13:01:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316906261}}
+[DEBUG] 2023-11-30T13:01:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316906283}}
+[DEBUG] 2023-11-30T13:01:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316906263}}
+[DEBUG] 2023-11-30T13:01:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701316906361}}
+[DEBUG] 2023-11-30T13:01:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316906283}}
+[DEBUG] 2023-11-30T13:01:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316906263}}
+[DEBUG] 2023-11-30T13:01:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701316906361}}
+[DEBUG] 2023-11-30T13:01:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316909467}}
+[DEBUG] 2023-11-30T13:01:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316909490}}
+[DEBUG] 2023-11-30T13:01:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701316909470}}
+[DEBUG] 2023-11-30T13:01:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316909467}}
+[DEBUG] 2023-11-30T13:01:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316909490}}
+[DEBUG] 2023-11-30T13:01:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701316909470}}
+[DEBUG] 2023-11-30T13:01:49  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1364.0,"time":1701316909467}}
+[DEBUG] 2023-11-30T13:01:49  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1364.0,"time":1701316909490}}
+[DEBUG] 2023-11-30T13:01:49  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1364.0,"time":1701316909470}}
+[INFO] 2023-11-30T13:02:04  DebugNode_3 - start
+[INFO] 2023-11-30T13:02:04  MqttOutNode_1 - start
+[INFO] 2023-11-30T13:02:04  MqttInNode_0 - start
+[DEBUG] 2023-11-30T13:02:04  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:04  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:04  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:05  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:05  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:05  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:05  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:05  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:05  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:05  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:05  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:05  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:05  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:06  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:06  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:06  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:06  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:06  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:06  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:06  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:06  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:06  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:06  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:07  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:07  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:07  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:07  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:07  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:07  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:07  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:07  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:07  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:07  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:08  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:08  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:08  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:08  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:08  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:08  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:08  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:08  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:08  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:08  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:09  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:09  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:09  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:09  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:09  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:09  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:09  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:09  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:09  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:09  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:10  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:10  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:10  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:10  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:10  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:10  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:10  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:10  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:10  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:10  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:11  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:11  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:11  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:11  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:11  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:11  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:11  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:11  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:11  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:11  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:12  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:12  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:12  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:12  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:12  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:12  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:12  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:12  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:12  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:12  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:13  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:13  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:13  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:13  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:13  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:13  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:13  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:13  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:13  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316933905}}
+[DEBUG] 2023-11-30T13:02:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316933867}}
+[DEBUG] 2023-11-30T13:02:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316933932}}
+[DEBUG] 2023-11-30T13:02:13  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316933867}}
+[DEBUG] 2023-11-30T13:02:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316933932}}
+[DEBUG] 2023-11-30T13:02:14  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:14  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316933967}}
+[DEBUG] 2023-11-30T13:02:14  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701316934032}}
+[DEBUG] 2023-11-30T13:02:14  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316933967}}
+[DEBUG] 2023-11-30T13:02:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701316934032}}
+[DEBUG] 2023-11-30T13:02:14  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:14  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:14  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:14  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:14  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:14  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:14  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:14  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:15  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:15  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:15  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:15  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:15  SensorTypeFilterNode_2- start
+[DEBUG] 2023-11-30T13:02:15  SensorTypeFilterNode_2- start
+[INFO] 2023-11-30T13:03:40  create node : MqttInNode_0
+[INFO] 2023-11-30T13:03:40  create node : MqttOutNode_1
+[INFO] 2023-11-30T13:03:40  create node : SensorTypeFilterNode_2
+[INFO] 2023-11-30T13:03:40  create node : DebugNode_3
+[INFO] 2023-11-30T13:03:40  DebugNode_3 - start
+[INFO] 2023-11-30T13:03:40  MqttInNode_0 - start
+[INFO] 2023-11-30T13:03:40  MqttOutNode_1 - start
+[INFO] 2023-11-30T13:03:40  start node : SensorTypeFilterNode_2
+[DEBUG] 2023-11-30T13:03:41  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.6,"time":1701317021391}}
+[DEBUG] 2023-11-30T13:03:41  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701317021391}}
+[DEBUG] 2023-11-30T13:03:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701317026200}}
+[DEBUG] 2023-11-30T13:03:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701317026200}}
+[DEBUG] 2023-11-30T13:03:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":22.0,"time":1701317030407}}
+[DEBUG] 2023-11-30T13:03:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701317030407}}
+[DEBUG] 2023-11-30T13:03:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1350.0,"time":1701317030407}}
+[INFO] 2023-11-30T13:04:11  create node : MqttInNode_0
+[INFO] 2023-11-30T13:04:11  create node : MqttOutNode_1
+[INFO] 2023-11-30T13:04:11  create node : SensorTypeFilterNode_2
+[INFO] 2023-11-30T13:04:11  create node : DebugNode_3
+[INFO] 2023-11-30T13:04:11  start node : MqttInNode_0
+[INFO] 2023-11-30T13:04:11  start node : MqttOutNode_1
+[INFO] 2023-11-30T13:04:11  start node : DebugNode_3
+[INFO] 2023-11-30T13:04:11  start node : SensorTypeFilterNode_2
+[DEBUG] 2023-11-30T13:04:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701317053843}}
+[DEBUG] 2023-11-30T13:04:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701317053843}}
+[DEBUG] 2023-11-30T13:04:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701317053889}}
+[DEBUG] 2023-11-30T13:04:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701317053889}}
+[DEBUG] 2023-11-30T13:04:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.1,"time":1701317058352}}
+[DEBUG] 2023-11-30T13:04:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701317058352}}
+[DEBUG] 2023-11-30T13:04:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.1,"time":1701317058399}}
+[DEBUG] 2023-11-30T13:04:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1126.0,"time":1701317058352}}
+[DEBUG] 2023-11-30T13:04:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701317058399}}
+[DEBUG] 2023-11-30T13:04:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.1,"time":1701317058452}}
+[DEBUG] 2023-11-30T13:04:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1126.0,"time":1701317058399}}
+[DEBUG] 2023-11-30T13:04:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701317058452}}
+[DEBUG] 2023-11-30T13:04:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.1,"time":1701317058500}}
+[DEBUG] 2023-11-30T13:04:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1126.0,"time":1701317058452}}
+[DEBUG] 2023-11-30T13:04:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701317058500}}
+[DEBUG] 2023-11-30T13:04:19  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1126.0,"time":1701317058500}}
+[DEBUG] 2023-11-30T13:04:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.700000000000003,"time":1701317073787}}
+[DEBUG] 2023-11-30T13:04:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.700000000000003,"time":1701317073736}}
+[DEBUG] 2023-11-30T13:04:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701317073787}}
+[DEBUG] 2023-11-30T13:04:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701317073736}}
+[DEBUG] 2023-11-30T13:04:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.400000000000002,"time":1701317074789}}
+[DEBUG] 2023-11-30T13:04:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.400000000000002,"time":1701317074739}}
+[DEBUG] 2023-11-30T13:04:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701317074789}}
+[DEBUG] 2023-11-30T13:04:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701317074739}}
+[DEBUG] 2023-11-30T13:04:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317077896}}
+[DEBUG] 2023-11-30T13:04:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317077846}}
+[DEBUG] 2023-11-30T13:04:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701317077896}}
+[DEBUG] 2023-11-30T13:04:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701317077846}}
+[DEBUG] 2023-11-30T13:04:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.8,"time":1701317086218}}
+[DEBUG] 2023-11-30T13:04:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.8,"time":1701317086163}}
+[DEBUG] 2023-11-30T13:04:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701317086218}}
+[DEBUG] 2023-11-30T13:04:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701317086163}}
+[DEBUG] 2023-11-30T13:04:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317090527}}
+[DEBUG] 2023-11-30T13:04:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317090572}}
+[DEBUG] 2023-11-30T13:04:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701317090527}}
+[DEBUG] 2023-11-30T13:04:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701317090572}}
+[DEBUG] 2023-11-30T13:04:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1408.0,"time":1701317090527}}
+[DEBUG] 2023-11-30T13:04:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1408.0,"time":1701317090573}}
+[DEBUG] 2023-11-30T13:04:51  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.0,"time":1701317091729}}
+[DEBUG] 2023-11-30T13:04:51  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.0,"time":1701317091775}}
+[DEBUG] 2023-11-30T13:04:51  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.0,"time":1701317091729}}
+[DEBUG] 2023-11-30T13:04:51  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.0,"time":1701317091775}}
+[DEBUG] 2023-11-30T13:04:51  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.900000000000002,"time":1701317091829}}
+[DEBUG] 2023-11-30T13:04:51  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.900000000000002,"time":1701317091875}}
+[DEBUG] 2023-11-30T13:04:52  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701317091829}}
+[DEBUG] 2023-11-30T13:04:52  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701317091875}}
+[DEBUG] 2023-11-30T13:04:52  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":823.0,"time":1701317091829}}
+[DEBUG] 2023-11-30T13:04:52  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":823.0,"time":1701317091875}}
+[DEBUG] 2023-11-30T13:05:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701317113825}}
+[DEBUG] 2023-11-30T13:05:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701317113879}}
+[DEBUG] 2023-11-30T13:05:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701317113825}}
+[DEBUG] 2023-11-30T13:05:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701317113879}}
+[DEBUG] 2023-11-30T13:05:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.1,"time":1701317118436}}
+[DEBUG] 2023-11-30T13:05:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.1,"time":1701317118489}}
+[DEBUG] 2023-11-30T13:05:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701317118436}}
+[DEBUG] 2023-11-30T13:05:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701317118489}}
+[DEBUG] 2023-11-30T13:05:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1126.0,"time":1701317118436}}
+[DEBUG] 2023-11-30T13:05:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1126.0,"time":1701317118489}}
+[DEBUG] 2023-11-30T13:05:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.700000000000003,"time":1701317133670}}
+[DEBUG] 2023-11-30T13:05:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.700000000000003,"time":1701317133725}}
+[DEBUG] 2023-11-30T13:05:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701317133670}}
+[DEBUG] 2023-11-30T13:05:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701317133725}}
+[DEBUG] 2023-11-30T13:05:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.400000000000002,"time":1701317134773}}
+[DEBUG] 2023-11-30T13:05:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.400000000000002,"time":1701317134827}}
+[DEBUG] 2023-11-30T13:05:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701317134773}}
+[DEBUG] 2023-11-30T13:05:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701317134827}}
+[DEBUG] 2023-11-30T13:05:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317137879}}
+[DEBUG] 2023-11-30T13:05:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317137932}}
+[DEBUG] 2023-11-30T13:05:37  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701317137879}}
+[DEBUG] 2023-11-30T13:05:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701317137932}}
+[DEBUG] 2023-11-30T13:05:43  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.5,"time":1701317143241}}
+[DEBUG] 2023-11-30T13:05:43  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.5,"time":1701317143290}}
+[DEBUG] 2023-11-30T13:05:43  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701317143241}}
+[DEBUG] 2023-11-30T13:05:43  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701317143290}}
+[DEBUG] 2023-11-30T13:05:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701317146147}}
+[DEBUG] 2023-11-30T13:05:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701317146195}}
+[DEBUG] 2023-11-30T13:05:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701317146147}}
+[DEBUG] 2023-11-30T13:05:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701317146195}}
+[DEBUG] 2023-11-30T13:05:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":22.0,"time":1701317150304}}
+[DEBUG] 2023-11-30T13:05:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":22.0,"time":1701317150355}}
+[DEBUG] 2023-11-30T13:05:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701317150304}}
+[DEBUG] 2023-11-30T13:05:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701317150355}}
+[DEBUG] 2023-11-30T13:05:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1408.0,"time":1701317150304}}
+[DEBUG] 2023-11-30T13:05:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1408.0,"time":1701317150355}}
+[DEBUG] 2023-11-30T13:06:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701317173856}}
+[DEBUG] 2023-11-30T13:06:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701317173906}}
+[DEBUG] 2023-11-30T13:06:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701317173856}}
+[DEBUG] 2023-11-30T13:06:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701317173906}}
+[DEBUG] 2023-11-30T13:06:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.3,"time":1701317178312}}
+[DEBUG] 2023-11-30T13:06:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.3,"time":1701317178363}}
+[DEBUG] 2023-11-30T13:06:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701317178312}}
+[DEBUG] 2023-11-30T13:06:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701317178363}}
+[DEBUG] 2023-11-30T13:06:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1137.0,"time":1701317178312}}
+[DEBUG] 2023-11-30T13:06:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1137.0,"time":1701317178363}}
+[DEBUG] 2023-11-30T13:06:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.8,"time":1701317193744}}
+[DEBUG] 2023-11-30T13:06:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.8,"time":1701317193695}}
+[DEBUG] 2023-11-30T13:06:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701317193744}}
+[DEBUG] 2023-11-30T13:06:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701317193695}}
+[DEBUG] 2023-11-30T13:06:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.400000000000002,"time":1701317194746}}
+[DEBUG] 2023-11-30T13:06:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.400000000000002,"time":1701317194797}}
+[DEBUG] 2023-11-30T13:06:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701317194746}}
+[DEBUG] 2023-11-30T13:06:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701317194797}}
+[DEBUG] 2023-11-30T13:06:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317197852}}
+[DEBUG] 2023-11-30T13:06:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317197903}}
+[DEBUG] 2023-11-30T13:06:37  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701317197852}}
+[DEBUG] 2023-11-30T13:06:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701317197903}}
+[DEBUG] 2023-11-30T13:06:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701317206171}}
+[DEBUG] 2023-11-30T13:06:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701317206171}}
+[DEBUG] 2023-11-30T13:06:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701317206222}}
+[DEBUG] 2023-11-30T13:06:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701317206222}}
+[DEBUG] 2023-11-30T13:06:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":22.0,"time":1701317210580}}
+[DEBUG] 2023-11-30T13:06:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701317210580}}
+[DEBUG] 2023-11-30T13:06:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":22.0,"time":1701317210631}}
+[DEBUG] 2023-11-30T13:06:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1381.0,"time":1701317210580}}
+[DEBUG] 2023-11-30T13:06:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701317210631}}
+[DEBUG] 2023-11-30T13:06:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1381.0,"time":1701317210631}}
+[DEBUG] 2023-11-30T13:06:53  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.1,"time":1701317213487}}
+[DEBUG] 2023-11-30T13:06:53  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.1,"time":1701317213437}}
+[DEBUG] 2023-11-30T13:06:53  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.0,"time":1701317213487}}
+[DEBUG] 2023-11-30T13:06:53  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.0,"time":1701317213437}}
+[DEBUG] 2023-11-30T13:06:53  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.900000000000002,"time":1701317213587}}
+[DEBUG] 2023-11-30T13:06:53  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.900000000000002,"time":1701317213637}}
+[DEBUG] 2023-11-30T13:06:53  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701317213587}}
+[DEBUG] 2023-11-30T13:06:53  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701317213637}}
+[DEBUG] 2023-11-30T13:06:53  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":826.0,"time":1701317213587}}
+[DEBUG] 2023-11-30T13:06:53  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":826.0,"time":1701317213637}}
+[DEBUG] 2023-11-30T13:07:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701317233835}}
+[DEBUG] 2023-11-30T13:07:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701317233835}}
+[DEBUG] 2023-11-30T13:07:14  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701317233935}}
+[DEBUG] 2023-11-30T13:07:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701317233935}}
+[DEBUG] 2023-11-30T13:07:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.400000000000002,"time":1701317238243}}
+[DEBUG] 2023-11-30T13:07:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701317238243}}
+[DEBUG] 2023-11-30T13:07:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.400000000000002,"time":1701317238293}}
+[DEBUG] 2023-11-30T13:07:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1137.0,"time":1701317238243}}
+[DEBUG] 2023-11-30T13:07:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":25.0,"time":1701317238293}}
+[DEBUG] 2023-11-30T13:07:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1137.0,"time":1701317238293}}
+[DEBUG] 2023-11-30T13:07:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.900000000000002,"time":1701317253778}}
+[DEBUG] 2023-11-30T13:07:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.900000000000002,"time":1701317253727}}
+[DEBUG] 2023-11-30T13:07:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701317253778}}
+[DEBUG] 2023-11-30T13:07:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701317253727}}
+[DEBUG] 2023-11-30T13:07:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.400000000000002,"time":1701317254830}}
+[DEBUG] 2023-11-30T13:07:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.400000000000002,"time":1701317254880}}
+[DEBUG] 2023-11-30T13:07:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.5,"time":1701317254830}}
+[DEBUG] 2023-11-30T13:07:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.5,"time":1701317254880}}
+[DEBUG] 2023-11-30T13:07:44  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.6,"time":1701317264951}}
+[DEBUG] 2023-11-30T13:07:45  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.6,"time":1701317265003}}
+[DEBUG] 2023-11-30T13:07:45  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701317264951}}
+[DEBUG] 2023-11-30T13:07:45  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701317265003}}
+[DEBUG] 2023-11-30T13:07:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701317266205}}
+[DEBUG] 2023-11-30T13:07:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701317266253}}
+[DEBUG] 2023-11-30T13:07:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701317266205}}
+[DEBUG] 2023-11-30T13:07:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701317266253}}
+[DEBUG] 2023-11-30T13:07:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317270261}}
+[DEBUG] 2023-11-30T13:07:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317270315}}
+[DEBUG] 2023-11-30T13:07:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701317270261}}
+[DEBUG] 2023-11-30T13:07:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701317270315}}
+[DEBUG] 2023-11-30T13:07:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1381.0,"time":1701317270261}}
+[DEBUG] 2023-11-30T13:07:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1381.0,"time":1701317270315}}
+[DEBUG] 2023-11-30T13:07:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317270361}}
+[DEBUG] 2023-11-30T13:07:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317270415}}
+[DEBUG] 2023-11-30T13:07:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701317270361}}
+[DEBUG] 2023-11-30T13:07:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701317270415}}
+[DEBUG] 2023-11-30T13:07:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1381.0,"time":1701317270361}}
+[DEBUG] 2023-11-30T13:07:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1381.0,"time":1701317270415}}
+[DEBUG] 2023-11-30T13:07:56  DebugNode {topic : "24e124126c457594/d/temperature", payload :{"temperature":4.7,"time":1701317276674}}
+[DEBUG] 2023-11-30T13:07:56  DebugNode {topic : "24e124126c457594/d/temperature", payload :{"temperature":4.7,"time":1701317276728}}
+[DEBUG] 2023-11-30T13:07:56  DebugNode {topic : "24e124136d150970/d/temperature", payload :{"temperature":19.200000000000003,"time":1701317276774}}
+[DEBUG] 2023-11-30T13:07:56  DebugNode {topic : "24e124136d150970/d/temperature", payload :{"temperature":19.200000000000003,"time":1701317276828}}
+[DEBUG] 2023-11-30T13:07:56  DebugNode {topic : "24e124136d150970/d/humidity", payload :{"humidity":26.5,"time":1701317276774}}
+[DEBUG] 2023-11-30T13:07:56  DebugNode {topic : "24e124136d150970/d/humidity", payload :{"humidity":26.5,"time":1701317276828}}
+[DEBUG] 2023-11-30T13:07:56  DebugNode {topic : "24e124136d150970/d/temperature", payload :{"temperature":19.200000000000003,"time":1701317276874}}
+[DEBUG] 2023-11-30T13:07:57  DebugNode {topic : "24e124136d150970/d/temperature", payload :{"temperature":19.200000000000003,"time":1701317276928}}
+[DEBUG] 2023-11-30T13:07:57  DebugNode {topic : "24e124136d150970/d/humidity", payload :{"humidity":26.5,"time":1701317276874}}
+[DEBUG] 2023-11-30T13:07:57  DebugNode {topic : "24e124136d150970/d/humidity", payload :{"humidity":26.5,"time":1701317276928}}
+[DEBUG] 2023-11-30T13:08:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701317293867}}
+[DEBUG] 2023-11-30T13:08:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.6,"time":1701317293914}}
+[DEBUG] 2023-11-30T13:08:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701317293867}}
+[DEBUG] 2023-11-30T13:08:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701317293914}}
+[DEBUG] 2023-11-30T13:08:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.6,"time":1701317298223}}
+[DEBUG] 2023-11-30T13:08:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.6,"time":1701317298276}}
+[DEBUG] 2023-11-30T13:08:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":24.5,"time":1701317298223}}
+[DEBUG] 2023-11-30T13:08:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":24.5,"time":1701317298276}}
+[DEBUG] 2023-11-30T13:08:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1115.0,"time":1701317298223}}
+[DEBUG] 2023-11-30T13:08:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1115.0,"time":1701317298276}}
+[DEBUG] 2023-11-30T13:08:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.900000000000002,"time":1701317313660}}
+[DEBUG] 2023-11-30T13:08:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.900000000000002,"time":1701317313713}}
+[DEBUG] 2023-11-30T13:08:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701317313660}}
+[DEBUG] 2023-11-30T13:08:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701317313713}}
+[DEBUG] 2023-11-30T13:08:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.400000000000002,"time":1701317314763}}
+[DEBUG] 2023-11-30T13:08:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.400000000000002,"time":1701317314815}}
+[DEBUG] 2023-11-30T13:08:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701317314763}}
+[DEBUG] 2023-11-30T13:08:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701317314815}}
+[DEBUG] 2023-11-30T13:08:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317317922}}
+[DEBUG] 2023-11-30T13:08:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701317317922}}
+[DEBUG] 2023-11-30T13:08:38  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317318170}}
+[DEBUG] 2023-11-30T13:08:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701317318170}}
+[DEBUG] 2023-11-30T13:08:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701317326239}}
+[DEBUG] 2023-11-30T13:08:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701317326287}}
+[DEBUG] 2023-11-30T13:08:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701317326239}}
+[DEBUG] 2023-11-30T13:08:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701317326287}}
+[DEBUG] 2023-11-30T13:08:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":22.0,"time":1701317330497}}
+[DEBUG] 2023-11-30T13:08:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":22.0,"time":1701317330548}}
+[DEBUG] 2023-11-30T13:08:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701317330497}}
+[DEBUG] 2023-11-30T13:08:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":26.0,"time":1701317330548}}
+[DEBUG] 2023-11-30T13:08:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1422.0,"time":1701317330497}}
+[DEBUG] 2023-11-30T13:08:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1422.0,"time":1701317330548}}
+[DEBUG] 2023-11-30T13:08:55  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.1,"time":1701317335206}}
+[DEBUG] 2023-11-30T13:08:55  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.1,"time":1701317335258}}
+[DEBUG] 2023-11-30T13:08:55  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.5,"time":1701317335206}}
+[DEBUG] 2023-11-30T13:08:55  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.5,"time":1701317335258}}
+[DEBUG] 2023-11-30T13:08:55  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.8,"time":1701317335406}}
+[DEBUG] 2023-11-30T13:08:55  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":18.8,"time":1701317335459}}
+[DEBUG] 2023-11-30T13:08:55  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701317335406}}
+[DEBUG] 2023-11-30T13:08:55  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701317335459}}
+[DEBUG] 2023-11-30T13:08:55  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":819.0,"time":1701317335406}}
+[DEBUG] 2023-11-30T13:08:55  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":819.0,"time":1701317335459}}
+[DEBUG] 2023-11-30T13:09:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.700000000000003,"time":1701317353841}}
+[DEBUG] 2023-11-30T13:09:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.700000000000003,"time":1701317353897}}
+[DEBUG] 2023-11-30T13:09:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701317353841}}
+[DEBUG] 2023-11-30T13:09:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701317353897}}
+[DEBUG] 2023-11-30T13:09:14  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.700000000000003,"time":1701317353941}}
+[DEBUG] 2023-11-30T13:09:14  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.700000000000003,"time":1701317353997}}
+[DEBUG] 2023-11-30T13:09:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701317353941}}
+[DEBUG] 2023-11-30T13:09:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701317353997}}
+[DEBUG] 2023-11-30T13:09:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.700000000000003,"time":1701317358348}}
+[DEBUG] 2023-11-30T13:09:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.700000000000003,"time":1701317358406}}
+[DEBUG] 2023-11-30T13:09:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":24.5,"time":1701317358348}}
+[DEBUG] 2023-11-30T13:09:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":24.5,"time":1701317358406}}
+[DEBUG] 2023-11-30T13:09:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1115.0,"time":1701317358348}}
+[DEBUG] 2023-11-30T13:09:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1115.0,"time":1701317358406}}
+[DEBUG] 2023-11-30T13:09:32  DebugNode {topic : "24e124136d151836/d/temperature", payload :{"temperature":21.1,"time":1701317372575}}
+[DEBUG] 2023-11-30T13:09:32  DebugNode {topic : "24e124136d151836/d/temperature", payload :{"temperature":21.1,"time":1701317372630}}
+[DEBUG] 2023-11-30T13:09:32  DebugNode {topic : "24e124136d151836/d/humidity", payload :{"humidity":24.0,"time":1701317372575}}
+[DEBUG] 2023-11-30T13:09:32  DebugNode {topic : "24e124136d151836/d/humidity", payload :{"humidity":24.0,"time":1701317372630}}
+[DEBUG] 2023-11-30T13:09:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":24.0,"time":1701317373631}}
+[DEBUG] 2023-11-30T13:09:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":24.0,"time":1701317373676}}
+[DEBUG] 2023-11-30T13:09:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701317373631}}
+[DEBUG] 2023-11-30T13:09:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701317373676}}
+[DEBUG] 2023-11-30T13:09:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.400000000000002,"time":1701317374733}}
+[DEBUG] 2023-11-30T13:09:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.400000000000002,"time":1701317374779}}
+[DEBUG] 2023-11-30T13:09:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701317374733}}
+[DEBUG] 2023-11-30T13:09:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.0,"time":1701317374779}}
+[DEBUG] 2023-11-30T13:09:38  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317378041}}
+[DEBUG] 2023-11-30T13:09:38  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317378085}}
+[DEBUG] 2023-11-30T13:09:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701317378041}}
+[DEBUG] 2023-11-30T13:09:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701317378085}}
+[DEBUG] 2023-11-30T13:09:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":19.0,"time":1701317386202}}
+[DEBUG] 2023-11-30T13:09:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":19.0,"time":1701317386255}}
+[DEBUG] 2023-11-30T13:09:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701317386202}}
+[DEBUG] 2023-11-30T13:09:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701317386255}}
+[DEBUG] 2023-11-30T13:09:46  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.5,"time":1701317386756}}
+[DEBUG] 2023-11-30T13:09:46  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.5,"time":1701317386803}}
+[DEBUG] 2023-11-30T13:09:46  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701317386756}}
+[DEBUG] 2023-11-30T13:09:46  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":23.0,"time":1701317386803}}
+[DEBUG] 2023-11-30T13:09:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317390210}}
+[DEBUG] 2023-11-30T13:09:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317390263}}
+[DEBUG] 2023-11-30T13:09:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701317390210}}
+[DEBUG] 2023-11-30T13:09:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701317390263}}
+[DEBUG] 2023-11-30T13:09:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1422.0,"time":1701317390210}}
+[DEBUG] 2023-11-30T13:09:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1422.0,"time":1701317390263}}
+[DEBUG] 2023-11-30T13:10:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.700000000000003,"time":1701317413850}}
+[DEBUG] 2023-11-30T13:10:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":20.700000000000003,"time":1701317413902}}
+[DEBUG] 2023-11-30T13:10:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701317413850}}
+[DEBUG] 2023-11-30T13:10:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701317413902}}
+[DEBUG] 2023-11-30T13:10:16  DebugNode {topic : "24e124725d081175/d/temperature", payload :{"temperature":15.5,"time":1701317416154}}
+[DEBUG] 2023-11-30T13:10:16  DebugNode {topic : "24e124725d081175/d/temperature", payload :{"temperature":15.5,"time":1701317416207}}
+[DEBUG] 2023-11-30T13:10:16  DebugNode {topic : "24e124725d081175/d/humidity", payload :{"humidity":39.5,"time":1701317416154}}
+[DEBUG] 2023-11-30T13:10:16  DebugNode {topic : "24e124725d081175/d/humidity", payload :{"humidity":39.5,"time":1701317416207}}
+[DEBUG] 2023-11-30T13:10:16  DebugNode {topic : "24e124725d081175/d/co2", payload :{"co2":679.0,"time":1701317416154}}
+[DEBUG] 2023-11-30T13:10:16  DebugNode {topic : "24e124725d081175/d/co2", payload :{"co2":679.0,"time":1701317416207}}
+[DEBUG] 2023-11-30T13:10:16  DebugNode {topic : "24e124725d081175/d/temperature", payload :{"temperature":15.5,"time":1701317416255}}
+[DEBUG] 2023-11-30T13:10:16  DebugNode {topic : "24e124725d081175/d/temperature", payload :{"temperature":15.5,"time":1701317416307}}
+[DEBUG] 2023-11-30T13:10:16  DebugNode {topic : "24e124725d081175/d/humidity", payload :{"humidity":39.5,"time":1701317416255}}
+[DEBUG] 2023-11-30T13:10:16  DebugNode {topic : "24e124725d081175/d/humidity", payload :{"humidity":39.5,"time":1701317416307}}
+[DEBUG] 2023-11-30T13:10:16  DebugNode {topic : "24e124725d081175/d/co2", payload :{"co2":679.0,"time":1701317416255}}
+[DEBUG] 2023-11-30T13:10:16  DebugNode {topic : "24e124725d081175/d/co2", payload :{"co2":679.0,"time":1701317416307}}
+[DEBUG] 2023-11-30T13:10:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.8,"time":1701317418157}}
+[DEBUG] 2023-11-30T13:10:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.8,"time":1701317418209}}
+[DEBUG] 2023-11-30T13:10:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":24.5,"time":1701317418157}}
+[DEBUG] 2023-11-30T13:10:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":24.5,"time":1701317418209}}
+[DEBUG] 2023-11-30T13:10:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1114.0,"time":1701317418157}}
+[DEBUG] 2023-11-30T13:10:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1114.0,"time":1701317418209}}
+[DEBUG] 2023-11-30T13:10:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.900000000000002,"time":1701317433638}}
+[DEBUG] 2023-11-30T13:10:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.900000000000002,"time":1701317433683}}
+[DEBUG] 2023-11-30T13:10:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701317433638}}
+[DEBUG] 2023-11-30T13:10:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701317433683}}
+[DEBUG] 2023-11-30T13:10:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.400000000000002,"time":1701317434785}}
+[DEBUG] 2023-11-30T13:10:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":21.400000000000002,"time":1701317434840}}
+[DEBUG] 2023-11-30T13:10:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.5,"time":1701317434785}}
+[DEBUG] 2023-11-30T13:10:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":27.5,"time":1701317434840}}
+[DEBUG] 2023-11-30T13:10:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317437847}}
+[DEBUG] 2023-11-30T13:10:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":21.900000000000002,"time":1701317437891}}
+[DEBUG] 2023-11-30T13:10:37  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701317437847}}
+[DEBUG] 2023-11-30T13:10:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701317437891}}
+[DEBUG] 2023-11-30T13:10:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.8,"time":1701317446166}}
+[DEBUG] 2023-11-30T13:10:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.8,"time":1701317446209}}
+[DEBUG] 2023-11-30T13:10:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701317446166}}
+[DEBUG] 2023-11-30T13:10:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":20.0,"time":1701317446209}}
+[DEBUG] 2023-11-30T13:10:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":22.0,"time":1701317450475}}
+[DEBUG] 2023-11-30T13:10:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":22.0,"time":1701317450517}}
+[DEBUG] 2023-11-30T13:10:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701317450475}}
+[DEBUG] 2023-11-30T13:10:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701317450517}}
+[DEBUG] 2023-11-30T13:10:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1393.0,"time":1701317450475}}
+[DEBUG] 2023-11-30T13:10:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1393.0,"time":1701317450517}}
+[DEBUG] 2023-11-30T13:10:57  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.1,"time":1701317456985}}
+[DEBUG] 2023-11-30T13:10:57  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.1,"time":1701317457028}}
+[DEBUG] 2023-11-30T13:10:57  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.5,"time":1701317456985}}
+[DEBUG] 2023-11-30T13:10:57  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.5,"time":1701317457028}}
+[DEBUG] 2023-11-30T13:10:57  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.1,"time":1701317457086}}
+[DEBUG] 2023-11-30T13:10:57  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.1,"time":1701317457128}}
+[DEBUG] 2023-11-30T13:10:57  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.5,"time":1701317457086}}
+[DEBUG] 2023-11-30T13:10:57  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.5,"time":1701317457128}}
+[DEBUG] 2023-11-30T13:10:57  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":19.0,"time":1701317457286}}
+[DEBUG] 2023-11-30T13:10:57  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":19.0,"time":1701317457228}}
+[DEBUG] 2023-11-30T13:10:57  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701317457286}}
+[DEBUG] 2023-11-30T13:10:57  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701317457228}}
+[DEBUG] 2023-11-30T13:10:57  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":814.0,"time":1701317457286}}
+[DEBUG] 2023-11-30T13:10:57  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":814.0,"time":1701317457228}}

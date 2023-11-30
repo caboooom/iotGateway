@@ -36,8 +36,7 @@
                 "asdasdas",
                 "-s",
                 "temperature,humidity,co2",
-                "-c",
-                "file"
+
             ]
         }
     ]

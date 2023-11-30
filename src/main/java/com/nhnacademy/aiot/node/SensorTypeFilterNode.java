@@ -17,11 +17,13 @@ public class SensorTypeFilterNode extends Node {
 
     @Override
     public void preprocess() {
+        log.info("start node : " + name);
         sensorTypes = Config.properties.getProperty("sensorTypes").split(",");
     }
 
     @Override
     public void process() {
+        
         for (Wire wire : inputPorts[0].getWires()) {
             if (wire.hasMessage()) {
                 Msg msg = wire.get();
