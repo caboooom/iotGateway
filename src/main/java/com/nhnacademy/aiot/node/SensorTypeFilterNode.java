@@ -4,7 +4,6 @@ import org.json.simple.JSONObject;
 import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.Wire;
 import com.nhnacademy.aiot.util.Config;
-import lombok.extern.log4j.Log4j2;
 
 public class SensorTypeFilterNode extends Node {
 

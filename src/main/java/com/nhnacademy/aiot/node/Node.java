@@ -36,8 +36,9 @@ public class Node implements Runnable {
     public void preprocess() {
         log.info("start node : " + name);
     }
-
+    
     public void process() {
+        //이 메서드는 상속받는 하위 클래스에서 구현한다.
     }
 
     public void postprocess() {
