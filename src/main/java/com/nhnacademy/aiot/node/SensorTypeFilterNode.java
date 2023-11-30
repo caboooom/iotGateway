@@ -1,7 +1,5 @@
 package com.nhnacademy.aiot.node;
 
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.json.simple.JSONObject;
 import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.Wire;
