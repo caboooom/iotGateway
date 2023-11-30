@@ -6,13 +6,13 @@ import com.nhnacademy.aiot.Wire;
 import com.nhnacademy.aiot.util.Config;
 import lombok.extern.log4j.Log4j2;
 
-@Log4j2
 public class SensorTypeFilterNode extends Node {
 
     String[] sensorTypes;
 
     public SensorTypeFilterNode(int inputPortCount, int outputPortCount) {
         super(inputPortCount, outputPortCount);
+        
     }
 
     @Override
@@ -22,6 +22,7 @@ public class SensorTypeFilterNode extends Node {
 
     @Override
     public void process() {
+        
         for (Wire wire : inputPorts[0].getWires()) {
             if (wire.hasMessage()) {
                 Msg msg = wire.get();

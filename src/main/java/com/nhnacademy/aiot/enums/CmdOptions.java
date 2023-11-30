@@ -14,6 +14,7 @@ public enum CmdOptions {
         this.key = key;
         this.value = value;
         this.description = description;
+
     }
 
     public String getValue() {

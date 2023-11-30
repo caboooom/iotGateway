@@ -7,9 +7,13 @@ import lombok.extern.log4j.Log4j2;
 
 @Log4j2
 public class Node implements Runnable {
+    
     private Thread thread;
     protected Port[] inputPorts;
     protected Port[] outputPorts;
+    private static int nodeCount;
+    protected String name;
+    
 
     protected int inCount = 0;
     protected int outCount = 0;
@@ -18,7 +22,8 @@ public class Node implements Runnable {
     protected Node(int inputPortCount, int outputPortCount) {
         this.inputPorts = new Port[inputPortCount];
         this.outputPorts = new Port[outputPortCount];
-
+        name = getClass().getSimpleName()+ "_" + nodeCount++;
+        log.info("create node : " + name);
         for (int i = 0; i < inputPortCount; i++) {
             inputPorts[i] = new Port();
         }
@@ -29,7 +34,7 @@ public class Node implements Runnable {
     }
 
     public void preprocess() {
-        log.info(this.getClass().getSimpleName() + " - start");
+        log.info("start node : " + name);
     }
 
     public void process() {
