@@ -17,7 +17,7 @@ public class SensorTypeFilterNode extends Node {
 
     @Override
     public void preprocess() {
-        sensorTypes = Config.properties.getProperty("sensorTypes").split(",");
+        sensorTypes = Config.getProperty("sensorTypes").split(",");
     }
 
     @Override
@@ -29,11 +29,6 @@ public class SensorTypeFilterNode extends Node {
             }
         }
     }
-
-
-
-
-
 
     private void processMessage(Msg msg) {
         JSONObject payload = (JSONObject) msg.getPayload().get("object");
@@ -47,6 +42,7 @@ public class SensorTypeFilterNode extends Node {
 
         for (String sensor : sensorTypes) {
             if (payload.get(sensor) != null) {
+                
                 Msg outMsg = createMessage(deviceId, sensor, (Double) payload.get(sensor), place);
                 out(outMsg);
             }
@@ -63,7 +59,6 @@ public class SensorTypeFilterNode extends Node {
         outPayload.put("time", System.currentTimeMillis());
         outPayload.put(sensor, sensorValue);
         outMsg.setPayload(outPayload);
-
         return outMsg;
     }
 }
