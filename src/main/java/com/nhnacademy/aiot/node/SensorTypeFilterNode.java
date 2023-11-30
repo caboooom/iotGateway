@@ -32,6 +32,11 @@ public class SensorTypeFilterNode extends Node {
         }
     }
 
+
+
+
+
+
     private void processMessage(Msg msg) {
         JSONObject payload = (JSONObject) msg.getPayload().get("object");
 
