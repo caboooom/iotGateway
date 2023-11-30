@@ -6,7 +6,8 @@ import java.util.Properties;
 
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
-import org.json.JSONObject;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
@@ -51,14 +52,14 @@ public class Config {
                 String filePath = commandLine.getOptionValue("c");
 
                 try{
-                    JSONParser jsonParser = new JSONParser();
+                    JSONParser jsonParser = JSONUtils.getParser();
                     JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader(filePath));
 
                     if (jsonObject.get("applicationName") != null){
                         properties.setProperty("applicationName", jsonObject.get("applicationName").toString());
                     }
                     if (jsonObject.get("sensors") != null){
-                        String sensorListStr = jsonObject.getJSONArray("sensors").toString(); // " ['temperature', 'humidity', 'co2'] "
+                        String sensorListStr = ((JSONArray)jsonObject.get("sensors")).toString(); // " ['temperature', 'humidity', 'co2'] "
                         properties.setProperty("sensorTypes", sensorListStr.substring(1, sensorListStr.length()-1)); // " 'temperature', 'humidity', 'co2' "
 
                     }
@@ -78,6 +79,7 @@ public class Config {
             }
             
         } catch (ParseException e) {
+            
             e.printStackTrace();
         }
 
