@@ -19,6 +19,7 @@ public class MqttOutNode extends Node{
 
        
         if(inputWires[0].hasMessage()){
+            inCount++;
             Msg msg = inputWires[0].get();
             String publisherId = UUID.randomUUID().toString();
 

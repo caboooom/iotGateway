@@ -7,6 +7,9 @@ public class Node implements Runnable{
     Thread thread;
     Wire[] inputWires;
     Wire[] outputWires;
+    int inCount = 0;
+    int outCount = 0;
+    int errCount = 0;
     
     protected Node(int inputWireCount, int outputWireCount){
 
@@ -15,6 +18,7 @@ public class Node implements Runnable{
     }
 
     public void preprocess(){
+
     }
 
     public void process(){
@@ -27,10 +31,12 @@ public class Node implements Runnable{
     public void out(Msg outMessage){
        
         if(outMessage != null){
+            outCount++;
             for (Wire wire : outputWires) {
                 wire.put(outMessage);
             }
         }
+        errCount++;
     }
 
     public void setInputWire(int wireIdx, Wire inpuWire) {
@@ -52,13 +58,14 @@ public class Node implements Runnable{
         preprocess();
 
         while ( (thread != null) && thread.isAlive()) {
-            process();
             try {
+                process();
                 Thread.sleep(100);
             } catch (InterruptedException e) {
                 if (thread != null) {
                     thread.interrupt();
                 }
+                errCount++;
             }
         }
         
