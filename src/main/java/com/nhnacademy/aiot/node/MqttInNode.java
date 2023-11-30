@@ -12,9 +12,11 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
 import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.util.JSONUtils;
+import lombok.extern.log4j.Log4j2;
 
+@Log4j2
 public class MqttInNode extends Node{
-
+    private static final String SERVER_URI = "tcp://localhost:1883";
     public MqttInNode(int outputWireCount) {
         super(0 ,outputWireCount);
     }
@@ -26,7 +28,8 @@ public class MqttInNode extends Node{
                         return new Msg(topic, jsonObject);
 
                     } catch (ParseException e) {
-                        //error count++
+                        errCount++;
+                        log.error(e);
                     }
             }
             return null;
@@ -35,7 +38,7 @@ public class MqttInNode extends Node{
     @Override
     public void process() {
         String publisherId = UUID.randomUUID().toString();
-        try (IMqttClient client = new MqttClient("tcp://ems.nhnacademy.com:1883", publisherId)) {
+        try (IMqttClient client = new MqttClient(SERVER_URI, publisherId)) {
 
             setMqttOptions();
 
@@ -49,15 +52,15 @@ public class MqttInNode extends Node{
                 }
                 receivedSignal.countDown();
             };
-            String[] topics = {"+/+/device/+/+/up","+/+/device/+/+/up"}; // 여러 토픽
+            String[] topics = {"asd","dgfsdgsdgsdfgdergderdger"}; // 여러 토픽
             client.subscribe( topics , new IMqttMessageListener[] {listener,listener} );
             receivedSignal.await(1, TimeUnit.MINUTES);
             client.disconnect();
         } catch (MqttException e) {
-            e.printStackTrace();
+            log.error(e);
         } 
          catch (InterruptedException e) {
-             e.printStackTrace();
+            log.error(e);
         }
         
     }

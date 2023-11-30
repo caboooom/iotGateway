@@ -24,7 +24,9 @@ public class SensorTypeFilterNode extends Node {
     public void process() {
         for (Wire wire : inputPorts[0].getWires()) {
             if (wire.hasMessage()) {
+                
                 Msg msg = wire.get();
+                log.debug(msg);
                 processMessage(msg);
             }
         }
@@ -34,6 +36,7 @@ public class SensorTypeFilterNode extends Node {
         JSONObject payload = (JSONObject) msg.getPayload().get("object");
 
         if (payload == null) {
+            errCount++;
             return;
         }
 

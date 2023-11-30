@@ -1,5 +1,6 @@
 package com.nhnacademy.aiot.node;
 
+
 import java.util.UUID;
 import org.eclipse.paho.client.mqttv3.IMqttClient;
 import org.eclipse.paho.client.mqttv3.MqttClient;
@@ -9,7 +10,9 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.Port;
 import com.nhnacademy.aiot.Wire;
+import lombok.extern.log4j.Log4j2;
 
+@Log4j2
 public class MqttOutNode extends Node {
 
 
@@ -29,6 +32,7 @@ public class MqttOutNode extends Node {
     private void pubMQTT(Wire wire) {
         if (wire.hasMessage()) {
             inCount++;
+            // logCounts();
             Msg msg = wire.get();
             String publisherId = UUID.randomUUID().toString();
 

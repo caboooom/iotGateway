@@ -16,6 +16,7 @@ public class Node implements Runnable {
     protected int outCount = 0;
     protected int errCount = 0;
 
+
     protected Node(int inputPortCount, int outputPortCount){
         this.inputPorts = new Port[inputPortCount];
         this.outputPorts = new Port[outputPortCount];
@@ -46,13 +47,14 @@ public class Node implements Runnable {
             outCount++;
         }
         outputPorts[0].out(outMessage);
-            
     }
 
     public void out(Msg... outMessages) {
         
         for (int i = 0; i < outMessages.length; i++) {
-            if(outMessages[i] != null) outCount++;
+            if(outMessages[i] != null){
+                outCount++;
+            } 
             outputPorts[i].out(outMessages[i]);
         }
     }
@@ -81,15 +83,20 @@ public class Node implements Runnable {
         while ((thread != null) && thread.isAlive()) {
             try {
                 process();
-                Thread.sleep(100);
+                Thread.sleep(5000);
             } catch (InterruptedException e) {
                 if (thread != null) {
                     thread.interrupt();
                 }
                 errCount++;
             }
+            logCounts();
         }
-
+        
         postprocess();
+    }
+
+    public void logCounts(){
+        log.debug(getClass().getSimpleName() + " - Counts: IN=" + inCount + ", OUT=" + outCount + ", ERR=" + errCount);        
     }
 }

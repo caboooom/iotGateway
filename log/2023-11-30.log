@@ -250,3 +250,2113 @@
 [DEBUG] 2023-11-30T09:37:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":19.8,"time":1701304638688}}
 [DEBUG] 2023-11-30T09:37:19  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":23.0,"time":1701304638688}}
 [DEBUG] 2023-11-30T09:37:19  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":632.0,"time":1701304638688}}
+[INFO] 2023-11-30T13:51:27  MqttOutNode - start
+[INFO] 2023-11-30T13:51:27  MqttInNode - start
+[INFO] 2023-11-30T13:51:27  DebugNode - start
+[INFO] 2023-11-30T13:57:56  MqttInNode - start
+[INFO] 2023-11-30T13:57:56  MqttOutNode - start
+[INFO] 2023-11-30T13:57:56  DebugNode - start
+[DEBUG] 2023-11-30T13:57:59  DebugNode {topic : "24e124126c457594/d/temperature", payload :{"temperature":2.8000000000000003,"time":1701320279928}}
+[DEBUG] 2023-11-30T13:58:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":21.1,"time":1701320293860}}
+[DEBUG] 2023-11-30T13:58:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":29.5,"time":1701320293860}}
+[DEBUG] 2023-11-30T13:58:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.8,"time":1701320298767}}
+[DEBUG] 2023-11-30T13:58:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":23.0,"time":1701320298767}}
+[DEBUG] 2023-11-30T13:58:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1096.0,"time":1701320298767}}
+[INFO] 2023-11-30T14:00:32  MqttOutNode - start
+[INFO] 2023-11-30T14:00:32  MqttInNode - start
+[INFO] 2023-11-30T14:00:32  DebugNode - start
+[DEBUG] 2023-11-30T14:00:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.700000000000003,"time":1701320433709}}
+[DEBUG] 2023-11-30T14:00:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701320433710}}
+[DEBUG] 2023-11-30T14:00:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":22.200000000000003,"time":1701320434811}}
+[DEBUG] 2023-11-30T14:00:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":26.5,"time":1701320434811}}
+[DEBUG] 2023-11-30T14:00:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":23.8,"time":1701320437917}}
+[DEBUG] 2023-11-30T14:00:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":22.5,"time":1701320437917}}
+[DEBUG] 2023-11-30T14:00:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701320446237}}
+[DEBUG] 2023-11-30T14:00:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":19.5,"time":1701320446237}}
+[DEBUG] 2023-11-30T14:00:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":22.3,"time":1701320450044}}
+[DEBUG] 2023-11-30T14:00:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701320450044}}
+[DEBUG] 2023-11-30T14:00:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1429.0,"time":1701320450044}}
+[DEBUG] 2023-11-30T14:01:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":21.1,"time":1701320473895}}
+[DEBUG] 2023-11-30T14:01:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":29.5,"time":1701320473895}}
+[DEBUG] 2023-11-30T14:01:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.700000000000003,"time":1701320478806}}
+[DEBUG] 2023-11-30T14:01:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":23.0,"time":1701320478806}}
+[DEBUG] 2023-11-30T14:01:19  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1073.0,"time":1701320478806}}
+[DEBUG] 2023-11-30T14:01:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.8,"time":1701320493641}}
+[DEBUG] 2023-11-30T14:01:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701320493641}}
+[DEBUG] 2023-11-30T14:01:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":22.200000000000003,"time":1701320494743}}
+[DEBUG] 2023-11-30T14:01:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":26.5,"time":1701320494743}}
+[DEBUG] 2023-11-30T14:01:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":23.8,"time":1701320497949}}
+[DEBUG] 2023-11-30T14:01:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":22.5,"time":1701320497949}}
+[DEBUG] 2023-11-30T14:01:41  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.5,"time":1701320501558}}
+[DEBUG] 2023-11-30T14:01:41  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.5,"time":1701320501558}}
+[DEBUG] 2023-11-30T14:01:43  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":19.200000000000003,"time":1701320503462}}
+[DEBUG] 2023-11-30T14:01:43  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701320503462}}
+[DEBUG] 2023-11-30T14:01:43  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":856.0,"time":1701320503462}}
+[DEBUG] 2023-11-30T14:01:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701320506168}}
+[DEBUG] 2023-11-30T14:01:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":19.5,"time":1701320506168}}
+[DEBUG] 2023-11-30T14:01:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":22.400000000000002,"time":1701320509676}}
+[DEBUG] 2023-11-30T14:01:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701320509676}}
+[DEBUG] 2023-11-30T14:01:49  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1429.0,"time":1701320509676}}
+[DEBUG] 2023-11-30T14:01:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":22.400000000000002,"time":1701320509776}}
+[DEBUG] 2023-11-30T14:01:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701320509776}}
+[DEBUG] 2023-11-30T14:01:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1429.0,"time":1701320509776}}
+[DEBUG] 2023-11-30T14:02:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":21.200000000000003,"time":1701320533830}}
+[DEBUG] 2023-11-30T14:02:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":29.5,"time":1701320533831}}
+[DEBUG] 2023-11-30T14:02:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.6,"time":1701320538741}}
+[DEBUG] 2023-11-30T14:02:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":23.0,"time":1701320538741}}
+[DEBUG] 2023-11-30T14:02:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1068.0,"time":1701320538741}}
+[DEBUG] 2023-11-30T14:02:22  DebugNode {topic : "24e124136d151485/d/temperature", payload :{"temperature":23.3,"time":1701320542048}}
+[DEBUG] 2023-11-30T14:02:22  DebugNode {topic : "24e124136d151485/d/humidity", payload :{"humidity":23.0,"time":1701320542048}}
+[DEBUG] 2023-11-30T14:02:26  DebugNode {topic : "24e124136d151561/d/temperature", payload :{"temperature":15.700000000000001,"time":1701320546255}}
+[DEBUG] 2023-11-30T14:02:26  DebugNode {topic : "24e124136d151561/d/humidity", payload :{"humidity":32.0,"time":1701320546255}}
+[DEBUG] 2023-11-30T14:02:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":22.200000000000003,"time":1701320554771}}
+[DEBUG] 2023-11-30T14:02:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":26.5,"time":1701320554771}}
+[DEBUG] 2023-11-30T14:02:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":23.8,"time":1701320557876}}
+[DEBUG] 2023-11-30T14:02:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":22.5,"time":1701320557876}}
+[DEBUG] 2023-11-30T14:02:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701320566193}}
+[DEBUG] 2023-11-30T14:02:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":19.5,"time":1701320566193}}
+[DEBUG] 2023-11-30T14:02:50  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":22.400000000000002,"time":1701320570001}}
+[DEBUG] 2023-11-30T14:02:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701320570001}}
+[DEBUG] 2023-11-30T14:02:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1458.0,"time":1701320570001}}
+[DEBUG] 2023-11-30T14:03:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":21.200000000000003,"time":1701320593944}}
+[DEBUG] 2023-11-30T14:03:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":29.5,"time":1701320593944}}
+[DEBUG] 2023-11-30T14:03:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.700000000000003,"time":1701320598753}}
+[DEBUG] 2023-11-30T14:03:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":23.0,"time":1701320598753}}
+[DEBUG] 2023-11-30T14:03:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1068.0,"time":1701320598753}}
+[DEBUG] 2023-11-30T14:03:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.900000000000002,"time":1701320613680}}
+[DEBUG] 2023-11-30T14:03:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":18.0,"time":1701320613680}}
+[DEBUG] 2023-11-30T14:03:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":22.200000000000003,"time":1701320614781}}
+[DEBUG] 2023-11-30T14:03:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":26.5,"time":1701320614781}}
+[DEBUG] 2023-11-30T14:03:35  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":22.200000000000003,"time":1701320614881}}
+[DEBUG] 2023-11-30T14:03:35  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":26.5,"time":1701320614882}}
+[DEBUG] 2023-11-30T14:03:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":23.8,"time":1701320617887}}
+[DEBUG] 2023-11-30T14:03:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701320617887}}
+[DEBUG] 2023-11-30T14:03:43  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":20.5,"time":1701320623397}}
+[DEBUG] 2023-11-30T14:03:43  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":33.0,"time":1701320623397}}
+[DEBUG] 2023-11-30T14:03:45  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":19.3,"time":1701320625300}}
+[DEBUG] 2023-11-30T14:03:45  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":31.5,"time":1701320625301}}
+[DEBUG] 2023-11-30T14:03:45  DebugNode {topic : "24e124126d152590/d/co2", payload :{"co2":825.0,"time":1701320625301}}
+[DEBUG] 2023-11-30T14:03:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701320626202}}
+[DEBUG] 2023-11-30T14:03:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":19.5,"time":1701320626202}}
+[DEBUG] 2023-11-30T14:03:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":22.400000000000002,"time":1701320629708}}
+[DEBUG] 2023-11-30T14:03:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701320629708}}
+[DEBUG] 2023-11-30T14:03:49  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1458.0,"time":1701320629708}}
+[INFO] 2023-11-30T14:03:56  MqttOutNode - start
+[INFO] 2023-11-30T14:03:56  MqttInNode - start
+[INFO] 2023-11-30T14:03:56  DebugNode - start
+[DEBUG] 2023-11-30T14:04:13  MqttInNode 1
+[DEBUG] 2023-11-30T14:04:13  SensorTypeFilterNode 1
+[DEBUG] 2023-11-30T14:04:13  SensorTypeFilterNode 2
+[DEBUG] 2023-11-30T14:04:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":21.200000000000003,"time":1701320653913}}
+[DEBUG] 2023-11-30T14:04:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":29.5,"time":1701320653914}}
+[DEBUG] 2023-11-30T14:04:18  MqttInNode 2
+[DEBUG] 2023-11-30T14:04:18  SensorTypeFilterNode 3
+[DEBUG] 2023-11-30T14:04:18  SensorTypeFilterNode 4
+[DEBUG] 2023-11-30T14:04:18  SensorTypeFilterNode 5
+[DEBUG] 2023-11-30T14:04:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.700000000000003,"time":1701320658626}}
+[DEBUG] 2023-11-30T14:04:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":23.0,"time":1701320658626}}
+[DEBUG] 2023-11-30T14:04:18  MqttInNode 3
+[DEBUG] 2023-11-30T14:04:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1079.0,"time":1701320658626}}
+[DEBUG] 2023-11-30T14:04:33  MqttInNode 4
+[DEBUG] 2023-11-30T14:04:33  SensorTypeFilterNode 6
+[DEBUG] 2023-11-30T14:04:33  SensorTypeFilterNode 7
+[DEBUG] 2023-11-30T14:04:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.900000000000002,"time":1701320673657}}
+[DEBUG] 2023-11-30T14:04:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701320673657}}
+[DEBUG] 2023-11-30T14:04:34  MqttInNode 5
+[DEBUG] 2023-11-30T14:04:34  SensorTypeFilterNode 8
+[DEBUG] 2023-11-30T14:04:34  SensorTypeFilterNode 9
+[DEBUG] 2023-11-30T14:04:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":22.200000000000003,"time":1701320674760}}
+[DEBUG] 2023-11-30T14:04:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":26.5,"time":1701320674760}}
+[DEBUG] 2023-11-30T14:04:35  MqttInNode 6
+[DEBUG] 2023-11-30T14:04:35  SensorTypeFilterNode 10
+[DEBUG] 2023-11-30T14:04:35  SensorTypeFilterNode 11
+[DEBUG] 2023-11-30T14:04:35  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.400000000000002,"time":1701320675862}}
+[DEBUG] 2023-11-30T14:04:35  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":22.5,"time":1701320675863}}
+[DEBUG] 2023-11-30T14:04:37  MqttInNode 7
+[DEBUG] 2023-11-30T14:04:37  SensorTypeFilterNode 12
+[DEBUG] 2023-11-30T14:04:37  SensorTypeFilterNode 13
+[DEBUG] 2023-11-30T14:04:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":23.900000000000002,"time":1701320677967}}
+[DEBUG] 2023-11-30T14:04:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":23.0,"time":1701320677968}}
+[DEBUG] 2023-11-30T14:04:46  MqttInNode 8
+[DEBUG] 2023-11-30T14:04:46  SensorTypeFilterNode 14
+[DEBUG] 2023-11-30T14:04:46  SensorTypeFilterNode 15
+[DEBUG] 2023-11-30T14:04:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701320686185}}
+[DEBUG] 2023-11-30T14:04:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":19.5,"time":1701320686186}}
+[DEBUG] 2023-11-30T14:04:49  MqttInNode 9
+[DEBUG] 2023-11-30T14:04:49  SensorTypeFilterNode 16
+[DEBUG] 2023-11-30T14:04:49  SensorTypeFilterNode 17
+[DEBUG] 2023-11-30T14:04:49  SensorTypeFilterNode 18
+[DEBUG] 2023-11-30T14:04:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":22.400000000000002,"time":1701320689892}}
+[DEBUG] 2023-11-30T14:04:50  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.5,"time":1701320689893}}
+[DEBUG] 2023-11-30T14:04:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1469.0,"time":1701320689893}}
+[INFO] 2023-11-30T14:07:01  MqttInNode - start
+[INFO] 2023-11-30T14:07:01  MqttOutNode - start
+[INFO] 2023-11-30T14:07:01  DebugNode - start
+[DEBUG] 2023-11-30T14:07:13  MqttInNode 1
+[DEBUG] 2023-11-30T14:07:13  SensorTypeFilterNode 1
+[DEBUG] 2023-11-30T14:07:13  SensorTypeFilterNode 2
+[DEBUG] 2023-11-30T14:07:13  MqttOutNode 1
+[DEBUG] 2023-11-30T14:07:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":21.200000000000003,"time":1701320833912}}
+[DEBUG] 2023-11-30T14:07:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":29.5,"time":1701320833913}}
+[DEBUG] 2023-11-30T14:07:14  MqttOutNode 2
+[DEBUG] 2023-11-30T14:07:18  MqttInNode 2
+[DEBUG] 2023-11-30T14:07:18  SensorTypeFilterNode 3
+[DEBUG] 2023-11-30T14:07:18  SensorTypeFilterNode 4
+[DEBUG] 2023-11-30T14:07:18  SensorTypeFilterNode 5
+[DEBUG] 2023-11-30T14:07:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.6,"time":1701320838524}}
+[DEBUG] 2023-11-30T14:07:18  MqttOutNode 3
+[DEBUG] 2023-11-30T14:07:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":23.0,"time":1701320838525}}
+[DEBUG] 2023-11-30T14:07:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1076.0,"time":1701320838526}}
+[DEBUG] 2023-11-30T14:07:18  MqttInNode 3
+[DEBUG] 2023-11-30T14:07:19  MqttOutNode 4
+[DEBUG] 2023-11-30T14:07:19  MqttOutNode 5
+[INFO] 2023-11-30T14:09:31  DebugNode - start
+[INFO] 2023-11-30T14:09:31  MqttOutNode - start
+[INFO] 2023-11-30T14:09:31  MqttInNode - start
+[DEBUG] 2023-11-30T14:09:32  MqttInNodeOUT 1
+[DEBUG] 2023-11-30T14:09:32  SensorTypeFilterNodeOUT 1
+[DEBUG] 2023-11-30T14:09:32  SensorTypeFilterNodeOUT 2
+[DEBUG] 2023-11-30T14:09:32  MqttOutNodeIN 1
+[DEBUG] 2023-11-30T14:09:32  DebugNode {topic : "24e124136d151836/d/temperature", payload :{"temperature":21.6,"time":1701320972551}}
+[DEBUG] 2023-11-30T14:09:32  DebugNode {topic : "24e124136d151836/d/humidity", payload :{"humidity":23.5,"time":1701320972552}}
+[DEBUG] 2023-11-30T14:09:32  MqttOutNodeIN 2
+[DEBUG] 2023-11-30T14:09:33  MqttInNodeOUT 2
+[DEBUG] 2023-11-30T14:09:33  SensorTypeFilterNodeOUT 3
+[DEBUG] 2023-11-30T14:09:33  SensorTypeFilterNodeOUT 4
+[DEBUG] 2023-11-30T14:09:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":24.0,"time":1701320973654}}
+[DEBUG] 2023-11-30T14:09:33  MqttOutNodeIN 3
+[DEBUG] 2023-11-30T14:09:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701320973654}}
+[DEBUG] 2023-11-30T14:09:34  MqttOutNodeIN 4
+[DEBUG] 2023-11-30T14:09:34  MqttInNodeOUT 3
+[DEBUG] 2023-11-30T14:09:34  SensorTypeFilterNodeOUT 5
+[DEBUG] 2023-11-30T14:09:34  SensorTypeFilterNodeOUT 6
+[DEBUG] 2023-11-30T14:09:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":22.200000000000003,"time":1701320974858}}
+[DEBUG] 2023-11-30T14:09:34  MqttOutNodeIN 5
+[DEBUG] 2023-11-30T14:09:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":26.5,"time":1701320974858}}
+[DEBUG] 2023-11-30T14:09:35  MqttOutNodeIN 6
+[INFO] 2023-11-30T14:10:01  MqttOutNode - start
+[INFO] 2023-11-30T14:10:01  MqttInNode - start
+[INFO] 2023-11-30T14:10:01  DebugNode - start
+[DEBUG] 2023-11-30T14:10:02  MqttInNode OUT 1
+[DEBUG] 2023-11-30T14:10:05  MqttInNode OUT 2
+[DEBUG] 2023-11-30T14:10:13  MqttInNode OUT 3
+[DEBUG] 2023-11-30T14:10:13  SensorTypeFilterNode OUT 1
+[DEBUG] 2023-11-30T14:10:13  SensorTypeFilterNode OUT 2
+[DEBUG] 2023-11-30T14:10:13  MqttOutNode IN 1
+[DEBUG] 2023-11-30T14:10:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":21.200000000000003,"time":1701321013867}}
+[DEBUG] 2023-11-30T14:10:14  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":30.0,"time":1701321013869}}
+[DEBUG] 2023-11-30T14:10:14  MqttOutNode IN 2
+[DEBUG] 2023-11-30T14:10:15  MqttInNode OUT 4
+[DEBUG] 2023-11-30T14:10:15  SensorTypeFilterNode OUT 3
+[DEBUG] 2023-11-30T14:10:15  SensorTypeFilterNode OUT 4
+[DEBUG] 2023-11-30T14:10:15  SensorTypeFilterNode OUT 5
+[DEBUG] 2023-11-30T14:10:15  DebugNode {topic : "24e124725d081175/d/temperature", payload :{"temperature":15.600000000000001,"time":1701321015875}}
+[DEBUG] 2023-11-30T14:10:15  MqttOutNode IN 3
+[DEBUG] 2023-11-30T14:10:15  DebugNode {topic : "24e124725d081175/d/humidity", payload :{"humidity":39.5,"time":1701321015875}}
+[DEBUG] 2023-11-30T14:10:16  DebugNode {topic : "24e124725d081175/d/co2", payload :{"co2":697.0,"time":1701321015875}}
+[DEBUG] 2023-11-30T14:10:16  MqttOutNode IN 4
+[DEBUG] 2023-11-30T14:10:16  MqttOutNode IN 5
+[DEBUG] 2023-11-30T14:10:17  MqttInNode OUT 5
+[DEBUG] 2023-11-30T14:10:18  MqttInNode OUT 6
+[DEBUG] 2023-11-30T14:10:18  SensorTypeFilterNode OUT 6
+[DEBUG] 2023-11-30T14:10:18  SensorTypeFilterNode OUT 7
+[DEBUG] 2023-11-30T14:10:18  SensorTypeFilterNode OUT 8
+[DEBUG] 2023-11-30T14:10:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":21.6,"time":1701321018581}}
+[DEBUG] 2023-11-30T14:10:18  MqttOutNode IN 6
+[DEBUG] 2023-11-30T14:10:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":23.0,"time":1701321018581}}
+[DEBUG] 2023-11-30T14:10:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1097.0,"time":1701321018581}}
+[DEBUG] 2023-11-30T14:10:19  MqttOutNode IN 7
+[DEBUG] 2023-11-30T14:10:19  MqttOutNode IN 8
+[DEBUG] 2023-11-30T14:10:25  MqttInNode OUT 7
+[DEBUG] 2023-11-30T14:10:33  MqttInNode OUT 8
+[DEBUG] 2023-11-30T14:10:33  MqttInNode OUT 9
+[DEBUG] 2023-11-30T14:10:33  SensorTypeFilterNode OUT 9
+[DEBUG] 2023-11-30T14:10:33  SensorTypeFilterNode OUT 10
+[DEBUG] 2023-11-30T14:10:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":24.1,"time":1701321033713}}
+[DEBUG] 2023-11-30T14:10:33  MqttOutNode IN 9
+[DEBUG] 2023-11-30T14:10:33  SensorTypeFilterNode OUT 11
+[DEBUG] 2023-11-30T14:10:33  SensorTypeFilterNode OUT 12
+[DEBUG] 2023-11-30T14:10:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701321033713}}
+[DEBUG] 2023-11-30T14:10:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":24.1,"time":1701321033813}}
+[DEBUG] 2023-11-30T14:10:34  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701321033814}}
+[DEBUG] 2023-11-30T14:10:34  MqttOutNode IN 10
+[DEBUG] 2023-11-30T14:10:34  MqttOutNode IN 11
+[DEBUG] 2023-11-30T14:10:34  MqttInNode OUT 10
+[DEBUG] 2023-11-30T14:10:35  SensorTypeFilterNode OUT 13
+[DEBUG] 2023-11-30T14:10:35  SensorTypeFilterNode OUT 14
+[DEBUG] 2023-11-30T14:10:35  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":22.200000000000003,"time":1701321035016}}
+[DEBUG] 2023-11-30T14:10:35  MqttOutNode IN 12
+[DEBUG] 2023-11-30T14:10:35  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":26.0,"time":1701321035017}}
+[DEBUG] 2023-11-30T14:10:35  MqttOutNode IN 13
+[DEBUG] 2023-11-30T14:10:35  MqttOutNode IN 14
+[DEBUG] 2023-11-30T14:10:37  MqttInNode OUT 11
+[DEBUG] 2023-11-30T14:10:37  SensorTypeFilterNode OUT 15
+[DEBUG] 2023-11-30T14:10:37  SensorTypeFilterNode OUT 16
+[DEBUG] 2023-11-30T14:10:37  MqttOutNode IN 15
+[DEBUG] 2023-11-30T14:10:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":24.0,"time":1701321037921}}
+[DEBUG] 2023-11-30T14:10:38  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":22.5,"time":1701321037922}}
+[DEBUG] 2023-11-30T14:10:38  MqttOutNode IN 16
+[DEBUG] 2023-11-30T14:10:41  MqttInNode OUT 12
+[DEBUG] 2023-11-30T14:10:41  SensorTypeFilterNode OUT 17
+[DEBUG] 2023-11-30T14:10:41  SensorTypeFilterNode OUT 18
+[DEBUG] 2023-11-30T14:10:41  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.400000000000002,"time":1701321041329}}
+[DEBUG] 2023-11-30T14:10:41  MqttOutNode IN 17
+[DEBUG] 2023-11-30T14:10:41  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":22.5,"time":1701321041330}}
+[DEBUG] 2023-11-30T14:10:41  MqttOutNode IN 18
+[INFO] 2023-11-30T14:17:37  MqttOutNode - start
+[INFO] 2023-11-30T14:17:37  MqttInNode - start
+[INFO] 2023-11-30T14:17:37  DebugNode - start
+[INFO] 2023-11-30T15:39:39  MqttOutNode - start
+[INFO] 2023-11-30T15:39:39  MqttInNode - start
+[INFO] 2023-11-30T15:39:39  DebugNode - start
+[DEBUG] 2023-11-30T15:39:45  MqttInNode - Counts: IN=0, OUT=1, ERR=0
+[DEBUG] 2023-11-30T15:39:45  SensorTypeFilterNode - Counts: IN=0, OUT=1, ERR=0
+[DEBUG] 2023-11-30T15:39:45  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[DEBUG] 2023-11-30T15:39:45  MqttOutNode - Counts: IN=1, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:39:45  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701326385965}}
+[DEBUG] 2023-11-30T15:39:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":19.0,"time":1701326385966}}
+[DEBUG] 2023-11-30T15:39:46  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:39:49  MqttInNode - Counts: IN=0, OUT=2, ERR=0
+[DEBUG] 2023-11-30T15:39:49  SensorTypeFilterNode - Counts: IN=0, OUT=3, ERR=0
+[DEBUG] 2023-11-30T15:39:49  SensorTypeFilterNode - Counts: IN=0, OUT=4, ERR=0
+[DEBUG] 2023-11-30T15:39:49  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[DEBUG] 2023-11-30T15:39:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":23.0,"time":1701326389674}}
+[DEBUG] 2023-11-30T15:39:49  MqttOutNode - Counts: IN=3, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:39:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":24.5,"time":1701326389675}}
+[DEBUG] 2023-11-30T15:39:49  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1527.0,"time":1701326389675}}
+[DEBUG] 2023-11-30T15:39:50  MqttOutNode - Counts: IN=4, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:39:50  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:40:01  MqttInNode - Counts: IN=0, OUT=3, ERR=0
+[DEBUG] 2023-11-30T15:40:01  SensorTypeFilterNode - Counts: IN=0, OUT=6, ERR=0
+[DEBUG] 2023-11-30T15:40:01  SensorTypeFilterNode - Counts: IN=0, OUT=7, ERR=0
+[DEBUG] 2023-11-30T15:40:01  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.400000000000002,"time":1701326401094}}
+[DEBUG] 2023-11-30T15:40:01  MqttOutNode - Counts: IN=6, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:40:01  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":22.0,"time":1701326401094}}
+[DEBUG] 2023-11-30T15:40:01  MqttOutNode - Counts: IN=7, OUT=0, ERR=0
+[INFO] 2023-11-30T15:42:33  MqttInNode - start
+[INFO] 2023-11-30T15:42:33  MqttOutNode - start
+[INFO] 2023-11-30T15:42:33  DebugNode - start
+[TRACE] 2023-11-30T15:42:33  MqttInNode - Counts: IN=0, OUT=1, ERR=0
+[TRACE] 2023-11-30T15:42:33  SensorTypeFilterNode - Counts: IN=0, OUT=1, ERR=0
+[TRACE] 2023-11-30T15:42:33  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[TRACE] 2023-11-30T15:42:33  MqttOutNode - Counts: IN=1, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:42:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.3,"time":1701326553538}}
+[DEBUG] 2023-11-30T15:42:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701326553539}}
+[TRACE] 2023-11-30T15:42:33  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[TRACE] 2023-11-30T15:42:34  MqttInNode - Counts: IN=0, OUT=2, ERR=0
+[TRACE] 2023-11-30T15:42:34  SensorTypeFilterNode - Counts: IN=0, OUT=3, ERR=0
+[TRACE] 2023-11-30T15:42:34  SensorTypeFilterNode - Counts: IN=0, OUT=4, ERR=0
+[DEBUG] 2023-11-30T15:42:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":22.700000000000003,"time":1701326554641}}
+[TRACE] 2023-11-30T15:42:34  MqttOutNode - Counts: IN=3, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:42:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":25.0,"time":1701326554642}}
+[TRACE] 2023-11-30T15:42:35  MqttOutNode - Counts: IN=4, OUT=0, ERR=0
+[TRACE] 2023-11-30T15:42:37  MqttInNode - Counts: IN=0, OUT=3, ERR=0
+[TRACE] 2023-11-30T15:42:37  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[TRACE] 2023-11-30T15:42:37  SensorTypeFilterNode - Counts: IN=0, OUT=6, ERR=0
+[DEBUG] 2023-11-30T15:42:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":25.0,"time":1701326557848}}
+[TRACE] 2023-11-30T15:42:37  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:42:37  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":21.5,"time":1701326557848}}
+[TRACE] 2023-11-30T15:42:38  MqttOutNode - Counts: IN=6, OUT=0, ERR=0
+[TRACE] 2023-11-30T15:42:45  MqttInNode - Counts: IN=0, OUT=4, ERR=0
+[TRACE] 2023-11-30T15:42:46  SensorTypeFilterNode - Counts: IN=0, OUT=7, ERR=0
+[TRACE] 2023-11-30T15:42:46  SensorTypeFilterNode - Counts: IN=0, OUT=8, ERR=0
+[DEBUG] 2023-11-30T15:42:46  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701326566068}}
+[TRACE] 2023-11-30T15:42:46  MqttOutNode - Counts: IN=7, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:42:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":19.0,"time":1701326566069}}
+[TRACE] 2023-11-30T15:42:46  MqttOutNode - Counts: IN=8, OUT=0, ERR=0
+[TRACE] 2023-11-30T15:42:49  MqttInNode - Counts: IN=0, OUT=5, ERR=0
+[TRACE] 2023-11-30T15:42:49  SensorTypeFilterNode - Counts: IN=0, OUT=9, ERR=0
+[TRACE] 2023-11-30T15:42:49  SensorTypeFilterNode - Counts: IN=0, OUT=10, ERR=0
+[TRACE] 2023-11-30T15:42:49  SensorTypeFilterNode - Counts: IN=0, OUT=11, ERR=0
+[TRACE] 2023-11-30T15:42:49  MqttOutNode - Counts: IN=9, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:42:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":23.1,"time":1701326569879}}
+[DEBUG] 2023-11-30T15:42:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":24.5,"time":1701326569879}}
+[DEBUG] 2023-11-30T15:42:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1497.0,"time":1701326569880}}
+[TRACE] 2023-11-30T15:42:50  MqttOutNode - Counts: IN=10, OUT=0, ERR=0
+[TRACE] 2023-11-30T15:42:50  MqttOutNode - Counts: IN=11, OUT=0, ERR=0
+[INFO] 2023-11-30T15:44:14  MqttInNode - start
+[INFO] 2023-11-30T15:44:14  DebugNode - start
+[INFO] 2023-11-30T15:44:14  MqttOutNode - start
+[DEBUG] 2023-11-30T15:44:16  MqttInNode - Counts: IN=0, OUT=1, ERR=0
+[DEBUG] 2023-11-30T15:44:16  SensorTypeFilterNode - Counts: IN=0, OUT=1, ERR=0
+[DEBUG] 2023-11-30T15:44:16  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[DEBUG] 2023-11-30T15:44:16  MqttOutNode - Counts: IN=1, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:44:16  DebugNode {topic : "24e124136d151485/d/temperature", payload :{"temperature":24.0,"time":1701326656678}}
+[DEBUG] 2023-11-30T15:44:16  DebugNode {topic : "24e124136d151485/d/humidity", payload :{"humidity":21.5,"time":1701326656678}}
+[DEBUG] 2023-11-30T15:44:17  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:44:18  MqttInNode - Counts: IN=0, OUT=2, ERR=0
+[DEBUG] 2023-11-30T15:44:18  SensorTypeFilterNode - Counts: IN=0, OUT=3, ERR=0
+[DEBUG] 2023-11-30T15:44:18  SensorTypeFilterNode - Counts: IN=0, OUT=4, ERR=0
+[DEBUG] 2023-11-30T15:44:18  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[DEBUG] 2023-11-30T15:44:18  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":23.0,"time":1701326658582}}
+[DEBUG] 2023-11-30T15:44:18  MqttOutNode - Counts: IN=3, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:44:18  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":20.5,"time":1701326658583}}
+[DEBUG] 2023-11-30T15:44:18  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":988.0,"time":1701326658584}}
+[DEBUG] 2023-11-30T15:44:19  MqttOutNode - Counts: IN=4, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:44:19  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:44:33  MqttInNode - Counts: IN=0, OUT=3, ERR=0
+[DEBUG] 2023-11-30T15:44:33  SensorTypeFilterNode - Counts: IN=0, OUT=6, ERR=0
+[DEBUG] 2023-11-30T15:44:33  SensorTypeFilterNode - Counts: IN=0, OUT=7, ERR=0
+[DEBUG] 2023-11-30T15:44:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.400000000000002,"time":1701326673517}}
+[DEBUG] 2023-11-30T15:44:33  MqttOutNode - Counts: IN=6, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:44:33  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701326673517}}
+[DEBUG] 2023-11-30T15:44:33  MqttOutNode - Counts: IN=7, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:44:34  MqttInNode - Counts: IN=0, OUT=4, ERR=0
+[DEBUG] 2023-11-30T15:44:34  SensorTypeFilterNode - Counts: IN=0, OUT=8, ERR=0
+[DEBUG] 2023-11-30T15:44:34  SensorTypeFilterNode - Counts: IN=0, OUT=9, ERR=0
+[DEBUG] 2023-11-30T15:44:34  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":22.700000000000003,"time":1701326674619}}
+[DEBUG] 2023-11-30T15:44:34  MqttOutNode - Counts: IN=8, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:44:34  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":25.0,"time":1701326674620}}
+[DEBUG] 2023-11-30T15:44:35  MqttOutNode - Counts: IN=9, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:44:37  MqttInNode - Counts: IN=0, OUT=5, ERR=0
+[DEBUG] 2023-11-30T15:44:37  SensorTypeFilterNode - Counts: IN=0, OUT=10, ERR=0
+[DEBUG] 2023-11-30T15:44:37  SensorTypeFilterNode - Counts: IN=0, OUT=11, ERR=0
+[DEBUG] 2023-11-30T15:44:37  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":25.1,"time":1701326677827}}
+[DEBUG] 2023-11-30T15:44:37  MqttOutNode - Counts: IN=10, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:44:37  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":21.5,"time":1701326677828}}
+[DEBUG] 2023-11-30T15:44:38  MqttOutNode - Counts: IN=11, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:44:45  MqttInNode - Counts: IN=0, OUT=6, ERR=0
+[DEBUG] 2023-11-30T15:44:45  SensorTypeFilterNode - Counts: IN=0, OUT=12, ERR=0
+[DEBUG] 2023-11-30T15:44:45  SensorTypeFilterNode - Counts: IN=0, OUT=13, ERR=0
+[DEBUG] 2023-11-30T15:44:45  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.8,"time":1701326685942}}
+[DEBUG] 2023-11-30T15:44:46  MqttOutNode - Counts: IN=12, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:44:46  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":19.0,"time":1701326685943}}
+[DEBUG] 2023-11-30T15:44:46  MqttOutNode - Counts: IN=13, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:44:49  MqttInNode - Counts: IN=0, OUT=7, ERR=0
+[DEBUG] 2023-11-30T15:44:49  SensorTypeFilterNode - Counts: IN=0, OUT=14, ERR=0
+[DEBUG] 2023-11-30T15:44:49  SensorTypeFilterNode - Counts: IN=0, OUT=15, ERR=0
+[DEBUG] 2023-11-30T15:44:49  SensorTypeFilterNode - Counts: IN=0, OUT=16, ERR=0
+[DEBUG] 2023-11-30T15:44:49  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":23.1,"time":1701326689850}}
+[DEBUG] 2023-11-30T15:44:49  MqttOutNode - Counts: IN=14, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:44:49  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":25.0,"time":1701326689850}}
+[DEBUG] 2023-11-30T15:44:50  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1510.0,"time":1701326689851}}
+[DEBUG] 2023-11-30T15:44:50  MqttOutNode - Counts: IN=15, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:44:50  MqttOutNode - Counts: IN=16, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:45:08  MqttInNode - Counts: IN=0, OUT=8, ERR=0
+[DEBUG] 2023-11-30T15:45:11  MqttInNode - Counts: IN=0, OUT=9, ERR=0
+[DEBUG] 2023-11-30T15:45:11  SensorTypeFilterNode - Counts: IN=0, OUT=17, ERR=0
+[DEBUG] 2023-11-30T15:45:11  SensorTypeFilterNode - Counts: IN=0, OUT=18, ERR=0
+[DEBUG] 2023-11-30T15:45:11  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":21.3,"time":1701326711890}}
+[DEBUG] 2023-11-30T15:45:11  MqttOutNode - Counts: IN=17, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:45:11  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":32.0,"time":1701326711891}}
+[DEBUG] 2023-11-30T15:45:12  MqttOutNode - Counts: IN=18, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:45:13  MqttInNode - Counts: IN=0, OUT=10, ERR=0
+[DEBUG] 2023-11-30T15:45:13  SensorTypeFilterNode - Counts: IN=0, OUT=19, ERR=0
+[DEBUG] 2023-11-30T15:45:13  SensorTypeFilterNode - Counts: IN=0, OUT=20, ERR=0
+[DEBUG] 2023-11-30T15:45:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":22.0,"time":1701326713595}}
+[DEBUG] 2023-11-30T15:45:13  MqttOutNode - Counts: IN=19, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:45:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":29.0,"time":1701326713595}}
+[DEBUG] 2023-11-30T15:45:14  MqttOutNode - Counts: IN=20, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:45:16  MqttInNode - Counts: IN=0, OUT=11, ERR=0
+[DEBUG] 2023-11-30T15:45:18  MqttInNode - Counts: IN=0, OUT=12, ERR=0
+[DEBUG] 2023-11-30T15:45:18  MqttInNode - Counts: IN=0, OUT=13, ERR=0
+[DEBUG] 2023-11-30T15:45:18  SensorTypeFilterNode - Counts: IN=0, OUT=21, ERR=0
+[DEBUG] 2023-11-30T15:45:18  SensorTypeFilterNode - Counts: IN=0, OUT=22, ERR=0
+[DEBUG] 2023-11-30T15:45:18  SensorTypeFilterNode - Counts: IN=0, OUT=23, ERR=0
+[DEBUG] 2023-11-30T15:45:18  DebugNode {topic : "24e124126d152590/d/temperature", payload :{"temperature":19.900000000000002,"time":1701326718203}}
+[DEBUG] 2023-11-30T15:45:18  MqttOutNode - Counts: IN=21, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:45:18  SensorTypeFilterNode - Counts: IN=0, OUT=24, ERR=0
+[DEBUG] 2023-11-30T15:45:18  SensorTypeFilterNode - Counts: IN=0, OUT=25, ERR=0
+[DEBUG] 2023-11-30T15:45:18  SensorTypeFilterNode - Counts: IN=0, OUT=26, ERR=0
+[DEBUG] 2023-11-30T15:45:18  DebugNode {topic : "24e124126d152590/d/humidity", payload :{"humidity":32.0,"time":1701326718203}}
+[INFO] 2023-11-30T15:45:20  MqttOutNode - start
+[INFO] 2023-11-30T15:45:20  MqttInNode - start
+[INFO] 2023-11-30T15:45:20  DebugNode - start
+[INFO] 2023-11-30T15:46:57  MqttOutNode - start
+[INFO] 2023-11-30T15:46:57  MqttInNode - start
+[INFO] 2023-11-30T15:46:57  DebugNode - start
+[DEBUG] 2023-11-30T15:47:13  MqttInNode - Counts: IN=0, OUT=1, ERR=0
+[DEBUG] 2023-11-30T15:47:13  MqttInNode - Counts: IN=0, OUT=2, ERR=0
+[DEBUG] 2023-11-30T15:47:13  SensorTypeFilterNode - Counts: IN=0, OUT=1, ERR=0
+[DEBUG] 2023-11-30T15:47:13  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[DEBUG] 2023-11-30T15:47:13  MqttOutNode - Counts: IN=1, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:47:13  SensorTypeFilterNode - Counts: IN=0, OUT=3, ERR=0
+[DEBUG] 2023-11-30T15:47:13  SensorTypeFilterNode - Counts: IN=0, OUT=4, ERR=0
+[DEBUG] 2023-11-30T15:47:13  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":22.0,"time":1701326833579}}
+[DEBUG] 2023-11-30T15:47:13  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":29.0,"time":1701326833580}}
+[DEBUG] 2023-11-30T15:47:13  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":21.200000000000003,"time":1701326833680}}
+[DEBUG] 2023-11-30T15:47:13  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":32.0,"time":1701326833681}}
+[DEBUG] 2023-11-30T15:47:14  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:47:14  MqttOutNode - Counts: IN=3, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:47:15  MqttOutNode - Counts: IN=4, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:47:17  MqttInNode - Counts: IN=0, OUT=3, ERR=0
+[INFO] 2023-11-30T15:48:26  MqttOutNode - start
+[INFO] 2023-11-30T15:48:26  MqttInNode - start
+[INFO] 2023-11-30T15:48:26  DebugNode - start
+[DEBUG] 2023-11-30T15:48:33  MqttInNode - Counts: IN=0, OUT=1, ERR=0
+[DEBUG] 2023-11-30T15:48:33  SensorTypeFilterNode - Counts: IN=0, OUT=1, ERR=0
+[DEBUG] 2023-11-30T15:48:33  MqttOutNode - Counts: IN=1, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:48:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.8,"time":1701326913593}}
+[DEBUG] 2023-11-30T15:48:38  MqttInNode - Counts: IN=0, OUT=2, ERR=0
+[DEBUG] 2023-11-30T15:48:38  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[DEBUG] 2023-11-30T15:48:38  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701326918594}}
+[DEBUG] 2023-11-30T15:48:39  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:48:43  MqttInNode - Counts: IN=0, OUT=3, ERR=0
+[DEBUG] 2023-11-30T15:48:43  SensorTypeFilterNode - Counts: IN=0, OUT=3, ERR=0
+[DEBUG] 2023-11-30T15:48:43  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":22.6,"time":1701326923696}}
+[DEBUG] 2023-11-30T15:48:44  MqttOutNode - Counts: IN=3, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:48:48  MqttInNode - Counts: IN=0, OUT=4, ERR=0
+[DEBUG] 2023-11-30T15:48:48  SensorTypeFilterNode - Counts: IN=0, OUT=4, ERR=0
+[DEBUG] 2023-11-30T15:48:48  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":25.5,"time":1701326928697}}
+[DEBUG] 2023-11-30T15:48:50  MqttOutNode - Counts: IN=4, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:48:53  MqttInNode - Counts: IN=0, OUT=5, ERR=0
+[DEBUG] 2023-11-30T15:48:53  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[DEBUG] 2023-11-30T15:48:53  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":25.200000000000003,"time":1701326933899}}
+[DEBUG] 2023-11-30T15:48:55  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:48:58  MqttInNode - Counts: IN=0, OUT=6, ERR=0
+[DEBUG] 2023-11-30T15:48:58  SensorTypeFilterNode - Counts: IN=0, OUT=6, ERR=0
+[DEBUG] 2023-11-30T15:48:58  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":21.5,"time":1701326938900}}
+[DEBUG] 2023-11-30T15:49:00  MqttOutNode - Counts: IN=6, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:49:04  SensorTypeFilterNode - Counts: IN=0, OUT=7, ERR=0
+[DEBUG] 2023-11-30T15:49:04  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.8,"time":1701326944001}}
+[DEBUG] 2023-11-30T15:49:06  MqttOutNode - Counts: IN=7, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:49:09  SensorTypeFilterNode - Counts: IN=0, OUT=8, ERR=0
+[DEBUG] 2023-11-30T15:49:09  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":19.0,"time":1701326949001}}
+[INFO] 2023-11-30T15:49:24  MqttInNode - start
+[INFO] 2023-11-30T15:49:24  MqttOutNode - start
+[INFO] 2023-11-30T15:49:24  DebugNode - start
+[DEBUG] 2023-11-30T15:49:32  MqttInNode - Counts: IN=0, OUT=1, ERR=0
+[DEBUG] 2023-11-30T15:49:32  SensorTypeFilterNode - Counts: IN=0, OUT=1, ERR=0
+[DEBUG] 2023-11-30T15:49:32  MqttOutNode - Counts: IN=1, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:49:32  DebugNode {topic : "24e124136d151836/d/temperature", payload :{"temperature":21.900000000000002,"time":1701326972255}}
+[DEBUG] 2023-11-30T15:49:37  MqttInNode - Counts: IN=0, OUT=2, ERR=0
+[DEBUG] 2023-11-30T15:49:37  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[DEBUG] 2023-11-30T15:49:37  DebugNode {topic : "24e124136d151836/d/humidity", payload :{"humidity":21.0,"time":1701326977256}}
+[DEBUG] 2023-11-30T15:49:37  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:49:42  MqttInNode - Counts: IN=0, OUT=3, ERR=0
+[DEBUG] 2023-11-30T15:49:42  SensorTypeFilterNode - Counts: IN=0, OUT=3, ERR=0
+[DEBUG] 2023-11-30T15:49:42  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.8,"time":1701326982356}}
+[DEBUG] 2023-11-30T15:49:43  MqttOutNode - Counts: IN=3, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:49:47  MqttInNode - Counts: IN=0, OUT=4, ERR=0
+[DEBUG] 2023-11-30T15:49:47  SensorTypeFilterNode - Counts: IN=0, OUT=4, ERR=0
+[DEBUG] 2023-11-30T15:49:47  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701326987358}}
+[DEBUG] 2023-11-30T15:49:48  MqttOutNode - Counts: IN=4, OUT=0, ERR=0
+[INFO] 2023-11-30T15:52:31  MqttOutNode - start
+[INFO] 2023-11-30T15:52:31  MqttInNode - start
+[INFO] 2023-11-30T15:52:31  DebugNode - start
+[DEBUG] 2023-11-30T15:52:33  MqttInNode - Counts: IN=0, OUT=1, ERR=0
+[DEBUG] 2023-11-30T15:52:33  SensorTypeFilterNode - Counts: IN=0, OUT=1, ERR=0
+[DEBUG] 2023-11-30T15:52:33  MqttOutNode - Counts: IN=1, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:52:33  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.900000000000002,"time":1701327153499}}
+[DEBUG] 2023-11-30T15:52:38  MqttInNode - Counts: IN=0, OUT=2, ERR=0
+[DEBUG] 2023-11-30T15:52:38  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[DEBUG] 2023-11-30T15:52:38  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701327158501}}
+[DEBUG] 2023-11-30T15:52:38  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:52:43  MqttInNode - Counts: IN=0, OUT=3, ERR=0
+[DEBUG] 2023-11-30T15:52:43  SensorTypeFilterNode - Counts: IN=0, OUT=3, ERR=0
+[DEBUG] 2023-11-30T15:52:43  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.900000000000002,"time":1701327163601}}
+[DEBUG] 2023-11-30T15:52:44  MqttOutNode - Counts: IN=3, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:52:48  MqttInNode - Counts: IN=0, OUT=4, ERR=0
+[DEBUG] 2023-11-30T15:52:48  SensorTypeFilterNode - Counts: IN=0, OUT=4, ERR=0
+[DEBUG] 2023-11-30T15:52:48  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701327168602}}
+[DEBUG] 2023-11-30T15:52:49  MqttOutNode - Counts: IN=4, OUT=0, ERR=0
+[DEBUG] 2023-11-30T15:52:53  MqttInNode - Counts: IN=0, OUT=5, ERR=0
+[DEBUG] 2023-11-30T15:52:53  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[DEBUG] 2023-11-30T15:52:53  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":22.700000000000003,"time":1701327173704}}
+[DEBUG] 2023-11-30T15:52:55  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[INFO] 2023-11-30T15:53:40  MqttInNode - start
+[INFO] 2023-11-30T15:53:40  DebugNode - start
+[INFO] 2023-11-30T15:53:40  MqttOutNode - start
+[INFO] 2023-11-30T15:53:45  MqttInNode - Counts: IN=0, OUT=1, ERR=0
+[INFO] 2023-11-30T15:53:45  SensorTypeFilterNode - Counts: IN=0, OUT=1, ERR=0
+[INFO] 2023-11-30T15:53:45  MqttOutNode - Counts: IN=1, OUT=0, ERR=0
+[INFO] 2023-11-30T15:53:50  MqttInNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T15:53:50  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T15:53:51  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T15:53:55  MqttInNode - Counts: IN=0, OUT=3, ERR=0
+[INFO] 2023-11-30T15:53:56  SensorTypeFilterNode - Counts: IN=0, OUT=3, ERR=0
+[INFO] 2023-11-30T15:53:56  MqttOutNode - Counts: IN=3, OUT=0, ERR=0
+[INFO] 2023-11-30T15:54:01  SensorTypeFilterNode - Counts: IN=0, OUT=4, ERR=0
+[INFO] 2023-11-30T15:54:02  MqttOutNode - Counts: IN=4, OUT=0, ERR=0
+[INFO] 2023-11-30T15:54:06  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T15:54:07  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[INFO] 2023-11-30T15:54:13  MqttInNode - Counts: IN=0, OUT=4, ERR=0
+[INFO] 2023-11-30T15:54:13  SensorTypeFilterNode - Counts: IN=0, OUT=6, ERR=0
+[INFO] 2023-11-30T15:54:13  MqttOutNode - Counts: IN=6, OUT=0, ERR=0
+[INFO] 2023-11-30T15:54:18  MqttInNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T15:54:18  SensorTypeFilterNode - Counts: IN=0, OUT=7, ERR=0
+[INFO] 2023-11-30T15:54:19  MqttOutNode - Counts: IN=7, OUT=0, ERR=0
+[INFO] 2023-11-30T15:54:23  MqttInNode - Counts: IN=0, OUT=6, ERR=0
+[INFO] 2023-11-30T15:54:23  SensorTypeFilterNode - Counts: IN=0, OUT=8, ERR=0
+[INFO] 2023-11-30T15:54:24  MqttOutNode - Counts: IN=8, OUT=0, ERR=0
+[INFO] 2023-11-30T15:54:28  MqttInNode - Counts: IN=0, OUT=7, ERR=0
+[INFO] 2023-11-30T15:54:28  SensorTypeFilterNode - Counts: IN=0, OUT=9, ERR=0
+[INFO] 2023-11-30T15:54:30  MqttOutNode - Counts: IN=9, OUT=0, ERR=0
+[INFO] 2023-11-30T15:54:33  MqttInNode - Counts: IN=0, OUT=8, ERR=0
+[INFO] 2023-11-30T15:54:34  SensorTypeFilterNode - Counts: IN=0, OUT=10, ERR=0
+[INFO] 2023-11-30T15:54:35  MqttOutNode - Counts: IN=10, OUT=0, ERR=0
+[INFO] 2023-11-30T15:54:38  MqttInNode - Counts: IN=0, OUT=9, ERR=0
+[INFO] 2023-11-30T15:54:39  SensorTypeFilterNode - Counts: IN=0, OUT=11, ERR=0
+[INFO] 2023-11-30T15:54:40  MqttOutNode - Counts: IN=11, OUT=0, ERR=0
+[INFO] 2023-11-30T15:57:26  MqttOutNode - start
+[INFO] 2023-11-30T15:57:26  MqttInNode - start
+[INFO] 2023-11-30T15:57:26  DebugNode - start
+[INFO] 2023-11-30T15:57:34  MqttInNode - Counts: IN=0, OUT=1, ERR=0
+[INFO] 2023-11-30T15:57:34  SensorTypeFilterNode - Counts: IN=0, OUT=1, ERR=0
+[INFO] 2023-11-30T15:57:34  MqttOutNode - Counts: IN=1, OUT=0, ERR=0
+[INFO] 2023-11-30T15:57:39  MqttInNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T15:57:39  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T15:57:39  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T15:57:44  MqttInNode - Counts: IN=0, OUT=3, ERR=0
+[INFO] 2023-11-30T15:57:44  SensorTypeFilterNode - Counts: IN=0, OUT=3, ERR=0
+[INFO] 2023-11-30T15:57:45  MqttOutNode - Counts: IN=3, OUT=0, ERR=0
+[INFO] 2023-11-30T16:01:51  DebugNode - start
+[INFO] 2023-11-30T16:01:51  MqttInNode - start
+[INFO] 2023-11-30T16:01:51  MqttOutNode - start
+[INFO] 2023-11-30T16:03:13  DebugNode - start
+[INFO] 2023-11-30T16:03:13  MqttOutNode - start
+[INFO] 2023-11-30T16:03:13  MqttInNode - start
+[INFO] 2023-11-30T16:03:54  MqttOutNode - start
+[INFO] 2023-11-30T16:03:54  DebugNode - start
+[INFO] 2023-11-30T16:03:54  MqttInNode - start
+[INFO] 2023-11-30T16:03:54  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:54  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:54  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:54  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:54  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:54  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:55  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:56  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:57  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:58  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:03:59  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:00  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:01  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:02  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:03  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:04  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:05  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:06  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:07  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:08  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:09  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:10  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:11  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:12  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:13  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:13  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:13  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:13  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:13  MqttOutNode - Counts: IN=1, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:14  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:14  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:14  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:14  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:14  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:14  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:14  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:14  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:14  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:14  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:14  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:14  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:14  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:14  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:14  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:14  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:14  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:14  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:14  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:14  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:14  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:14  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:14  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:14  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:14  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:14  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:15  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:15  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:15  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:15  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:15  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:15  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:15  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:15  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:15  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:15  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:15  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:16  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:16  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:16  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:16  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:16  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:16  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:16  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:16  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:16  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:16  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:17  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:17  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:17  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:17  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:17  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:17  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:17  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:17  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:17  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:17  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:17  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:18  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:18  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:18  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:18  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:18  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:18  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:18  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:18  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:18  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:18  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:18  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:19  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:19  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:19  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:19  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:19  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:19  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:19  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:19  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:19  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:19  MqttOutNode - Counts: IN=3, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:19  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:19  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:19  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:19  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:19  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:19  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:19  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:19  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:19  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:19  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:19  MqttOutNode - Counts: IN=4, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:19  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:19  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:20  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:20  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:20  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:20  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:20  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:20  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:20  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:20  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:20  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:20  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:20  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:20  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:20  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:20  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:20  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:20  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:20  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:20  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:20  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:20  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:20  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:20  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:20  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:20  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:20  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:20  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:20  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:21  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:21  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:21  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:21  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:21  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:21  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:21  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:37  MqttInNode - start
+[INFO] 2023-11-30T16:04:37  DebugNode - start
+[INFO] 2023-11-30T16:04:37  MqttOutNode - start
+[INFO] 2023-11-30T16:04:42  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:42  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:42  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:47  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:47  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:47  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:52  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[INFO] 2023-11-30T16:04:52  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:52  MqttOutNode - Counts: IN=1, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:57  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:04:57  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:04:58  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[INFO] 2023-11-30T16:05:02  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:05:02  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:05:03  MqttOutNode - Counts: IN=3, OUT=0, ERR=0
+[INFO] 2023-11-30T16:05:07  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:05:07  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:05:08  MqttOutNode - Counts: IN=4, OUT=0, ERR=0
+[INFO] 2023-11-30T16:05:12  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[INFO] 2023-11-30T16:05:12  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:05:14  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[INFO] 2023-11-30T16:08:34  MqttInNode - start
+[INFO] 2023-11-30T16:08:34  MqttOutNode - start
+[INFO] 2023-11-30T16:08:34  DebugNode - start
+[DEBUG] 2023-11-30T16:08:39  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:08:39  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:08:39  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:08:44  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:08:44  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:08:44  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":25.200000000000003,"time":1701328119423}}
+[DEBUG] 2023-11-30T16:08:44  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[DEBUG] 2023-11-30T16:08:49  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:08:49  SensorTypeFilterNode - Counts: IN=0, OUT=2, ERR=0
+[DEBUG] 2023-11-30T16:08:49  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":21.5,"time":1701328119423}}
+[DEBUG] 2023-11-30T16:08:49  MqttOutNode - Counts: IN=1, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:08:54  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:08:54  SensorTypeFilterNode - Counts: IN=0, OUT=4, ERR=0
+[DEBUG] 2023-11-30T16:08:54  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":18.900000000000002,"time":1701328129426}}
+[DEBUG] 2023-11-30T16:08:55  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:08:59  SensorTypeFilterNode - Counts: IN=0, OUT=7, ERR=0
+[DEBUG] 2023-11-30T16:08:59  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:08:59  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":18.5,"time":1701328129426}}
+[DEBUG] 2023-11-30T16:09:00  MqttOutNode - Counts: IN=3, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:09:04  SensorTypeFilterNode - Counts: IN=0, OUT=7, ERR=0
+[DEBUG] 2023-11-30T16:09:04  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:09:04  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":23.200000000000003,"time":1701328134428}}
+[DEBUG] 2023-11-30T16:09:05  MqttOutNode - Counts: IN=4, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:09:09  SensorTypeFilterNode - Counts: IN=0, OUT=7, ERR=0
+[DEBUG] 2023-11-30T16:09:09  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:09:09  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":24.0,"time":1701328134428}}
+[DEBUG] 2023-11-30T16:09:11  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:09:14  SensorTypeFilterNode - Counts: IN=0, OUT=7, ERR=0
+[DEBUG] 2023-11-30T16:09:14  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:09:14  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1462.0,"time":1701328134428}}
+[DEBUG] 2023-11-30T16:09:16  MqttOutNode - Counts: IN=6, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:09:19  SensorTypeFilterNode - Counts: IN=0, OUT=9, ERR=0
+[DEBUG] 2023-11-30T16:09:19  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:09:19  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":22.0,"time":1701328154432}}
+[DEBUG] 2023-11-30T16:09:21  MqttOutNode - Counts: IN=7, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:09:24  SensorTypeFilterNode - Counts: IN=0, OUT=11, ERR=0
+[DEBUG] 2023-11-30T16:09:24  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:09:24  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":28.5,"time":1701328154432}}
+[DEBUG] 2023-11-30T16:09:27  MqttOutNode - Counts: IN=8, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:09:29  SensorTypeFilterNode - Counts: IN=0, OUT=11, ERR=0
+[DEBUG] 2023-11-30T16:09:29  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:09:29  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":22.0,"time":1701328159432}}
+[DEBUG] 2023-11-30T16:09:32  MqttOutNode - Counts: IN=9, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:09:34  SensorTypeFilterNode - Counts: IN=0, OUT=14, ERR=0
+[DEBUG] 2023-11-30T16:09:34  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:09:34  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":28.5,"time":1701328159432}}
+[INFO] 2023-11-30T16:14:15  MqttOutNode - start
+[INFO] 2023-11-30T16:14:15  DebugNode - start
+[INFO] 2023-11-30T16:14:15  MqttInNode - start
+[DEBUG] 2023-11-30T16:14:20  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:14:20  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:14:20  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:14:25  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:14:25  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:14:25  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:14:25  DebugNode {topic : "24e124128c140101/d/temperature", payload :{"temperature":24.0,"time":1701328465932}}
+[DEBUG] 2023-11-30T16:14:30  SensorTypeFilterNode - Counts: IN=0, OUT=3, ERR=0
+[DEBUG] 2023-11-30T16:14:30  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:14:30  DebugNode {topic : "24e124128c140101/d/humidity", payload :{"humidity":20.0,"time":1701328465932}}
+[DEBUG] 2023-11-30T16:14:31  MqttOutNode - Counts: IN=1, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:14:35  SensorTypeFilterNode - Counts: IN=0, OUT=3, ERR=0
+[DEBUG] 2023-11-30T16:14:35  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:14:35  DebugNode {topic : "24e124128c140101/d/co2", payload :{"co2":1054.0,"time":1701328465932}}
+[DEBUG] 2023-11-30T16:14:36  MqttOutNode - Counts: IN=2, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:14:40  SensorTypeFilterNode - Counts: IN=0, OUT=5, ERR=0
+[DEBUG] 2023-11-30T16:14:40  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:14:40  DebugNode {topic : "24e124126d152919/d/temperature", payload :{"temperature":21.400000000000002,"time":1701328475933}}
+[DEBUG] 2023-11-30T16:14:41  MqttOutNode - Counts: IN=3, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:14:45  SensorTypeFilterNode - Counts: IN=0, OUT=7, ERR=0
+[DEBUG] 2023-11-30T16:14:45  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:14:45  DebugNode {topic : "24e124126d152919/d/humidity", payload :{"humidity":22.0,"time":1701328475933}}
+[DEBUG] 2023-11-30T16:14:47  MqttOutNode - Counts: IN=4, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:14:50  SensorTypeFilterNode - Counts: IN=0, OUT=9, ERR=0
+[DEBUG] 2023-11-30T16:14:50  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:14:50  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.6,"time":1701328480933}}
+[DEBUG] 2023-11-30T16:14:52  MqttOutNode - Counts: IN=5, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:14:55  SensorTypeFilterNode - Counts: IN=0, OUT=11, ERR=0
+[DEBUG] 2023-11-30T16:14:55  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:14:55  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701328480933}}
+[DEBUG] 2023-11-30T16:14:57  MqttOutNode - Counts: IN=6, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:00  SensorTypeFilterNode - Counts: IN=0, OUT=13, ERR=0
+[DEBUG] 2023-11-30T16:15:00  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:00  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":22.8,"time":1701328485934}}
+[DEBUG] 2023-11-30T16:15:03  MqttOutNode - Counts: IN=7, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:05  SensorTypeFilterNode - Counts: IN=0, OUT=16, ERR=0
+[DEBUG] 2023-11-30T16:15:05  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:05  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":24.5,"time":1701328485934}}
+[DEBUG] 2023-11-30T16:15:08  MqttOutNode - Counts: IN=8, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:10  SensorTypeFilterNode - Counts: IN=0, OUT=16, ERR=0
+[DEBUG] 2023-11-30T16:15:10  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:10  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":25.3,"time":1701328490934}}
+[DEBUG] 2023-11-30T16:15:13  MqttOutNode - Counts: IN=9, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:15  SensorTypeFilterNode - Counts: IN=0, OUT=16, ERR=0
+[DEBUG] 2023-11-30T16:15:15  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:15  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":21.0,"time":1701328490934}}
+[DEBUG] 2023-11-30T16:15:19  MqttOutNode - Counts: IN=10, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:20  SensorTypeFilterNode - Counts: IN=0, OUT=18, ERR=0
+[DEBUG] 2023-11-30T16:15:20  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:20  DebugNode {topic : "24e124136d151547/d/temperature", payload :{"temperature":19.0,"time":1701328495935}}
+[DEBUG] 2023-11-30T16:15:21  MqttInNode - Counts: IN=0, OUT=10, ERR=0
+[DEBUG] 2023-11-30T16:15:24  MqttOutNode - Counts: IN=11, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:25  SensorTypeFilterNode - Counts: IN=0, OUT=18, ERR=0
+[DEBUG] 2023-11-30T16:15:25  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:25  DebugNode {topic : "24e124136d151547/d/humidity", payload :{"humidity":18.5,"time":1701328495935}}
+[DEBUG] 2023-11-30T16:15:29  MqttOutNode - Counts: IN=12, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:30  SensorTypeFilterNode - Counts: IN=0, OUT=18, ERR=0
+[DEBUG] 2023-11-30T16:15:30  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:30  DebugNode {topic : "24e124128c067999/d/temperature", payload :{"temperature":23.200000000000003,"time":1701328500935}}
+[DEBUG] 2023-11-30T16:15:35  MqttOutNode - Counts: IN=13, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:35  SensorTypeFilterNode - Counts: IN=0, OUT=18, ERR=0
+[DEBUG] 2023-11-30T16:15:35  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:35  DebugNode {topic : "24e124128c067999/d/humidity", payload :{"humidity":24.5,"time":1701328500935}}
+[DEBUG] 2023-11-30T16:15:40  MqttOutNode - Counts: IN=14, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:40  SensorTypeFilterNode - Counts: IN=0, OUT=20, ERR=0
+[DEBUG] 2023-11-30T16:15:40  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:40  DebugNode {topic : "24e124128c067999/d/co2", payload :{"co2":1519.0,"time":1701328500935}}
+[DEBUG] 2023-11-30T16:15:45  SensorTypeFilterNode - Counts: IN=0, OUT=22, ERR=0
+[DEBUG] 2023-11-30T16:15:45  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:45  DebugNode {topic : "24e124785c389818/d/temperature", payload :{"temperature":22.0,"time":1701328515936}}
+[DEBUG] 2023-11-30T16:15:45  MqttOutNode - Counts: IN=15, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:50  SensorTypeFilterNode - Counts: IN=0, OUT=24, ERR=0
+[DEBUG] 2023-11-30T16:15:50  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:50  DebugNode {topic : "24e124785c389818/d/humidity", payload :{"humidity":28.5,"time":1701328515936}}
+[DEBUG] 2023-11-30T16:15:51  MqttOutNode - Counts: IN=16, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:55  SensorTypeFilterNode - Counts: IN=0, OUT=26, ERR=0
+[DEBUG] 2023-11-30T16:15:55  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:15:55  DebugNode {topic : "24e124136d151368/d/temperature", payload :{"temperature":23.700000000000003,"time":1701328535938}}
+[DEBUG] 2023-11-30T16:15:56  MqttOutNode - Counts: IN=17, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:16:00  SensorTypeFilterNode - Counts: IN=0, OUT=28, ERR=0
+[DEBUG] 2023-11-30T16:16:00  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:16:00  DebugNode {topic : "24e124136d151368/d/humidity", payload :{"humidity":17.5,"time":1701328535938}}
+[DEBUG] 2023-11-30T16:16:01  MqttOutNode - Counts: IN=18, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:16:05  SensorTypeFilterNode - Counts: IN=0, OUT=31, ERR=0
+[DEBUG] 2023-11-30T16:16:05  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:16:05  DebugNode {topic : "24e124785c421885/d/temperature", payload :{"temperature":22.8,"time":1701328540938}}
+[DEBUG] 2023-11-30T16:16:07  MqttOutNode - Counts: IN=19, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:16:10  SensorTypeFilterNode - Counts: IN=0, OUT=34, ERR=0
+[DEBUG] 2023-11-30T16:16:10  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:16:10  DebugNode {topic : "24e124785c421885/d/humidity", payload :{"humidity":24.5,"time":1701328540938}}
+[DEBUG] 2023-11-30T16:16:12  MqttOutNode - Counts: IN=20, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:16:15  SensorTypeFilterNode - Counts: IN=0, OUT=37, ERR=0
+[DEBUG] 2023-11-30T16:16:15  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:16:15  DebugNode {topic : "24e124785c389010/d/temperature", payload :{"temperature":25.3,"time":1701328545939}}
+[DEBUG] 2023-11-30T16:16:17  MqttOutNode - Counts: IN=21, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:16:20  SensorTypeFilterNode - Counts: IN=0, OUT=39, ERR=0
+[DEBUG] 2023-11-30T16:16:20  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:16:20  DebugNode {topic : "24e124785c389010/d/humidity", payload :{"humidity":21.0,"time":1701328545939}}
+[DEBUG] 2023-11-30T16:16:23  MqttOutNode - Counts: IN=22, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:16:25  SensorTypeFilterNode - Counts: IN=0, OUT=39, ERR=0
+[DEBUG] 2023-11-30T16:16:25  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:16:25  DebugNode {topic : "24e124126d152969/d/temperature", payload :{"temperature":21.3,"time":1701328550939}}
+[DEBUG] 2023-11-30T16:16:26  MqttInNode - Counts: IN=0, OUT=22, ERR=0
+[DEBUG] 2023-11-30T16:16:28  MqttOutNode - Counts: IN=23, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:16:30  SensorTypeFilterNode - Counts: IN=0, OUT=42, ERR=0
+[DEBUG] 2023-11-30T16:16:30  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:16:30  DebugNode {topic : "24e124126d152969/d/humidity", payload :{"humidity":32.5,"time":1701328550939}}
+[INFO] 2023-11-30T16:20:09  MqttInNode - start
+[INFO] 2023-11-30T16:20:09  DebugNode - start
+[INFO] 2023-11-30T16:20:09  MqttOutNode - start
+[DEBUG] 2023-11-30T16:20:14  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:14  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:14  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:19  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:19  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:19  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:24  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:24  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:24  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:29  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:29  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:29  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:34  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:34  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:34  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:39  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:39  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:39  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:44  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:44  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:44  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:49  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:49  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:49  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:54  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:54  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:54  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:59  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:59  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:20:59  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:03  MqttInNode - Counts: IN=0, OUT=50, ERR=0
+[DEBUG] 2023-11-30T16:21:04  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:04  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:04  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:09  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:09  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:09  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:14  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:14  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:14  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:19  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:19  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:19  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:24  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:24  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:24  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:29  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:29  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:29  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:34  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:34  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:34  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:21:40  MqttInNode - start
+[INFO] 2023-11-30T16:21:40  MqttOutNode - start
+[INFO] 2023-11-30T16:21:40  DebugNode - start
+[DEBUG] 2023-11-30T16:21:45  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:45  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:45  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:50  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:50  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:50  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:55  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:55  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:21:55  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:00  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:00  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:00  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:05  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:05  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:05  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:10  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:10  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:10  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:15  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:15  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:15  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:22:21  MqttOutNode - start
+[INFO] 2023-11-30T16:22:21  DebugNode - start
+[INFO] 2023-11-30T16:22:21  MqttInNode - start
+[DEBUG] 2023-11-30T16:22:26  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:26  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:26  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:31  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:31  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:31  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:36  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:36  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:36  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:41  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:41  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:41  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:46  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:46  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:46  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:51  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:51  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:51  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:22:53  MqttOutNode - start
+[INFO] 2023-11-30T16:22:53  MqttInNode - start
+[INFO] 2023-11-30T16:22:53  DebugNode - start
+[DEBUG] 2023-11-30T16:22:54  MqttInNode - Counts: IN=0, OUT=53, ERR=0
+[DEBUG] 2023-11-30T16:22:56  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:56  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:56  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:58  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:58  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:22:58  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:01  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:01  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:01  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:03  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:03  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:03  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:06  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:06  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:06  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:08  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:08  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:08  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:10  MqttInNode - Counts: IN=0, OUT=103, ERR=0
+[DEBUG] 2023-11-30T16:23:10  MqttInNode - Counts: IN=0, OUT=50, ERR=0
+[DEBUG] 2023-11-30T16:23:11  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:11  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:11  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:13  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:13  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:13  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:16  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:16  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:16  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:18  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:18  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:18  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:21  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:21  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:21  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:23  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:23  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:23  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:26  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:26  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:26  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:28  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:28  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:28  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:31  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:31  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:31  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:33  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:33  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:33  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:36  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:36  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:36  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:38  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:38  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:38  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:23:49  MqttInNode - start
+[INFO] 2023-11-30T16:23:49  MqttOutNode - start
+[INFO] 2023-11-30T16:23:49  DebugNode - start
+[DEBUG] 2023-11-30T16:23:50  Disconnected
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033480,"value":32.5}
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033480,"value":20.200000000000003}
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033480,"value":1023}
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033480,"value":20.200000000000003}
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033480,"value":32.5}
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033480,"value":1023}
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033480,"value":20.200000000000003}
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033480,"value":32.5}
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033480,"value":1023}
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033492,"value":32.5}
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033492,"value":20.200000000000003}
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033492,"value":1023}
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033492,"value":20.200000000000003}
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033492,"value":32.5}
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033492,"value":1023}
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033492,"value":20.200000000000003}
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033492,"value":32.5}
+[DEBUG] 2023-11-30T16:23:53  {"time":1701329033492,"value":1023}
+[DEBUG] 2023-11-30T16:23:54  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:54  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:54  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:59  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:59  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:23:59  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:04  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:04  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:04  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:04  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:04  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:04  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:04  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:04  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:04  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:04  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:04  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:05  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:05  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:05  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:05  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:05  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:05  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:05  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:05  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:05  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:05  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:05  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:05  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:24:09  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:09  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:09  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:13  {"time":1701329053669,"value":29}
+[DEBUG] 2023-11-30T16:24:13  {"time":1701329053669,"value":22.1}
+[DEBUG] 2023-11-30T16:24:13  {"time":1701329053669,"value":22.1}
+[DEBUG] 2023-11-30T16:24:13  {"time":1701329053669,"value":29}
+[DEBUG] 2023-11-30T16:24:13  {"time":1701329053669,"value":22.1}
+[DEBUG] 2023-11-30T16:24:13  {"time":1701329053669,"value":29}
+[DEBUG] 2023-11-30T16:24:14  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:14  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:14  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:18  {"time":1701329058508,"value":20}
+[DEBUG] 2023-11-30T16:24:18  {"time":1701329058508,"value":24.1}
+[DEBUG] 2023-11-30T16:24:18  {"time":1701329058508,"value":1071}
+[DEBUG] 2023-11-30T16:24:18  {"time":1701329058508,"value":24.1}
+[DEBUG] 2023-11-30T16:24:18  {"time":1701329058508,"value":20}
+[DEBUG] 2023-11-30T16:24:18  {"time":1701329058508,"value":1071}
+[DEBUG] 2023-11-30T16:24:18  {"time":1701329058508,"value":289}
+[DEBUG] 2023-11-30T16:24:18  {"time":1701329058508,"value":24.1}
+[DEBUG] 2023-11-30T16:24:18  {"time":1701329058508,"value":20}
+[DEBUG] 2023-11-30T16:24:18  {"time":1701329058508,"value":1071}
+[DEBUG] 2023-11-30T16:24:18  {"time":1701329058508,"value":289}
+[DEBUG] 2023-11-30T16:24:19  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:19  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:19  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:23  MqttInNode - Counts: IN=0, OUT=55, ERR=0
+[DEBUG] 2023-11-30T16:24:23  Disconnected
+[DEBUG] 2023-11-30T16:24:24  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:24  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:24  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:29  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:29  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:29  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:33  {"time":1701329073612,"value":17.5}
+[DEBUG] 2023-11-30T16:24:33  {"time":1701329073613,"value":24.200000000000003}
+[DEBUG] 2023-11-30T16:24:33  {"time":1701329073613,"value":24.200000000000003}
+[DEBUG] 2023-11-30T16:24:33  {"time":1701329073613,"value":17.5}
+[DEBUG] 2023-11-30T16:24:33  {"time":1701329073613,"value":24.200000000000003}
+[DEBUG] 2023-11-30T16:24:33  {"time":1701329073613,"value":17.5}
+[DEBUG] 2023-11-30T16:24:34  {"time":1701329074772,"value":25}
+[DEBUG] 2023-11-30T16:24:34  {"time":1701329074772,"value":22.8}
+[DEBUG] 2023-11-30T16:24:34  {"time":1701329074772,"value":22.8}
+[DEBUG] 2023-11-30T16:24:34  {"time":1701329074772,"value":25}
+[DEBUG] 2023-11-30T16:24:34  {"time":1701329074772,"value":22.8}
+[DEBUG] 2023-11-30T16:24:34  {"time":1701329074772,"value":25}
+[DEBUG] 2023-11-30T16:24:34  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:34  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:34  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:38  {"time":1701329078012,"value":21}
+[DEBUG] 2023-11-30T16:24:38  {"time":1701329078012,"value":25.200000000000003}
+[DEBUG] 2023-11-30T16:24:38  {"time":1701329078012,"value":25.200000000000003}
+[DEBUG] 2023-11-30T16:24:38  {"time":1701329078012,"value":21}
+[DEBUG] 2023-11-30T16:24:38  {"time":1701329078012,"value":25.200000000000003}
+[DEBUG] 2023-11-30T16:24:38  {"time":1701329078012,"value":21}
+[DEBUG] 2023-11-30T16:24:39  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:39  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:39  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:41  {"time":1701329081097,"value":21.5}
+[DEBUG] 2023-11-30T16:24:41  {"time":1701329081097,"value":21.400000000000002}
+[DEBUG] 2023-11-30T16:24:41  {"time":1701329081097,"value":21.400000000000002}
+[DEBUG] 2023-11-30T16:24:41  {"time":1701329081097,"value":21.5}
+[DEBUG] 2023-11-30T16:24:41  {"time":1701329081097,"value":21.400000000000002}
+[DEBUG] 2023-11-30T16:24:41  {"time":1701329081097,"value":21.5}
+[DEBUG] 2023-11-30T16:24:44  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:44  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:44  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:45  {"time":1701329085979,"value":18.5}
+[DEBUG] 2023-11-30T16:24:45  {"time":1701329085979,"value":18.900000000000002}
+[DEBUG] 2023-11-30T16:24:45  {"time":1701329085980,"value":18.900000000000002}
+[DEBUG] 2023-11-30T16:24:45  {"time":1701329085980,"value":18.5}
+[DEBUG] 2023-11-30T16:24:45  {"time":1701329085980,"value":18.900000000000002}
+[DEBUG] 2023-11-30T16:24:45  {"time":1701329085980,"value":18.5}
+[DEBUG] 2023-11-30T16:24:49  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:49  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:49  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:50  {"time":1701329090715,"value":24.5}
+[DEBUG] 2023-11-30T16:24:50  {"time":1701329090715,"value":23.200000000000003}
+[DEBUG] 2023-11-30T16:24:50  {"time":1701329090715,"value":1478}
+[DEBUG] 2023-11-30T16:24:50  {"time":1701329090716,"value":23.200000000000003}
+[DEBUG] 2023-11-30T16:24:50  {"time":1701329090716,"value":24.5}
+[DEBUG] 2023-11-30T16:24:50  {"time":1701329090716,"value":1478}
+[DEBUG] 2023-11-30T16:24:50  {"time":1701329090716,"value":227}
+[DEBUG] 2023-11-30T16:24:50  {"time":1701329090716,"value":23.200000000000003}
+[DEBUG] 2023-11-30T16:24:50  {"time":1701329090716,"value":24.5}
+[DEBUG] 2023-11-30T16:24:50  {"time":1701329090716,"value":1478}
+[DEBUG] 2023-11-30T16:24:50  {"time":1701329090716,"value":227}
+[DEBUG] 2023-11-30T16:24:54  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:54  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:54  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:59  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:59  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:24:59  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:04  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:04  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:04  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:09  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:09  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:09  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:13  {"time":1701329113737,"value":29}
+[DEBUG] 2023-11-30T16:25:13  {"time":1701329113737,"value":22.1}
+[DEBUG] 2023-11-30T16:25:13  {"time":1701329113737,"value":22.1}
+[DEBUG] 2023-11-30T16:25:13  {"time":1701329113737,"value":29}
+[DEBUG] 2023-11-30T16:25:13  {"time":1701329113737,"value":22.1}
+[DEBUG] 2023-11-30T16:25:13  {"time":1701329113737,"value":29}
+[DEBUG] 2023-11-30T16:25:14  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:14  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:14  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:18  {"time":1701329118443,"value":20}
+[DEBUG] 2023-11-30T16:25:18  {"time":1701329118443,"value":24.3}
+[DEBUG] 2023-11-30T16:25:18  {"time":1701329118443,"value":1071}
+[DEBUG] 2023-11-30T16:25:18  {"time":1701329118443,"value":24.3}
+[DEBUG] 2023-11-30T16:25:18  {"time":1701329118443,"value":20}
+[DEBUG] 2023-11-30T16:25:18  {"time":1701329118443,"value":1071}
+[DEBUG] 2023-11-30T16:25:18  {"time":1701329118443,"value":291}
+[DEBUG] 2023-11-30T16:25:18  {"time":1701329118443,"value":24.3}
+[DEBUG] 2023-11-30T16:25:18  {"time":1701329118443,"value":20}
+[DEBUG] 2023-11-30T16:25:18  {"time":1701329118443,"value":1071}
+[DEBUG] 2023-11-30T16:25:18  {"time":1701329118443,"value":291}
+[DEBUG] 2023-11-30T16:25:19  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:19  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:19  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:23  MqttInNode - Counts: IN=0, OUT=113, ERR=0
+[DEBUG] 2023-11-30T16:25:23  Disconnected
+[DEBUG] 2023-11-30T16:25:24  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:24  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:24  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:29  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:29  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:29  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:25:33  MqttOutNode - start
+[INFO] 2023-11-30T16:25:33  DebugNode - start
+[INFO] 2023-11-30T16:25:33  MqttInNode - start
+[DEBUG] 2023-11-30T16:25:33  Disconnected
+[DEBUG] 2023-11-30T16:25:34  {"time":1701329134756,"value":25}
+[DEBUG] 2023-11-30T16:25:34  {"time":1701329134756,"value":22.8}
+[DEBUG] 2023-11-30T16:25:34  {"time":1701329134756,"value":22.8}
+[DEBUG] 2023-11-30T16:25:34  {"time":1701329134756,"value":25}
+[DEBUG] 2023-11-30T16:25:34  {"time":1701329134756,"value":22.8}
+[DEBUG] 2023-11-30T16:25:34  {"time":1701329134756,"value":25}
+[DEBUG] 2023-11-30T16:25:37  {"time":1701329137901,"value":21}
+[DEBUG] 2023-11-30T16:25:37  {"time":1701329137901,"value":25.200000000000003}
+[DEBUG] 2023-11-30T16:25:37  {"time":1701329137901,"value":25.200000000000003}
+[DEBUG] 2023-11-30T16:25:37  {"time":1701329137901,"value":21}
+[DEBUG] 2023-11-30T16:25:37  {"time":1701329137901,"value":25.200000000000003}
+[DEBUG] 2023-11-30T16:25:37  {"time":1701329137901,"value":21}
+[DEBUG] 2023-11-30T16:25:38  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:38  {topic : "data/d/24e124785c421885/p/class_a/e/humidity", payload :{"time":1701329134756,"value":25}}
+[DEBUG] 2023-11-30T16:25:38  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:38  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:43  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:43  {topic : "data/d/24e124785c421885/p/class_a/e/temperature", payload :{"time":1701329134756,"value":22.8}}
+[DEBUG] 2023-11-30T16:25:43  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:43  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:46  {"time":1701329146498,"value":18.5}
+[DEBUG] 2023-11-30T16:25:46  {"time":1701329146499,"value":19}
+[DEBUG] 2023-11-30T16:25:46  {"time":1701329146499,"value":19}
+[DEBUG] 2023-11-30T16:25:46  {"time":1701329146499,"value":18.5}
+[DEBUG] 2023-11-30T16:25:46  {"time":1701329146499,"value":19}
+[DEBUG] 2023-11-30T16:25:46  {"time":1701329146499,"value":18.5}
+[DEBUG] 2023-11-30T16:25:47  {"time":1701329147497,"value":32.5}
+[DEBUG] 2023-11-30T16:25:47  {"time":1701329147497,"value":21.3}
+[DEBUG] 2023-11-30T16:25:47  {"time":1701329147497,"value":21.3}
+[DEBUG] 2023-11-30T16:25:47  {"time":1701329147497,"value":32.5}
+[DEBUG] 2023-11-30T16:25:47  {"time":1701329147497,"value":21.3}
+[DEBUG] 2023-11-30T16:25:47  {"time":1701329147497,"value":32.5}
+[DEBUG] 2023-11-30T16:25:48  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:48  {topic : "data/d/24e124785c421885/p/class_a/e/temperature", payload :{"time":1701329134756,"value":22.8}}
+[DEBUG] 2023-11-30T16:25:48  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:48  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:50  {"time":1701329150505,"value":24.5}
+[DEBUG] 2023-11-30T16:25:50  {"time":1701329150505,"value":23.3}
+[DEBUG] 2023-11-30T16:25:50  {"time":1701329150505,"value":1478}
+[DEBUG] 2023-11-30T16:25:50  {"time":1701329150505,"value":23.3}
+[DEBUG] 2023-11-30T16:25:50  {"time":1701329150505,"value":24.5}
+[DEBUG] 2023-11-30T16:25:50  {"time":1701329150505,"value":1478}
+[DEBUG] 2023-11-30T16:25:50  {"time":1701329150505,"value":225}
+[DEBUG] 2023-11-30T16:25:50  {"time":1701329150505,"value":23.3}
+[DEBUG] 2023-11-30T16:25:50  {"time":1701329150505,"value":24.5}
+[DEBUG] 2023-11-30T16:25:50  {"time":1701329150505,"value":1478}
+[DEBUG] 2023-11-30T16:25:50  {"time":1701329150505,"value":225}
+[DEBUG] 2023-11-30T16:25:53  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:53  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:53  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:53  {topic : "data/d/24e124785c421885/p/class_a/e/humidity", payload :{"time":1701329134756,"value":25}}
+[DEBUG] 2023-11-30T16:25:55  {"time":1701329155208,"value":32}
+[DEBUG] 2023-11-30T16:25:55  {"time":1701329155208,"value":20.1}
+[DEBUG] 2023-11-30T16:25:55  {"time":1701329155209,"value":1020}
+[DEBUG] 2023-11-30T16:25:55  {"time":1701329155209,"value":20.1}
+[DEBUG] 2023-11-30T16:25:55  {"time":1701329155209,"value":32}
+[DEBUG] 2023-11-30T16:25:55  {"time":1701329155209,"value":1020}
+[DEBUG] 2023-11-30T16:25:55  {"time":1701329155209,"value":20.1}
+[DEBUG] 2023-11-30T16:25:55  {"time":1701329155209,"value":32}
+[DEBUG] 2023-11-30T16:25:55  {"time":1701329155209,"value":1020}
+[DEBUG] 2023-11-30T16:25:58  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:58  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:58  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:25:58  {topic : "data/d/24e124785c421885/p/class_a/e/temperature", payload :{"time":1701329134756,"value":22.8}}
+[DEBUG] 2023-11-30T16:26:03  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:03  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:03  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:03  {topic : "data/d/24e124785c421885/p/class_a/e/humidity", payload :{"time":1701329134756,"value":25}}
+[DEBUG] 2023-11-30T16:26:08  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:08  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:08  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:08  {topic : "data/d/24e124785c389010/p/lobby/e/humidity", payload :{"time":1701329137901,"value":21}}
+[DEBUG] 2023-11-30T16:26:13  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:13  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:13  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:13  {topic : "data/d/24e124785c389010/p/lobby/e/temperature", payload :{"time":1701329137901,"value":25.200000000000003}}
+[DEBUG] 2023-11-30T16:26:13  {"time":1701329173633,"value":29}
+[DEBUG] 2023-11-30T16:26:13  {"time":1701329173633,"value":22.1}
+[DEBUG] 2023-11-30T16:26:13  {"time":1701329173633,"value":22.1}
+[DEBUG] 2023-11-30T16:26:13  {"time":1701329173633,"value":29}
+[DEBUG] 2023-11-30T16:26:13  {"time":1701329173633,"value":22.1}
+[DEBUG] 2023-11-30T16:26:13  {"time":1701329173633,"value":29}
+[INFO] 2023-11-30T16:26:26  MqttInNode - start
+[INFO] 2023-11-30T16:26:26  MqttOutNode - start
+[INFO] 2023-11-30T16:26:26  DebugNode - start
+[DEBUG] 2023-11-30T16:26:27  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:26:28  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:26:28  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:26:28  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:26:31  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:31  {topic : "asd", payload :{"asdkjglsd":"dashjkglskd"}}
+[DEBUG] 2023-11-30T16:26:31  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:31  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:36  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:36  {topic : "asd", payload :{"asdkjglsd":"dashjkglskd"}}
+[DEBUG] 2023-11-30T16:26:36  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:36  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:41  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:41  {topic : "asd", payload :{"asdkjglsd":"dashjkglskd"}}
+[DEBUG] 2023-11-30T16:26:41  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:41  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:46  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:46  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:46  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:46  {topic : "asd", payload :{"asdkjglsd":"dashjkglskd"}}
+[DEBUG] 2023-11-30T16:26:51  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:51  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:51  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:56  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:56  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:26:56  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:01  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:01  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:01  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:06  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:06  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:06  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:11  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:11  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:11  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:16  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:16  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:16  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:21  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:21  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:21  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:26  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:26  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:27:26  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[INFO] 2023-11-30T16:28:00  DebugNode - start
+[INFO] 2023-11-30T16:28:00  MqttOutNode - start
+[INFO] 2023-11-30T16:28:00  MqttInNode - start
+[DEBUG] 2023-11-30T16:28:04  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:28:04  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:28:04  {
+  "asdkjglsd" : "dashjkglskd"
+}
+[DEBUG] 2023-11-30T16:28:05  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:05  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:05  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:05  {topic : "asd", payload :{"asdkjglsd":"dashjkglskd"}}
+[DEBUG] 2023-11-30T16:28:10  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:10  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:10  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=1
+[DEBUG] 2023-11-30T16:28:10  {topic : "asd", payload :{"asdkjglsd":"dashjkglskd"}}
+[DEBUG] 2023-11-30T16:28:15  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:15  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:15  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=2
+[DEBUG] 2023-11-30T16:28:15  {topic : "asd", payload :{"asdkjglsd":"dashjkglskd"}}
+[DEBUG] 2023-11-30T16:28:20  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:20  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:20  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=3
+[DEBUG] 2023-11-30T16:28:25  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:25  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:25  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=3
+[DEBUG] 2023-11-30T16:28:30  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:30  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:30  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=3
+[DEBUG] 2023-11-30T16:28:35  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:35  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:35  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=3
+[DEBUG] 2023-11-30T16:28:40  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:40  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:40  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=3
+[DEBUG] 2023-11-30T16:28:45  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:45  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:45  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=3
+[DEBUG] 2023-11-30T16:28:50  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:50  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=3
+[DEBUG] 2023-11-30T16:28:50  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:55  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:28:55  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=3
+[DEBUG] 2023-11-30T16:28:55  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:29:00  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:29:00  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=3
+[DEBUG] 2023-11-30T16:29:00  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:29:05  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=3
+[DEBUG] 2023-11-30T16:29:05  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:29:05  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:29:05  MqttInNode - Counts: IN=0, OUT=3, ERR=0
+[DEBUG] 2023-11-30T16:29:10  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=3
+[DEBUG] 2023-11-30T16:29:10  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:29:10  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:29:15  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=3
+[DEBUG] 2023-11-30T16:29:15  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:29:15  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:29:20  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=3
+[DEBUG] 2023-11-30T16:29:20  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:29:20  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:29:25  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=3
+[DEBUG] 2023-11-30T16:29:25  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:29:25  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:29:30  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:29:30  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=3
+[DEBUG] 2023-11-30T16:29:30  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:29:35  SensorTypeFilterNode - Counts: IN=0, OUT=0, ERR=3
+[DEBUG] 2023-11-30T16:29:35  DebugNode - Counts: IN=0, OUT=0, ERR=0
+[DEBUG] 2023-11-30T16:29:35  MqttOutNode - Counts: IN=0, OUT=0, ERR=0
