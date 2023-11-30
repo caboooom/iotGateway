@@ -33,7 +33,6 @@ public class Node implements Runnable {
     }
 
     public void process() {
-
     }
 
     public void postprocess() {

@@ -11,14 +11,14 @@ import com.nhnacademy.aiot.util.Config;
 public class Main {
 
     public static void main(String[] args) {
-        Config command = new Config();
-        command.set(args);
-
+        Config command = new Config(args);
+        command.set();
         MqttInNode mqttInNode = new MqttInNode(2);
         MqttOutNode mqttOutNode = new MqttOutNode(1);
         SensorTypeFilterNode filterNode = new SensorTypeFilterNode(1, 1);
         Node debugNode = new DebugNode();
 
+        
         Wire wire = new Wire();
         Wire wire1 = new Wire();
         Wire wire2 = new Wire();

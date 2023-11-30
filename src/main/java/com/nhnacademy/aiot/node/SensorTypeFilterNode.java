@@ -17,7 +17,7 @@ public class SensorTypeFilterNode extends Node {
 
     @Override
     public void preprocess() {
-        sensorTypes = Config.properties.getProperty("sensorTypes").split(",");
+        sensorTypes = Config.getProperty("sensorTypes").split(",");
     }
 
     @Override
