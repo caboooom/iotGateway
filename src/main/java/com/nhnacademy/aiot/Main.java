@@ -11,8 +11,8 @@ import com.nhnacademy.aiot.util.Config;
 public class Main {
 
     public static void main(String[] args) {
-        Config command = new Config();
-        command.set(args);
+        Config command = new Config(args);
+        
 
         MqttInNode mqttInNode = new MqttInNode(2);
         MqttOutNode mqttOutNode = new MqttOutNode(1);

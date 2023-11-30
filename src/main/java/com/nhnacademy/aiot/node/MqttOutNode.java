@@ -26,16 +26,10 @@ public class MqttOutNode extends Node {
         }
     }
 
-<<<<<<< HEAD
-       
-        if(inputWires[0].hasMessage()){
-            inCount++;
-            Msg msg = inputWires[0].get();
-=======
     private void pubMQTT(Wire wire) {
         if (wire.hasMessage()) {
+            inCount++;
             Msg msg = wire.get();
->>>>>>> origin/develop
             String publisherId = UUID.randomUUID().toString();
 
             try (IMqttClient client = new MqttClient("tcp://localhost:1883", publisherId)) {
