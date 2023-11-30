@@ -23,17 +23,15 @@ public class Main {
             connectToBroker(options, publisher);
             mqttMethod(publisher);
             publisher.subscribe(topics, (topic, msg) -> {
-//                System.out.println("메시지 수신 : " + topic);
-//                System.out.println("msg : " + msg);
+
                 String[] topicList  = topic.split("/");
-//                System.out.println("0번째 토픽 : " + topicList[0]);
 
                 // TODO Json Parsing
                 // TODO split 없이 사용할 수 있는 mqtt Method 찾기
+
                 if ("application".equals(topicList[0])){
                     String jsonString = msg.toString();
                     JsonNode jsonNode = objm.readTree(jsonString);
-//                    System.out.println("jsonNode : " + jsonNode.toString());
 
                     // Todo 필요한 값 추출
                     String time = jsonNode.path("time").asText();
@@ -51,8 +49,6 @@ public class Main {
                     System.out.println("leq: " + leq);
                     System.out.println("lmax: " +lmax);
                     System.out.println("tvoc: " + tvoc);
-
-
                 }
 
             });
@@ -82,8 +78,6 @@ public class Main {
             @Override
             public void messageArrived(String s, MqttMessage mqttMessage) throws Exception {
                 String payloadString = new String(mqttMessage.getPayload(), StandardCharsets.UTF_8);
-//                    System.out.println("topic : " + s + ", 메시지 : " + mqttMessage);
-//                    System.out.println(payloadString);
             }
 
             // 메시지 전송이 끝났을 때, qos 1 or 2에서만 사용됨

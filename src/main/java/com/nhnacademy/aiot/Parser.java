@@ -10,14 +10,6 @@ public class Parser {
     static String json;
     static MqttMessage msg;
 
-    public Parser(String json){
-        this.json = json;
-    }
-
-    public Parser(MqttMessage msg) {
-        this.msg = msg;
-    }
-
     public static void main(String[] args) {
 
         try {
