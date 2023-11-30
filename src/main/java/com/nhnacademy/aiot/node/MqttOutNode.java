@@ -1,6 +1,5 @@
 package com.nhnacademy.aiot.node;
 
-import java.util.Properties;
 import java.util.UUID;
 import org.eclipse.paho.client.mqttv3.IMqttClient;
 import org.eclipse.paho.client.mqttv3.MqttClient;
@@ -22,7 +21,7 @@ public class MqttOutNode extends Node {
     public void process() {
         for (Port port : inputPorts) {
             for (Wire wire : port.getWires()) {
-               // pubMQTT(wire);
+               pubMQTT(wire);
             }
         }
     }

@@ -9,13 +9,12 @@ public class DebugNode extends Node{
     public DebugNode() {
         super(1,0);
     }
-    
 
     @Override
     public void process() {
         for (Wire wire : inputPorts[0].getWires()) {
             if(wire.hasMessage()){
-                log.info(wire.get());
+                log.debug(getClass().getSimpleName() + " " +wire.get());
             }
         }
     }

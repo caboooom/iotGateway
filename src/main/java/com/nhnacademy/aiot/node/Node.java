@@ -3,7 +3,9 @@ package com.nhnacademy.aiot.node;
 import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.Port;
 import com.nhnacademy.aiot.Wire;
+import lombok.extern.log4j.Log4j2;
 
+@Log4j2
 public class Node implements Runnable {
     private Thread thread;
     protected Port[] inputPorts;
@@ -27,7 +29,7 @@ public class Node implements Runnable {
     }
 
     public void preprocess() {
-
+        log.info(this.getClass().getSimpleName() + " - start");
     }
 
     public void process() {
@@ -35,7 +37,7 @@ public class Node implements Runnable {
     }
 
     public void postprocess() {
-
+        log.info(this.getClass().getSimpleName() + " - stop");
     }
 
     public void out(Msg outMessage) {

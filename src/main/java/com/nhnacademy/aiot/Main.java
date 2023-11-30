@@ -3,7 +3,6 @@ package com.nhnacademy.aiot;
 import com.nhnacademy.aiot.node.DebugNode;
 import com.nhnacademy.aiot.node.MqttInNode;
 import com.nhnacademy.aiot.node.MqttOutNode;
-import com.nhnacademy.aiot.node.MultiInputNode;
 import com.nhnacademy.aiot.node.Node;
 import com.nhnacademy.aiot.node.SensorTypeFilterNode;
 import com.nhnacademy.aiot.util.Config;
