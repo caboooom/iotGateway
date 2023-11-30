@@ -14,7 +14,9 @@ import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.enums.CmdOptions;
 import com.nhnacademy.aiot.util.Config;
 import com.nhnacademy.aiot.util.JSONUtils;
+import lombok.extern.log4j.Log4j2;
 
+@Log4j2
 public class MqttInNode extends Node {
 
     private final String TOPIC;
@@ -44,6 +46,7 @@ public class MqttInNode extends Node {
         try (IMqttClient client = new MqttClient("tcp://ems.nhnacademy.com:1883", publisherId)) {
             client.connect();
             setMqttOptions();
+
             CountDownLatch receivedSignal = new CountDownLatch(50);
 
             IMqttMessageListener listener = (topic, msg) -> {
@@ -55,13 +58,15 @@ public class MqttInNode extends Node {
                 receivedSignal.countDown();
             };
             client.subscribe(TOPIC, listener);
+            
             receivedSignal.await(1, TimeUnit.MINUTES);
             client.disconnect();
         } catch (MqttException e) {
             e.printStackTrace();
         } 
         catch (InterruptedException e) {
-            e.printStackTrace();
+            log.warn("");
+            Thread.currentThread().interrupt();
         }
 
     }

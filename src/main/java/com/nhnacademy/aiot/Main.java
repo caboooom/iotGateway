@@ -22,7 +22,6 @@ public class Main {
         Wire wire1 = new Wire();
         Wire wire2 = new Wire();
       
-
         mqttInNode.setOutputWire(0, wire);
         filterNode.setInputWire(0, wire);
 
