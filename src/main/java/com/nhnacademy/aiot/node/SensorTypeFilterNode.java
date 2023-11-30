@@ -1,5 +1,7 @@
 package com.nhnacademy.aiot.node;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.json.simple.JSONObject;
 import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.Wire;
@@ -38,19 +40,21 @@ public class SensorTypeFilterNode extends Node {
         }
 
         String deviceId = (String) ((JSONObject) msg.getPayload().get("deviceInfo")).get("devEui");
+        String place =(String) ((JSONObject)((JSONObject) msg.getPayload().get("deviceInfo")).get("tags")).get("place");
 
         for (String sensor : sensorTypes) {
             if (payload.get(sensor) != null) {
-                Msg outMsg = createMessage(deviceId, sensor, (Double) payload.get(sensor));
+                Msg outMsg = createMessage(deviceId, sensor, (Double) payload.get(sensor), place);
                 out(outMsg);
             }
         }
     }
 
 
-    private Msg createMessage(String deviceId, String sensor, Double sensorValue) {
+    private Msg createMessage(String deviceId, String sensor, Double sensorValue, String place) {
         Msg outMsg = new Msg();
-        outMsg.setTopic(deviceId + "/d/" + sensor);
+        outMsg.setTopic("/d/" + deviceId + "/p/" + place + "/e/" + sensor);
+
 
         JSONObject outPayload = new JSONObject();
         outPayload.put("time", System.currentTimeMillis());
