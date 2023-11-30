@@ -59,7 +59,7 @@ public class Config {
                     }
                     if (jsonObject.get("sensors") != null){
                         String sensorListStr = jsonObject.getJSONArray("sensors").toString(); // " ['temperature', 'humidity', 'co2'] "
-                        properties.setProperty("sensorType", sensorListStr.substring(1, sensorListStr.length()-1)); // " 'temperature', 'humidity', 'co2' "
+                        properties.setProperty("sensorTypes", sensorListStr.substring(1, sensorListStr.length()-1)); // " 'temperature', 'humidity', 'co2' "
 
                     }
                 } catch(Exception e){
@@ -74,7 +74,7 @@ public class Config {
             }
 
             if (commandLine.hasOption("s")){
-                properties.setProperty("sensorType", commandLine.getOptionValue("s"));
+                properties.setProperty("sensorTypes", commandLine.getOptionValue("s"));
             }
             
         } catch (ParseException e) {
