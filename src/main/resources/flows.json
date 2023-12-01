@@ -1,0 +1,53 @@
+[
+    {
+        "id" : "1111",
+        "nodeType" : "mqttInNode",
+        "topic" : "",
+        "qos" : 1,
+        "broker" : "2222",
+        "wires" : [
+            [ "3333"] 
+        ]
+    },
+    {
+        "id" : "2222",
+        "nodeType" : "mqttBroker",
+        "broker" : "tcp://ems.nhnacademy.com",
+        "port" : 1883,
+        "clientId" : "abc123",
+        "autoConnect": true,
+        "cleansession": true,
+        "keepalive": "60"
+    },
+    {
+        "id" : "3333",
+        "nodeType" : "filterNode",
+        "targetKeys" : [],
+
+        "wires" : [
+            ["4444"]
+        ]
+
+    },
+    {
+        "id" : "4444",
+        "nodeType" : "mqttOutNode",
+        "topic" : "", 
+        "qos" : 2,
+        "broker" : "5555",
+        "wires" : []
+
+    },
+    {
+        "id" : "5555",
+        "nodeType" : "mqttBroker",
+        "broker" : "mosquitto",
+        "port" : 1883,
+        "clientId" : "def456",
+        "autoConnect": true,
+        "cleansession": true,
+        "keepalive": "60"
+
+    }
+
+]
