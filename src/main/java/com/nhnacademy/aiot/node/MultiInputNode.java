@@ -15,15 +15,13 @@ public class MultiInputNode extends Node{
     @Override
     public void process() {
 
-
         for(Port inputPort : inputPorts ){
            
             if(!inputPort.hasMessage()){
-                inputPort.collectMsgFromWire();
-                continue;
+                log.info(inputPort.getMsg());
             }
 
-            log.info(inputPort.getMsg());
+            
 
     }
 }

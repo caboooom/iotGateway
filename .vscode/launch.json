@@ -9,14 +9,25 @@
             "name": "Main",
             "request": "launch",
             "mainClass": "com.nhnacademy.aiot.Main",
-            "projectName": "gateway",
+            "projectName": "iotGateway",
             "args": [
-                "--an",
-                "asdasdas",
                 "-s",
                 "temperature,humidity,co2",
                 "-c",
-                "file"
+                "./src/main/resources/configFile.json"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.nhnacademy.aiot.Main",
+            "projectName": "gateway",
+            "args": [
+                "-s",
+                "temperature,humidity,co2",
+                "-c",
+                "./src/main/resources/configFile.json"
             ]
         },
         {
@@ -24,6 +35,7 @@
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
+<<<<<<< HEAD
         },
         {
             "type": "java",
@@ -36,9 +48,10 @@
                 "asdasdas",
                 "-s",
                 "temperature,humidity,co2",
-                "-c",
-                "file"
+
             ]
+=======
+>>>>>>> origin/develop
         }
     ]
 }
