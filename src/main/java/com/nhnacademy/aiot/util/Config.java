@@ -9,10 +9,12 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import com.nhnacademy.aiot.enums.CmdOptions;
+import lombok.extern.log4j.Log4j2;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.DefaultParser;
 
+@Log4j2
 public class Config {
 
     String[] args;
@@ -75,6 +77,7 @@ public class Config {
                 }
 
                 if (commandLine.hasOption(CmdOptions.SENSOR_TYPES.getValue())) {
+                    log.trace(args[0]);
                     properties.setProperty(CmdOptions.SENSOR_TYPES.getKey(),
                             commandLine.getOptionValue(CmdOptions.SENSOR_TYPES.getValue()));
                 }

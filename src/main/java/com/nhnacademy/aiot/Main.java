@@ -1,9 +1,5 @@
 package com.nhnacademy.aiot;
 
-import java.lang.reflect.InvocationTargetException;
-import org.apache.logging.log4j.core.util.ReflectionUtil;
-import org.eclipse.paho.client.mqttv3.MqttClient;
-import com.nhnacademy.aiot.enums.Nodes;
 import com.nhnacademy.aiot.node.DebugNode;
 import com.nhnacademy.aiot.node.MqttInNode;
 import com.nhnacademy.aiot.node.MqttOutNode;
@@ -15,7 +11,6 @@ import com.nhnacademy.aiot.util.Config;
 public class Main {
 
     public static void main(String[] args) {
-
 
         Config command = new Config(args);
         command.set();

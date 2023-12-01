@@ -35,7 +35,6 @@
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
-<<<<<<< HEAD
         },
         {
             "type": "java",
@@ -50,8 +49,6 @@
                 "temperature,humidity,co2",
 
             ]
-=======
->>>>>>> origin/develop
         }
     ]
 }
