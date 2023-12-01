@@ -32,7 +32,6 @@ public class Config {
         properties.setProperty(CmdOptions.APPLICATION_NAME.getKey(), SINGLE_LEVEL_WILDCARD);
 
     }
-
     public void set() {
 
         Options options = new Options();

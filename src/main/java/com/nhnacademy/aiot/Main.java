@@ -15,7 +15,7 @@ public class Main {
         Config command = new Config(args);
         command.set();
         MqttInNode mqttInNode = new MqttInNode(1, "tcp://ems.nhnacademy.com", "cla");
-        MqttOutNode mqttOutNode = new MqttOutNode(1);
+        MqttOutNode mqttOutNode = new MqttOutNode(1, "tcp://localhost:1883");
         SensorTypeFilterNode filterNode = new SensorTypeFilterNode(1, 1);
         Node debugNode = new DebugNode();
         
@@ -24,6 +24,7 @@ public class Main {
         Wire wire2 = new Wire();
       
         mqttInNode.setOutputWire(0, wire);
+        
         filterNode.setInputWire(0, wire);
 
         filterNode.setOutputWire(0, wire1);
