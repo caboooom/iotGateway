@@ -52,7 +52,7 @@ public class SensorTypeFilterNode extends Node {
 
     private Msg createMessage(String deviceId, String sensor, Double sensorValue, String place) {
         Msg outMsg = new Msg();
-        outMsg.setTopic("/d/" + deviceId + "/p/" + place + "/e/" + sensor);
+        outMsg.setTopic("d/" + deviceId + "/p/" + place + "/e/" + sensor);
 
 
         JSONObject outPayload = new JSONObject();

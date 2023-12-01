@@ -1,9 +1,5 @@
 package com.nhnacademy.aiot;
 
-import java.lang.reflect.InvocationTargetException;
-import org.apache.logging.log4j.core.util.ReflectionUtil;
-import org.eclipse.paho.client.mqttv3.MqttClient;
-import com.nhnacademy.aiot.enums.Nodes;
 import com.nhnacademy.aiot.node.DebugNode;
 import com.nhnacademy.aiot.node.MqttInNode;
 import com.nhnacademy.aiot.node.MqttOutNode;
@@ -20,7 +16,7 @@ public class Main {
         Config command = new Config(args);
         command.set();
         MqttInNode mqttInNode = new MqttInNode(1, "tcp://ems.nhnacademy.com", "cla");
-        MqttOutNode mqttOutNode = new MqttOutNode(1);
+        MqttOutNode mqttOutNode = new MqttOutNode(1, "tcp://localhost:1883");
         SensorTypeFilterNode filterNode = new SensorTypeFilterNode(1, 1);
         Node debugNode = new DebugNode();
         
