@@ -66,7 +66,7 @@ public class Config {
                     sensorTypes = sensorTypes.substring(1, sensorTypes.length() - 1);
                     properties.setProperty(CmdOptions.SENSOR_TYPES.getKey(), sensorTypes);
                 }
-
+            }
                 // 요구사항: 설정 파일과 cmd line argument가 함께 주어질 경우 cmd line argument가 우선된다.
                 // 따라서 겹치는 내용이 있으면 cmd l ine argument가 기존의 내용을 덮어쓴다.
                 if (commandLine.hasOption(CmdOptions.APPLICATION_NAME.getValue())) {
@@ -79,7 +79,7 @@ public class Config {
                             commandLine.getOptionValue(CmdOptions.SENSOR_TYPES.getValue()));
                 }
 
-            }
+            
         } catch (ParseException | org.apache.commons.cli.ParseException | IOException e) {
 
             e.printStackTrace();

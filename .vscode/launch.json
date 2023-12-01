@@ -35,23 +35,6 @@
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
-<<<<<<< HEAD
-        },
-        {
-            "type": "java",
-            "name": "Main",
-            "request": "launch",
-            "mainClass": "com.nhnacademy.aiot.Main",
-            "projectName": "iotGateway",
-            "args": [
-                "--an",
-                "asdasdas",
-                "-s",
-                "temperature,humidity,co2",
-
-            ]
-=======
->>>>>>> origin/develop
         }
     ]
 }
