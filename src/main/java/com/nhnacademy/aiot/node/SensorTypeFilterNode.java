@@ -13,7 +13,7 @@ public class SensorTypeFilterNode extends Node {
 
     public SensorTypeFilterNode(int inputPortCount, int outputPortCount) {
         super(inputPortCount, outputPortCount);
-        
+
     }
 
     @Override
@@ -23,7 +23,7 @@ public class SensorTypeFilterNode extends Node {
 
     @Override
     public void process() {
-        
+
         for (Wire wire : inputPorts[0].getWires()) {
             if (wire.hasMessage()) {
                 Msg msg = wire.get();
@@ -38,17 +38,23 @@ public class SensorTypeFilterNode extends Node {
         if (payload == null) {
             return;
         }
+        try {
+            String deviceId = msg.getPayload().get("deviceInfo").get("devEui").asText();
+            String place = msg.getPayload().get("deviceInfo").get("tags").get("place").asText();
+            for (String sensor : sensorTypes) {
+                if (payload.get(sensor) != null) {
 
-        String deviceId =   msg.getPayload().get("deviceInfo").get("devEui").asText();
-        String place =   msg.getPayload().get("deviceInfo").get("tags").get("place").asText();
-
-        for (String sensor : sensorTypes) {
-            if (payload.get(sensor) != null) {
-                
-                Msg outMsg = createMessage(deviceId, sensor, payload.get(sensor).asDouble(), place);
-                out(outMsg);
+                    Msg outMsg =
+                            createMessage(deviceId, sensor, payload.get(sensor).asDouble(), place);
+                    out(outMsg);
+                }
             }
+        } catch (Exception e) {
+            return;
         }
+
+
+
     }
 
 

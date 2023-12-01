@@ -2,3 +2,5 @@ target/
 
 *.lck
 *.log
+*.vscode
+*.idea

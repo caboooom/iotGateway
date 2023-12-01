@@ -2,10 +2,11 @@ package com.nhnacademy.aiot.util;
 
 import java.io.File;
 import java.io.Reader;
-import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.extern.log4j.Log4j2;
 
+@Log4j2
 public class JSONUtils {
 
     private static ObjectMapper objectMapper = new ObjectMapper();
@@ -18,6 +19,7 @@ public class JSONUtils {
             objectMapper.readTree(jsonString);
             return true;
         } catch (Exception e) {
+            log.info(e.getMessage());
             return false;
         }
     }
@@ -30,6 +32,7 @@ public class JSONUtils {
         try {
             return objectMapper.readTree(jsonString);
         } catch (Exception e) {
+            log.info(e.getMessage());
             return null;
         }
     }
@@ -38,6 +41,7 @@ public class JSONUtils {
         try {
             return objectMapper.readTree(jsonFile);
         } catch (Exception e) {
+            log.info(e.getMessage());
             return null;
         }
     }
@@ -46,6 +50,7 @@ public class JSONUtils {
         try {
             return objectMapper.readTree(reader);
         } catch (Exception e) {
+            log.info(e.getMessage());
             return null;
         }
     }

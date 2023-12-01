@@ -9,8 +9,6 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.nhnacademy.aiot.Msg;
-import com.nhnacademy.aiot.enums.CmdOptions;
-import com.nhnacademy.aiot.util.Config;
 import com.nhnacademy.aiot.util.JSONUtils;
 import lombok.extern.log4j.Log4j2;
 
@@ -24,8 +22,7 @@ public class MqttInNode extends Node {
 
     public MqttInNode(int outputWireCount, String serverURI, String clientId) {
         super(0, outputWireCount);
-        this.topic = "application/" + Config.getProperty(CmdOptions.APPLICATION_NAME.getKey())
-                + "/device/+/+/up";
+        this.topic = "application/+/device/+/+/up";
         this.serverURI = serverURI;
         this.clientId = clientId;
         innerMsgQueue = new LinkedList<>();
@@ -41,13 +38,12 @@ public class MqttInNode extends Node {
         log.info("start node : " + name );
         
         ClientNode node = new ClientNode();
-        node.start();
+        node.run();
     }
 
     @Override
     public void process() {
         if (!innerMsgQueue.isEmpty()) {
-            log.debug("asdasmvklsmrgikermgoiemrgoiermgo");
             MqttMessage mqttMessage = innerMsgQueue.poll();
             String payload = new String(mqttMessage.getPayload());
             Msg msg = createMsg(topic, payload);
@@ -57,7 +53,6 @@ public class MqttInNode extends Node {
     }
 
     private Msg createMsg(String topic, String payload) {
-        log.debug(payload);
         if (JSONUtils.isJson(payload)) {
                 JsonNode jsonObject = JSONUtils.parseJson(payload);
                 
@@ -65,8 +60,6 @@ public class MqttInNode extends Node {
             }
             return null;
         }
-       
-    
 
     public class ClientNode extends Node {
 

@@ -2,7 +2,6 @@ package com.nhnacademy.aiot.node;
 
 import java.util.Iterator;
 import java.util.Map;
-import org.json.simple.JSONObject;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonNode;
