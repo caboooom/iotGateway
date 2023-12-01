@@ -7,8 +7,7 @@ import org.eclipse.paho.client.mqttv3.MqttClient;
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.ParseException;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.enums.CmdOptions;
 import com.nhnacademy.aiot.util.Config;
@@ -39,6 +38,7 @@ public class MqttInNode extends Node {
 
     @Override
     public void preprocess() {
+        log.info("start node : " + name );
         
         ClientNode node = new ClientNode();
         node.start();
@@ -47,25 +47,26 @@ public class MqttInNode extends Node {
     @Override
     public void process() {
         if (!innerMsgQueue.isEmpty()) {
-
+            log.debug("asdasmvklsmrgikermgoiemrgoiermgo");
             MqttMessage mqttMessage = innerMsgQueue.poll();
             String payload = new String(mqttMessage.getPayload());
             Msg msg = createMsg(topic, payload);
+            
             out(msg);
         }
     }
 
     private Msg createMsg(String topic, String payload) {
+        log.debug(payload);
         if (JSONUtils.isJson(payload)) {
-            try {
-                JSONObject jsonObject = (JSONObject) JSONUtils.getParser().parse(payload);
+                JsonNode jsonObject = JSONUtils.parseJson(payload);
+                
                 return new Msg(topic, jsonObject);
-            } catch (ParseException e) {
-                log.error("is not json");
             }
+            return null;
         }
-        return null;
-    }
+       
+    
 
     public class ClientNode extends Node {
 
@@ -75,6 +76,7 @@ public class MqttInNode extends Node {
 
         @Override
         public void run() {
+            log.info(name + " : start");
             MqttClient client;
 
             try {
@@ -85,7 +87,7 @@ public class MqttInNode extends Node {
                 client.connect();
                 client.subscribe(topic, (topic, msg) -> innerMsgQueue.add(msg));
             } catch (MqttException e) {
-                log.error("ClientNode run()"+ e.getMessage());
+                log.error("ClientNode run() "+ e.getMessage());
             }
         }
     }

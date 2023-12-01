@@ -1,13 +1,13 @@
 package com.nhnacademy.aiot;
 
-import org.json.simple.JSONObject;
+import com.fasterxml.jackson.databind.JsonNode;
 
 public class Msg {
 
     private String topic;
-    private JSONObject payload;
+    private JsonNode payload;
 
-    public Msg(String topic, JSONObject payload) {
+    public Msg(String topic, JsonNode payload) {
         this.topic = topic;
         this.payload = payload;
     }
@@ -19,10 +19,10 @@ public class Msg {
     public void setTopic(String topic) {
         this.topic = topic;
     }
-    public void setPayload(JSONObject payload) {
+    public void setPayload(JsonNode payload) {
         this.payload = payload;
     }
-    public JSONObject getPayload() {
+    public JsonNode getPayload() {
         return payload;
     }
     public String getTopic() {
