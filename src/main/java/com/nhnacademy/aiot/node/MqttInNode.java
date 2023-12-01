@@ -28,7 +28,7 @@ public class MqttInNode extends Node{
                         return new Msg(topic, jsonObject);
 
                     } catch (ParseException e) {
-                        errCount++;
+                        errCount++;                                              
                         log.error(e);
                     }
             }
@@ -57,10 +57,10 @@ public class MqttInNode extends Node{
             receivedSignal.await(1, TimeUnit.MINUTES);
             client.disconnect();
         } catch (MqttException e) {
-            log.error(e);
+            log.error("Mqtt Exception : " + e.getMessage());
         } 
          catch (InterruptedException e) {
-            log.error(e);
+            log.error("Interrupted Exception : " + e.getMessage());
         }
         
     }

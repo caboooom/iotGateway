@@ -49,10 +49,10 @@ public class MqttOutNode extends Node {
                 client.disconnect();
 
             } catch (MqttException e) {
-                e.printStackTrace();
+                log.error("Mqtt Exception : " + e.getMessage());
             }
         }
-    }
+    } 
 
 
 }
