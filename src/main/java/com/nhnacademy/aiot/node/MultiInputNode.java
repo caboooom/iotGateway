@@ -18,11 +18,10 @@ public class MultiInputNode extends Node{
         for(Port inputPort : inputPorts ){
            
             if(!inputPort.hasMessage()){
-                inputPort.collectMsgFromWire();
-                continue;
+                log.info(inputPort.getMsg());
             }
 
-            log.info(inputPort.getMsg());
+            
 
     }
 }
