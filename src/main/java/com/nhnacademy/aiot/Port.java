@@ -42,20 +42,20 @@ public class Port {
         }
         return true;
     }
+
     /**
-     * 연결된 여러 wire 에서 메시지를 하나씩 가져와서 Port의 메시지 큐에 추가하여.
-     * wire로부터 오는 메시지를 큐에 모아주는 메서드.
+     * 연결된 여러 wire 에서 메시지를 하나씩 가져와서 Port의 메시지 큐에 추가하여. wire로부터 오는 메시지를 큐에 모아주는 메서드.
      */
     private void collectMsgFromWire(){
         for (Wire wire : wires) {
-            if(wire.hasMessage()){
+            if (wire.hasMessage()) {
                 messageQueue.add(wire.get());
             }
         }
     }
 
-    public Msg getMsg(){
-        
+    public Msg getMsg() {
+
         return messageQueue.poll();
     }
 }

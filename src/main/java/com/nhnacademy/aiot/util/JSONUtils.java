@@ -1,34 +1,58 @@
 package com.nhnacademy.aiot.util;
 
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
+import java.io.File;
+import java.io.Reader;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.extern.log4j.Log4j2;
 
+@Log4j2
 public class JSONUtils {
 
-    private static JSONParser jsonParser = new JSONParser();
+    private static ObjectMapper objectMapper = new ObjectMapper();
 
-    private JSONUtils(){
-        
+    private JSONUtils() {
     }
 
     public static boolean isJson(String jsonString) {
-        JSONParser parser = new JSONParser();
-
         try {
-            Object obj = parser.parse(jsonString);
-            if (obj instanceof JSONObject) {
-                return true;
-            }
-        } catch (ParseException e) {
+            objectMapper.readTree(jsonString);
+            return true;
+        } catch (Exception e) {
+            log.info(e.getMessage());
             return false;
         }
-
-        return false;
     }
 
-    public static JSONParser getParser(){
-
-        return jsonParser;
+    public static ObjectMapper getMapper() {
+        return objectMapper;
     }
+
+    public static JsonNode parseJson(String jsonString) {
+        try {
+            return objectMapper.readTree(jsonString);
+        } catch (Exception e) {
+            log.info(e.getMessage());
+            return null;
+        }
+    }
+
+    public static JsonNode parseJson(File jsonFile) {
+        try {
+            return objectMapper.readTree(jsonFile);
+        } catch (Exception e) {
+            log.info(e.getMessage());
+            return null;
+        }
+    }
+
+    public static JsonNode parseJson(Reader reader) {
+        try {
+            return objectMapper.readTree(reader);
+        } catch (Exception e) {
+            log.info(e.getMessage());
+            return null;
+        }
+    }
+
 }

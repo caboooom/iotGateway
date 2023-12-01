@@ -12,7 +12,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-
         Config command = new Config(args);
         command.set();
         MqttInNode mqttInNode = new MqttInNode(1, "tcp://ems.nhnacademy.com", "cla");

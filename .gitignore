@@ -1,7 +1,8 @@
 target/
 
-
 *.lck
 *.log
-*.idea
 *.vscode
+*.idea
+.vscode/*.json
+

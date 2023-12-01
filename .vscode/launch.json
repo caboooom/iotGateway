@@ -6,13 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FilterNode",
+            "request": "launch",
+            "mainClass": "com.nhnacademy.aiot.node.FilterNode",
+            "projectName": "iotGateway"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "com.nhnacademy.aiot.Main",
             "projectName": "iotGateway",
             "args": [
                 "-s",
-                "temperature,humidity,co2",
+                "temperature",
                 "-c",
                 "./src/main/resources/configFile.json"
             ]

@@ -7,11 +7,8 @@ import org.eclipse.paho.client.mqttv3.MqttClient;
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.ParseException;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.nhnacademy.aiot.Msg;
-import com.nhnacademy.aiot.enums.CmdOptions;
-import com.nhnacademy.aiot.util.Config;
 import com.nhnacademy.aiot.util.JSONUtils;
 import lombok.extern.log4j.Log4j2;
 
@@ -25,8 +22,7 @@ public class MqttInNode extends Node {
 
     public MqttInNode(int outputWireCount, String serverURI, String clientId) {
         super(0, outputWireCount);
-        this.topic = "application/" + Config.getProperty(CmdOptions.APPLICATION_NAME.getKey())
-                + "/device/+/+/up";
+        this.topic = "application/+/device/+/+/up";
         this.serverURI = serverURI;
         this.clientId = clientId;
         innerMsgQueue = new LinkedList<>();
@@ -39,33 +35,31 @@ public class MqttInNode extends Node {
 
     @Override
     public void preprocess() {
+        log.info("start node : " + name );
         
         ClientNode node = new ClientNode();
-        node.start();
+        node.run();
     }
 
     @Override
     public void process() {
         if (!innerMsgQueue.isEmpty()) {
-
             MqttMessage mqttMessage = innerMsgQueue.poll();
             String payload = new String(mqttMessage.getPayload());
             Msg msg = createMsg(topic, payload);
+            
             out(msg);
         }
     }
 
     private Msg createMsg(String topic, String payload) {
         if (JSONUtils.isJson(payload)) {
-            try {
-                JSONObject jsonObject = (JSONObject) JSONUtils.getParser().parse(payload);
+                JsonNode jsonObject = JSONUtils.parseJson(payload);
+                
                 return new Msg(topic, jsonObject);
-            } catch (ParseException e) {
-                log.error("is not json");
             }
+            return null;
         }
-        return null;
-    }
 
     public class ClientNode extends Node {
 
@@ -75,6 +69,7 @@ public class MqttInNode extends Node {
 
         @Override
         public void run() {
+            log.info(name + " : start");
             MqttClient client;
 
             try {
@@ -85,7 +80,7 @@ public class MqttInNode extends Node {
                 client.connect();
                 client.subscribe(topic, (topic, msg) -> innerMsgQueue.add(msg));
             } catch (MqttException e) {
-                log.error("ClientNode run()"+ e.getMessage());
+                log.error("ClientNode run() "+ e.getMessage());
             }
         }
     }
