@@ -28,7 +28,7 @@
                 "-s",
                 "temperature",
                 "-c",
-                "./src/main/resources/configFile.json"
+                "./src/main/resources/config.json"
             ]
         },
         {

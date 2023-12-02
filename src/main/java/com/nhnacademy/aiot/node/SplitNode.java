@@ -10,18 +10,26 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 public class SplitNode extends Node {
 
+    private static final String NODE_ID = "id";
+    private static final String WIRES = "wires";
+    private static final String SPLIT_KEY = "splitKey";
+
     private String splitKey;
     //keep Msg 구현해야됨
     private boolean keepMsg;
 
-    public SplitNode(int outputPortCount, String splitKey, boolean keepMsg) {
-        super(outputPortCount);
+    public SplitNode(String id, int outputPortCount, String splitKey, boolean keepMsg) {
+        super(id, outputPortCount);
         this.splitKey = splitKey;
         this.keepMsg = keepMsg;
     }
 
-    public SplitNode( int outputPortCount, String splitKey) {
-        this( outputPortCount, splitKey, true);
+    public SplitNode(String id, int outputPortCount, String splitKey) {
+        this( id, outputPortCount, splitKey, true);
+    }
+
+    public SplitNode(JsonNode jsonNode){
+        this(jsonNode.path(NODE_ID).asText(), jsonNode.path(WIRES).size(), jsonNode.path(SPLIT_KEY).asText());
     }
 
     @Override

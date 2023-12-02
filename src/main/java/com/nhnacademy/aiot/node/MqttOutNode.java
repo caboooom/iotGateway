@@ -2,6 +2,8 @@ package com.nhnacademy.aiot.node;
 
 import java.util.Queue;
 import org.eclipse.paho.client.mqttv3.MqttException;
+
+import com.fasterxml.jackson.databind.JsonNode;
 import com.nhnacademy.aiot.Msg;
 
 import lombok.extern.log4j.Log4j2;
@@ -9,13 +11,25 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 public class MqttOutNode extends Node {
 
-    public MqttOutNode() {
-        super(0);
+    private static final String NODE_ID = "id";
+    private static final String WIRES = "wires";
+    
+    private Queue<Msg> innerMsgQueue;
+    private ClientNode clientNode;
+
+    public MqttOutNode(String id, int outputWireCount) {
+        super(id,outputWireCount);
+    }
+
+    
+    public MqttOutNode(String id) {
+        super(id, 0);
         
     }
 
-    private Queue<Msg> innerMsgQueue;
-    private ClientNode clientNode;
+    public MqttOutNode(JsonNode jsonNode){
+        this(jsonNode.path(NODE_ID).asText(), jsonNode.path(WIRES).size());
+    }
 
 
     @Override

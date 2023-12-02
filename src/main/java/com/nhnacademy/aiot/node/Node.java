@@ -1,5 +1,6 @@
 package com.nhnacademy.aiot.node;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.Port;
 import com.nhnacademy.aiot.Wire;
@@ -18,10 +19,15 @@ public class Node implements Runnable {
     protected int outCount = 0;
     protected int errCount = 0;
 
-    protected Node(boolean hasInputPort, int outputPortCount) {
+    protected final String id;
+
+   
+    protected Node(String id, boolean hasInputPort, int outputPortCount) {
+        this.id = id;
         if (hasInputPort) {
             this.inputPort = new Port();
         }
+
         this.outputPorts = new Port[outputPortCount];
         name = getClass().getSimpleName() + "_" + nodeCount++;
         log.info("create node : " + name);
@@ -31,8 +37,8 @@ public class Node implements Runnable {
         }
     }
 
-    protected Node(int outputPortCount) {
-        this(true, outputPortCount);
+    protected Node(String id, int outputPortCount) {
+        this(id, true, outputPortCount);
     }
 
     public void preprocess() {
@@ -69,6 +75,7 @@ public class Node implements Runnable {
         }
     }
 
+    
     public synchronized void start() {
         thread = new Thread(this, this.getClass().getSimpleName());
         thread.start();

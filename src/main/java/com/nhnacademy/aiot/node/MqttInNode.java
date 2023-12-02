@@ -1,7 +1,10 @@
 package com.nhnacademy.aiot.node;
 
 import java.util.Queue;
+
 import org.eclipse.paho.client.mqttv3.MqttException;
+
+import com.fasterxml.jackson.databind.JsonNode;
 import org.eclipse.paho.client.mqttv3.MqttSecurityException;
 import com.nhnacademy.aiot.Msg;
 import lombok.extern.log4j.Log4j2;
@@ -9,18 +12,20 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 public class MqttInNode extends Node {
 
+    private static final String NODE_ID = "id";
+    private static final String TOPIC_FILTER = "topic";
+
     private Queue<Msg> innerMsgQueue;
     private ClientNode clientNode;
     private String topicFilter;
-    
 
-    public MqttInNode(String topicFilter) {
-        super(false, 1);
+    public MqttInNode(String id, String topicFilter) {
+        super(id, false, 1);
         this.topicFilter = topicFilter;
     }
 
-    public MqttInNode(){
-        this( "#" );
+    public MqttInNode(JsonNode jsonNode){
+        this(jsonNode.path(NODE_ID).asText(), jsonNode.path(TOPIC_FILTER).asText());
     }
 
     @Override

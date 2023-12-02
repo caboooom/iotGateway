@@ -1,17 +1,17 @@
 [
     {
         "id" : "1111",
-        "nodeType" : "mqttInNode",
-        "topic" : "",
+        "nodeType" : "MqttInNode",
+        "topic" : "application/#",
         "qos" : 1,
         "broker" : "2222",
         "wires" : [
-            [ "3333"] 
+            [ "3333"]
         ]
     },
     {
         "id" : "2222",
-        "nodeType" : "mqttBroker",
+        "nodeType" : "ClientNode",
         "broker" : "tcp://ems.nhnacademy.com",
         "port" : 1883,
         "clientId" : "abc123",
@@ -21,33 +21,54 @@
     },
     {
         "id" : "3333",
-        "nodeType" : "filterNode",
-        "targetKeys" : [],
+        "nodeType" : "FilterNode",
+        "targetStrings" : ["deviceEui", "place", "object", "branch"],
 
         "wires" : [
-            ["4444"]
+            ["4444",
+            "7777"]
         ]
 
     },
     {
         "id" : "4444",
-        "nodeType" : "mqttOutNode",
+        "nodeType" : "SplitNode",
+        "splitKey" : "object",
+        "wires" : [
+            [
+                "5555", "8888"
+            ]
+        ]
+    },
+    {
+        "id" : "5555",
+        "nodeType" : "MqttOutNode",
         "topic" : "", 
         "qos" : 2,
-        "broker" : "5555",
+        "broker" : "6666",
         "wires" : []
 
     },
     {
-        "id" : "5555",
-        "nodeType" : "mqttBroker",
-        "broker" : "mosquitto",
+        "id" : "6666",
+        "nodeType" : "ClientNode",
+        "broker" : "tcp://localhost",
         "port" : 1883,
         "clientId" : "def456",
         "autoConnect": true,
         "cleansession": true,
         "keepalive": "60"
 
+    },
+    {
+        "id" : "7777",
+        "nodeType" : "DebugNode",
+        "wires" : []
+    },
+    {
+        "id" : "8888",
+        "nodeType" : "DebugNode",
+        "wires" : []
     }
 
 ]
