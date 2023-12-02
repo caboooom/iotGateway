@@ -111,5 +111,8 @@ public class FlowGenerator {
     }
 
     public void start() {
+        for(String key : nodeMap.keySet()){
+            ((Node) nodeMap.get(key)).start();
+        }
     }
 }
