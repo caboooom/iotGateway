@@ -9,6 +9,7 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.eclipse.paho.client.mqttv3.MqttPersistenceException;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.nhnacademy.aiot.Msg;
 
 import lombok.extern.log4j.Log4j2;
@@ -20,16 +21,15 @@ public class MqttOutNode extends Node {
     private String clientId;
     private Queue<Msg> innerMsgQueue;
 
-    public MqttOutNode(int inputWireCount, String serverURI, String clientId) {
+    public MqttOutNode(int inputWireCount) {
         super(inputWireCount, 0);
-        this.serverURI = serverURI;
-        this.clientId = clientId;
         innerMsgQueue = new LinkedList<>();
     }
 
-    public MqttOutNode(int inputWireCount, String serverURI) {
-        this(inputWireCount, serverURI, UUID.randomUUID().toString());
+    public MqttOutNode(JsonNode jsonNode){
+        this(jsonNode.path("wires").size());
     }
+
 
     @Override
     public void preprocess() {

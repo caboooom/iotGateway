@@ -2,11 +2,12 @@ package com.nhnacademy.aiot.node;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.UUID;
 import org.eclipse.paho.client.mqttv3.MqttClient;
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
+
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.util.JSONUtils;
@@ -21,16 +22,17 @@ public class MqttInNode extends Node {
     private Queue<MqttMessage> innerMsgQueue;
     
 
-    public MqttInNode(int outputWireCount, String serverURI, String clientId) {
+    public MqttInNode(int outputWireCount) {
         super(0, outputWireCount);
         this.topic = "application/+/device/+/+/up";
-        this.serverURI = serverURI;
-        this.clientId = clientId;
         innerMsgQueue = new LinkedList<>();
     }
 
-    public MqttInNode(int outputWireCount, String serverURI) {
-        this(outputWireCount, serverURI, UUID.randomUUID().toString());
+
+    public MqttInNode(JsonNode jsonNode){
+       
+        this(jsonNode.path("wires").size());
+
     }
 
 

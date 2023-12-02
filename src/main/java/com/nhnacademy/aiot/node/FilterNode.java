@@ -1,12 +1,16 @@
 package com.nhnacademy.aiot.node;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.util.JSONUtils;
+
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
+import java.util.stream.StreamSupport;
 import java.util.Map.Entry;
 
 public class FilterNode extends Node {
@@ -19,6 +23,13 @@ public class FilterNode extends Node {
         for (String targetString : targetStrings) {
             this.targetStrings.add(targetString);
         }
+    }
+
+    public FilterNode(JsonNode jsonNode) {
+        this(0, jsonNode.path("wires").size(),
+            StreamSupport.stream(jsonNode.path("targetStrings").spliterator(), false)
+                    .map(JsonNode::asText)
+                    .toArray(String[]::new));
     }
 
     @Override
