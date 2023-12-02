@@ -1,8 +1,6 @@
 package com.nhnacademy.aiot.node;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.util.JSONUtils;

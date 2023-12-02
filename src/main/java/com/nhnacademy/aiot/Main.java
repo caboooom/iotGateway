@@ -19,6 +19,7 @@ public class Main {
         
         FlowGenerator flowGenerator = new FlowGenerator();
         flowGenerator.generateNodes();
+        flowGenerator.injectClients();
 
         flowGenerator.generateOutWires();
         flowGenerator.connectWires();

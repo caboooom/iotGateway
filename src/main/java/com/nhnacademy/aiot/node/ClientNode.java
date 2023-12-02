@@ -6,6 +6,8 @@ import org.eclipse.paho.client.mqttv3.MqttClient;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.eclipse.paho.client.mqttv3.MqttPersistenceException;
+
+import com.fasterxml.jackson.databind.JsonNode;
 import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.util.JSONUtils;
 import lombok.extern.log4j.Log4j2;
@@ -16,8 +18,8 @@ public class ClientNode extends Node {
     private Queue<Msg> clientToMqttQueue;
     private Queue<Msg> mqttToClientQueue;
 
-    public ClientNode(String serverURI, String clientId) {
-        super(0);
+    public ClientNode(String id, String serverURI, String clientId) {
+        super(id, 0);
         clientToMqttQueue = new LinkedList<>();
         mqttToClientQueue = new LinkedList<>();
         try {
@@ -25,6 +27,13 @@ public class ClientNode extends Node {
         } catch (MqttException e) {
             log.error("ClientNode Counstruct Error - " + e.getMessage());
         }
+    }
+
+    public ClientNode(JsonNode jsonNode){
+        this(jsonNode.path("id").asText(), 
+        jsonNode.path("broker").asText()+":"+jsonNode.path("port").asText(),
+        jsonNode.path("id").asText()
+        );
     }
 
     @Override

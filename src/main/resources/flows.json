@@ -2,7 +2,7 @@
     {
         "id" : "1111",
         "nodeType" : "MqttInNode",
-        "topic" : "",
+        "topic" : "#",
         "qos" : 1,
         "broker" : "2222",
         "wires" : [
@@ -52,7 +52,7 @@
     {
         "id" : "6666",
         "nodeType" : "ClientNode",
-        "broker" : "mosquitto",
+        "broker" : "tcp://localhost",
         "port" : 1883,
         "clientId" : "def456",
         "autoConnect": true,
@@ -61,7 +61,7 @@
 
     },
     {
-        "id":"7777",
+        "id" : "7777",
         "nodeType" : "DebugNode",
         "wires" : []
     },
