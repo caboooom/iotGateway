@@ -41,11 +41,7 @@ public class FlowGenerator {
                 String nodeId = j.path(NODE_ID).asText();
                 String nodeType = j.path(NODE_TYPE).asText();
                 String name = NODE_PATH + nodeType;
-                if (nodeId.equals("7777")) System.out.println();
                 Class clazz = Class.forName(name);
-                
-
-                log.info("#### " + name);
 
                 Constructor constructor = clazz.getConstructor(JsonNode.class);
                 Object instance = constructor.newInstance(j);                
@@ -73,26 +69,19 @@ public class FlowGenerator {
             
             for(JsonNode jsonNode : jsonObject){
 
-                System.out.println(jsonNode.get("nodeType").asText());
-
                 String nodeId = jsonNode.path("id").asText();
-                System.out.println(nodeId);
                 if (jsonNode.get("wires") == null) continue;
                 JsonNode wires = jsonNode.get("wires");
                
                 Node node = (Node)(nodeMap.get(nodeId));
-                System.out.println(node.toString());
 
 
             int portNum = -1;
             for (JsonNode wire : wires) {
                 ++portNum;
-                System.out.println("포트" + portNum);
-                
                 for (JsonNode element : wire) {
                     Wire w = new Wire();
                     node.setOutputWire(portNum, w);
-                    System.out.println("  내부 와이어 -> " + element.asText());
                     wireList.put(element.asText(), w);
                 }
             }

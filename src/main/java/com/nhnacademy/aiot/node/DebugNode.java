@@ -14,6 +14,7 @@ public class DebugNode extends Node{
     public DebugNode(JsonNode jsonNode){
         this(jsonNode.path("id").asText());
     }
+
     @Override
     public void process() {
         if(inputPort.hasMessage()){

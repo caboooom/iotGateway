@@ -24,7 +24,7 @@ public class MqttInNode extends Node {
     }
 
     public MqttInNode(JsonNode jsonNode){
-        this(jsonNode.path("id").asText(), jsonNode.path("topicFilter").asText());
+        this(jsonNode.path("id").asText(), jsonNode.path("topic").asText());
     }
 
     @Override

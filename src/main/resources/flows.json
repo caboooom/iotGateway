@@ -2,8 +2,7 @@
     {
         "id" : "1111",
         "nodeType" : "MqttInNode",
-        "topic" : "#",
-        "topicFilter" : "application/",
+        "topic" : "application/#",
         "qos" : 1,
         "broker" : "2222",
         "wires" : [
