@@ -24,6 +24,8 @@ public class MqttInNode extends Node {
 
     public MqttInNode(String id, int outputWireCount) {
         super(id, outputWireCount);
+         System.out.println("wires 배열 사이즈 =" +  outputWireCount);
+
 
         this.topic = "application/+/device/+/+/up";
         innerMsgQueue = new LinkedList<>();
@@ -33,7 +35,7 @@ public class MqttInNode extends Node {
     public MqttInNode(JsonNode jsonNode){
        
         this(jsonNode.path("id").asText(), jsonNode.path("wires").size());
-
+       
     }
 
 

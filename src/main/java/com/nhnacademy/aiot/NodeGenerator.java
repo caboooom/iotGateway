@@ -48,7 +48,12 @@ public class NodeGenerator {
                 Class clazz = Class.forName(name);
 
                 Constructor constructor = clazz.getConstructor(JsonNode.class);
-                nodeMap.put(nodeId, constructor.newInstance(j));
+                Object instance = constructor.newInstance(j);
+
+                // outWire 생성하기
+                
+
+                nodeMap.put(nodeId, instance);
                 
                 
         }

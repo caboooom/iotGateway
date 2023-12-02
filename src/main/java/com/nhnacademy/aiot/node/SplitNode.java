@@ -14,14 +14,18 @@ public class SplitNode extends Node {
     //keep Msg 구현해야됨
     private boolean keepMsg;
 
-    public SplitNode(int outputPortCount, String splitKey, boolean keepMsg) {
-        super(outputPortCount);
+    public SplitNode(String id, int outputPortCount, String splitKey, boolean keepMsg) {
+        super(id, outputPortCount);
         this.splitKey = splitKey;
         this.keepMsg = keepMsg;
     }
 
-    public SplitNode( int outputPortCount, String splitKey) {
-        this( outputPortCount, splitKey, true);
+    public SplitNode(String id, int outputPortCount, String splitKey) {
+        this( id, outputPortCount, splitKey, true);
+    }
+
+    public SplitNode(JsonNode jsonNode){
+        this(jsonNode.path("id").asText(), jsonNode.path("wires").size(), jsonNode.path("splitKey").asText());
     }
 
     @Override

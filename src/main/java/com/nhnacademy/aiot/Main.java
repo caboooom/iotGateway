@@ -41,56 +41,48 @@ public class Main {
         
 
 
-        // wireCount만큼 wire 생성
-        
-        List<Wire> wireList = new ArrayList<>();
-
-        for(Map.Entry<String, Object> entry : nodeMap.entrySet()){
-            entry.getKey();
-            Node node =(Node) entry.getValue();
-            for(int i=0; i<node.getOutportCount(); i++){
-                wireList.add(new Wire());
-            }
-        }
-
-        // wire
         
 
-        MqttInNode mqttInNode = new MqttInNode(1, "tcp://ems.nhnacademy.com", "cla");
-        MqttOutNode mqttOutNode = new MqttOutNode( "tcp://localhost:1883");
+        // wire 연결
+        
 
-        DebugNode spliterDebugNode = new DebugNode();
-        DebugNode filterDebuger = new DebugNode();
 
-        FilterNode filterNode = new FilterNode( 1 , new String[]{"place", "devEui", "object","branch"});
-        SplitNode splitNode = new SplitNode( 1, "object");
 
-        Wire wire = new Wire();
-        Wire wire1 = new Wire();
-        Wire wire2 = new Wire();
-        Wire wire3 = new Wire();
-        Wire wire4 = new Wire();
+        // MqttInNode mqttInNode = new MqttInNode(1, "tcp://ems.nhnacademy.com", "cla");
+        // MqttOutNode mqttOutNode = new MqttOutNode( "tcp://localhost:1883");
+
+        // DebugNode spliterDebugNode = new DebugNode();
+        // DebugNode filterDebuger = new DebugNode();
+
+        // FilterNode filterNode = new FilterNode( 1 , new String[]{"place", "devEui", "object","branch"});
+        // SplitNode splitNode = new SplitNode( 1, "object");
+
+        // Wire wire = new Wire();
+        // Wire wire1 = new Wire();
+        // Wire wire2 = new Wire();
+        // Wire wire3 = new Wire();
+        // Wire wire4 = new Wire();
       
-        mqttInNode.setOutputWire(0, wire);
-        filterNode.setInputWire( wire);
+        // mqttInNode.setOutputWire(0, wire);
+        // filterNode.setInputWire( wire);
 
-        filterNode.setOutputWire(0, wire2);
-        filterDebuger.setInputWire( wire2);
+        // filterNode.setOutputWire(0, wire2);
+        // filterDebuger.setInputWire( wire2);
 
-        filterNode.setOutputWire(0, wire1);
-        splitNode.setInputWire(wire1);
+        // filterNode.setOutputWire(0, wire1);
+        // splitNode.setInputWire(wire1);
 
-        splitNode.setOutputWire(0, wire3);
-        spliterDebugNode.setInputWire(wire3);
+        // splitNode.setOutputWire(0, wire3);
+        // spliterDebugNode.setInputWire(wire3);
         
-        splitNode.setOutputWire(0, wire4);
-        mqttOutNode.setInputWire(wire4);
+        // splitNode.setOutputWire(0, wire4);
+        // mqttOutNode.setInputWire(wire4);
 
-        mqttInNode.start();
-        //mqttOutNode.start();
-        filterNode.start();
-        splitNode.start();
-        spliterDebugNode.start();
-        filterDebuger.start();
+        // mqttInNode.start();
+        // //mqttOutNode.start();
+        // filterNode.start();
+        // splitNode.start();
+        // spliterDebugNode.start();
+        // filterDebuger.start();
     }
 }
