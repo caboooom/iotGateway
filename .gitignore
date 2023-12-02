@@ -3,6 +3,6 @@ target/
 *.lck
 *.log
 *.vscode
-*.idea
-.vscode/*.json
+.idea/
+.vscode/
 

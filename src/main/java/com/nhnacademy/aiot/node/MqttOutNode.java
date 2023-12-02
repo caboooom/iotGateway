@@ -20,15 +20,15 @@ public class MqttOutNode extends Node {
     private String clientId;
     private Queue<Msg> innerMsgQueue;
 
-    public MqttOutNode(int inputWireCount, String serverURI, String clientId) {
-        super(inputWireCount, 0);
+    public MqttOutNode( String serverURI, String clientId) {
+        super(0);
         this.serverURI = serverURI;
         this.clientId = clientId;
         innerMsgQueue = new LinkedList<>();
     }
 
-    public MqttOutNode(int inputWireCount, String serverURI) {
-        this(inputWireCount, serverURI, UUID.randomUUID().toString());
+    public MqttOutNode(String serverURI) {
+        this( serverURI, UUID.randomUUID().toString());
     }
 
     @Override
@@ -41,8 +41,8 @@ public class MqttOutNode extends Node {
     @Override
     public void process() {
 
-        if (inputPorts[0].hasMessage()) {
-            innerMsgQueue.add(inputPorts[0].getMsg());
+        if (inputPort.hasMessage()) {
+            innerMsgQueue.add(inputPort.getMsg());
         }
 
     }
@@ -51,7 +51,7 @@ public class MqttOutNode extends Node {
         MqttClient client;
 
         protected ClientNode() {
-            super(0, 0);
+            super(0);
         }
 
         @Override

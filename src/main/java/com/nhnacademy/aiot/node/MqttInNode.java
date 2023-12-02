@@ -22,7 +22,7 @@ public class MqttInNode extends Node {
     
 
     public MqttInNode(int outputWireCount, String serverURI, String clientId) {
-        super(0, outputWireCount);
+        super(outputWireCount);
         this.topic = "application/+/device/+/+/up";
         this.serverURI = serverURI;
         this.clientId = clientId;
@@ -65,7 +65,7 @@ public class MqttInNode extends Node {
     public class ClientNode extends Node {
         MqttClient client;
         protected ClientNode() {
-            super(0, 0);
+            super(0);
         }
 
 

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "자식",
+            "request": "launch",
+            "mainClass": "com.nhnacademy.aiot.자식",
+            "projectName": "iotGateway"
+        },
+        {
+            "type": "java",
             "name": "FilterNode",
             "request": "launch",
             "mainClass": "com.nhnacademy.aiot.node.FilterNode",
