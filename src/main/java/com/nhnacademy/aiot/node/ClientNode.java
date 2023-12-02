@@ -18,6 +18,11 @@ public class ClientNode extends Node {
     private Queue<Msg> clientToMqttQueue;
     private Queue<Msg> mqttToClientQueue;
 
+    private static final String NODE_ID = "id";
+    private static final String CLIENT_ID = "clientId";
+    private static final String SERVER_URI = "broker";
+    private static final String PORT = "port";
+
     public ClientNode(String id, String serverURI, String clientId) {
         super(id, 0);
         clientToMqttQueue = new LinkedList<>();
@@ -30,9 +35,9 @@ public class ClientNode extends Node {
     }
 
     public ClientNode(JsonNode jsonNode){
-        this(jsonNode.path("id").asText(), 
-        jsonNode.path("broker").asText()+":"+jsonNode.path("port").asText(),
-        jsonNode.path("id").asText()
+        this(jsonNode.path(NODE_ID).asText(), 
+        jsonNode.path(SERVER_URI).asText()+":"+jsonNode.path(PORT).asText(),
+        jsonNode.path(CLIENT_ID).asText()
         );
     }
 

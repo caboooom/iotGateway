@@ -3,7 +3,6 @@ package com.nhnacademy.aiot;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,121 +15,124 @@ import com.nhnacademy.aiot.util.JSONUtils;
 
 import lombok.extern.log4j.Log4j2;
 
-
-
 @Log4j2
 public class FlowGenerator {
 
-    private final String FILE_PATH = "src/main/resources/flows.json";
-    private final String NODE_ID = "id";
-    private final String NODE_PATH = "com.nhnacademy.aiot.node.";
-    private final String NODE_TYPE = "nodeType";
+    private static final String FILE_PATH = "src/main/resources/flows.json";
+    private static final String NODE_ID = "id";
+    private static final String NODE_PATH = "com.nhnacademy.aiot.node.";
+    private static final String NODE_TYPE = "nodeType";
+    private static final String WIRES = "wires";
+    private static final String CLIENT_NODE_ID = "broker";
 
-    static Map<String, Object> nodeMap = new HashMap<>();
-    static Map<String, Wire> wireList = new HashMap<>();
+    static Map<String, Object> nodeMap = new HashMap<>(); // < nodeId, node instance >
+    static Map<String, Wire> wireMap = new HashMap<>(); // < nodeId, wire instance >
 
+    private JsonNode allJsonNodes = null;
 
-    FlowGenerator(){}
-
-    public void generateNodes(){
-        JsonNode jsonObject;
+    FlowGenerator() {
         try {
-            jsonObject = JSONUtils.parseJson(new FileReader(FILE_PATH));
-            for(JsonNode j : jsonObject){
-            
-                String nodeId = j.path(NODE_ID).asText();
-                String nodeType = j.path(NODE_TYPE).asText();
-                String name = NODE_PATH + nodeType;
-                Class clazz = Class.forName(name);
-
-                Constructor constructor = clazz.getConstructor(JsonNode.class);
-                Object instance = constructor.newInstance(j);                
-                System.out.println("created instance - " + nodeType + " " + instance.toString());
-                nodeMap.put(nodeId, instance);                
-        }
+            allJsonNodes = JSONUtils.parseJson(new FileReader(FILE_PATH));
         } catch (FileNotFoundException e) {
-            log.error("Main - Cannot find file 'flows.json'");
-        }catch (NoSuchMethodException | InstantiationException | IllegalAccessException | IllegalArgumentException |InvocationTargetException e) {
-            log.error("generate node - ",e);
-        }catch (ClassNotFoundException e) {
-                    log.error("class not found");
-        } catch(SecurityException e){
-
+            log.error("Cannot find file 'flows.json'", e.getMessage());
+        } catch (IllegalArgumentException | SecurityException e) {
+            log.error("FlowGenerator() - ", e.getMessage());
         }
+    }
 
-        
-}
-
-
-    public void generateOutWires() {
-
+    /*
+     * Reflection을 통해 flows.json 에 명시된 노드들을 생성해주는 메서드
+     */
+    public void generateNodes() {
         try {
-            JsonNode jsonObject = JSONUtils.parseJson(new FileReader(FILE_PATH));
-            
-            for(JsonNode jsonNode : jsonObject){
+            for (JsonNode jsonNode : allJsonNodes) {
 
-                String nodeId = jsonNode.path("id").asText();
-                if (jsonNode.get("wires") == null) continue;
-                JsonNode wires = jsonNode.get("wires");
-               
-                Node node = (Node)(nodeMap.get(nodeId));
+                String nodeId = jsonNode.path(NODE_ID).asText();
+                String nodeType = jsonNode.path(NODE_TYPE).asText();
 
+                Class<?> clazz = Class.forName(NODE_PATH + nodeType);
+                Constructor<?> constructor = clazz.getConstructor(JsonNode.class);
+                Object instance = constructor.newInstance(jsonNode);
 
-            int portNum = -1;
-            for (JsonNode wire : wires) {
-                ++portNum;
-                for (JsonNode element : wire) {
+                nodeMap.put(nodeId, instance);
+            }
+        } catch (ReflectiveOperationException e) {
+            log.error("FlowGenerator generateNodes() error - " + e.getMessage());
+        }
+    }
+
+    /*
+    * 각 노드의 outputWire를 생성하고 outputPort에 연결한 후,
+    * 각 와이어를 해당 와이어와 연결할 inputPort를 가진 노드 아이디와 맵핑하여 wireMap에 저장하는 메서드
+    */
+    public void generateOutputWires() {
+
+        for (JsonNode jsonNode : allJsonNodes) {
+
+            if (jsonNode.get(WIRES) == null)
+                continue;
+
+            String nodeId = jsonNode.path(NODE_ID).asText();
+            Node node = (Node) (nodeMap.get(nodeId));
+
+            JsonNode nodeConnectionsByPort = jsonNode.get(WIRES);
+
+            int portNum = 0;
+            for (JsonNode port : nodeConnectionsByPort) {
+                for (JsonNode targetNodeId : port) {
                     Wire w = new Wire();
                     node.setOutputWire(portNum, w);
-                    wireList.put(element.asText(), w);
+                    wireMap.put(targetNodeId.asText(), w);
                 }
+                portNum++;
             }
-        
-        }
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         }
 
     }
 
-
+    /*
+    * wireMap을 순회하며 각 노드의 inputPort에 와이어를 연결시켜주는 메서드
+    * wireMap은 key로 nodeId, value로 wire를 가진다.
+    */
     public void connectWires() {
-        for(Map.Entry<String, Wire> entry : wireList.entrySet()){
-            Node targetNode = (Node)nodeMap.get(entry.getKey());
+        for (Map.Entry<String, Wire> entry : wireMap.entrySet()) {
+            Node targetNode = (Node) nodeMap.get(entry.getKey());
             targetNode.setInputWire(entry.getValue());
         }
     }
 
+    /*
+     * nodeMap에 있는 모든 노드를 실행시키는 메서드
+     */
     public void start() {
-        for(String key : nodeMap.keySet()){
+        for (String key : nodeMap.keySet()) {
             ((Node) nodeMap.get(key)).start();
         }
     }
 
+    /*
+     * MqttInNode와 MqttOut노드의 경우, 내부 노드로 클라이언트 노드를 가진다.
+     * 해당 노드들의 클라이언트 인스턴스를 nodeMap에서 찾아서 set해주는 메서드
+     */
     public void injectClients() {
-        try {
-            JsonNode jsonObject = JSONUtils.parseJson(new FileReader(FILE_PATH));
-            
-            for(JsonNode jsonNode : jsonObject){
 
-                String nodeType = jsonNode.path("nodeType").asText();
-                String nodeId = jsonNode.path("id").asText();
+        for (JsonNode jsonNode : allJsonNodes) {
 
-                if(nodeType.equals("MqttInNode")){
-                    MqttInNode mqttInNode = (MqttInNode)nodeMap.get(nodeId);
-                    String clientId = jsonNode.path("broker").asText();
-                    mqttInNode.setClientNode((ClientNode)nodeMap.get(clientId));
-                } else if (nodeType.equals("MqttOutNode")){
-                    MqttOutNode mqttOutNode = (MqttOutNode)nodeMap.get(nodeId);
-                    String clientId = jsonNode.path("broker").asText();
-                    mqttOutNode.setClientNode((ClientNode)nodeMap.get(clientId));
-                }
+            String nodeType = jsonNode.path(NODE_TYPE).asText();
+            String nodeId = jsonNode.path(NODE_ID).asText();
+
+            if (nodeType.equals("MqttInNode")) {
+                MqttInNode mqttInNode = (MqttInNode) nodeMap.get(nodeId);
+                String clientId = jsonNode.path(CLIENT_NODE_ID).asText();
+                mqttInNode.setClientNode((ClientNode) nodeMap.get(clientId));
             }
-        
 
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            if (nodeType.equals("MqttOutNode")) {
+                MqttOutNode mqttOutNode = (MqttOutNode) nodeMap.get(nodeId);
+                String clientId = jsonNode.path(CLIENT_NODE_ID).asText();
+                mqttOutNode.setClientNode((ClientNode) nodeMap.get(clientId));
+            }
         }
+
     }
 }

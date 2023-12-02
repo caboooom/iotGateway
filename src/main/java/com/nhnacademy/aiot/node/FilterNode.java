@@ -13,6 +13,9 @@ import java.util.Map.Entry;
 
 public class FilterNode extends Node {
 
+    private static final String NODE_ID = "id";
+    private static final String WIRES = "wires";
+    private static final String TARGET_STRINGS = "targetStrings";
     private Set<String> targetStrings;
 
     public FilterNode(String id, int outputPortCount, String[] targetStrings) {
@@ -25,8 +28,8 @@ public class FilterNode extends Node {
     }
 
     public FilterNode(JsonNode jsonNode) {
-        this(jsonNode.path("id").asText(), jsonNode.path("wires").size(),
-            StreamSupport.stream(jsonNode.path("targetStrings").spliterator(), false)
+        this(jsonNode.path(NODE_ID).asText(), jsonNode.path(WIRES).size(),
+            StreamSupport.stream(jsonNode.path(TARGET_STRINGS).spliterator(), false)
                     .map(JsonNode::asText)
                     .toArray(String[]::new));
     }

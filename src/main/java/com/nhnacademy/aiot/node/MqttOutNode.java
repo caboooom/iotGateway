@@ -11,6 +11,9 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 public class MqttOutNode extends Node {
 
+    private static final String NODE_ID = "id";
+    private static final String WIRES = "wires";
+    
     private Queue<Msg> innerMsgQueue;
     private ClientNode clientNode;
 
@@ -25,11 +28,8 @@ public class MqttOutNode extends Node {
     }
 
     public MqttOutNode(JsonNode jsonNode){
-        this(jsonNode.path("id").asText(), jsonNode.path("wires").size());
+        this(jsonNode.path(NODE_ID).asText(), jsonNode.path(WIRES).size());
     }
-
-    
-
 
 
     @Override

@@ -8,13 +8,12 @@ public class Main {
 
         Config command = new Config(args);
         command.set();
-
         
         FlowGenerator flowGenerator = new FlowGenerator();
         flowGenerator.generateNodes();
         flowGenerator.injectClients();
 
-        flowGenerator.generateOutWires();
+        flowGenerator.generateOutputWires();
         flowGenerator.connectWires();
 
         flowGenerator.start();

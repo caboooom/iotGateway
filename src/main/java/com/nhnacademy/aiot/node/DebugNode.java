@@ -7,12 +7,14 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 public class DebugNode extends Node{
 
+    private static final String NODE_ID = "id";
+
     public DebugNode(String id) {
         super(id, 0);
     }
 
     public DebugNode(JsonNode jsonNode){
-        this(jsonNode.path("id").asText());
+        this(jsonNode.path(NODE_ID).asText());
     }
 
     @Override
