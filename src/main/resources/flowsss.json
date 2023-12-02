@@ -1,0 +1,53 @@
+[
+    {
+        "id" : "1111",
+        "nodeType" : "MqttInNode",
+        "topic" : "",
+        "qos" : 1,
+        "broker" : "2222",
+        "wires" : [
+            [ "3333"]
+        ]
+    },
+    {
+        "id" : "3333",
+        "nodeType" : "FilterNode",
+        "targetStrings" : ["a","b","c","d"],
+
+        "wires" : [
+            ["4444",
+            "7777"]
+        ]
+
+    },
+    {
+        "id" : "4444",
+        "nodeType" : "SplitNode",
+        "splitKey" : "object",
+        "wires" : [
+            [
+                "5555", "8888"
+            ]
+        ]
+    },
+    {
+        "id" : "5555",
+        "nodeType" : "MqttOutNode",
+        "topic" : "", 
+        "qos" : 2,
+        "broker" : "6666",
+        "wires" : []
+
+    },
+    {
+        "id":"7777",
+        "nodeType" : "DebugNode",
+        "wires" : []
+    },
+    {
+        "id" : "8888",
+        "nodeType" : "DebugNode",
+        "wires" : []
+    }
+
+]
