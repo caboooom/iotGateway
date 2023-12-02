@@ -21,12 +21,12 @@ public class Node implements Runnable {
 
     protected final String id;
 
-    int outputPortCount;
-
-    protected Node(String id, int outputPortCount) {
+   
+    protected Node(String id, boolean hasInputPort, int outputPortCount) {
         this.id = id;
-        this.outputPortCount = outputPortCount;
-        this.inputPort = new Port();
+        if (hasInputPort) {
+            this.inputPort = new Port();
+        }
 
         this.outputPorts = new Port[outputPortCount];
         name = getClass().getSimpleName() + "_" + nodeCount++;
@@ -37,8 +37,8 @@ public class Node implements Runnable {
         }
     }
 
-    public int getOutportCount(){
-        return outputPortCount;
+    protected Node(String id, int outputPortCount) {
+        this(id, true, outputPortCount);
     }
 
     public void preprocess() {
