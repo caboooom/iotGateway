@@ -1,5 +1,6 @@
 package com.nhnacademy.aiot;
 
+import com.nhnacademy.aiot.node.ClientNode;
 import com.nhnacademy.aiot.node.DebugNode;
 import com.nhnacademy.aiot.node.FilterNode;
 import com.nhnacademy.aiot.node.MqttInNode;
@@ -14,8 +15,12 @@ public class Main {
 
         Config command = new Config(args);
         command.set();
-        MqttInNode mqttInNode = new MqttInNode(1, "tcp://ems.nhnacademy.com", "cla");
-        MqttOutNode mqttOutNode = new MqttOutNode( "tcp://localhost:1883");
+        ClientNode clientNode = new ClientNode("tcp://ems.nhnacademy.com:1883", "cla");
+        ClientNode outClientNode = new ClientNode("tcp://localhost:1883", "asdasd");
+        MqttInNode mqttInNode = new MqttInNode("application/+/device/+/+/up") ;
+        mqttInNode.setClientNode(clientNode);
+        MqttOutNode mqttOutNode = new MqttOutNode();
+        mqttOutNode.setClientNode(outClientNode);
 
         DebugNode spliterDebugNode = new DebugNode();
         DebugNode filterDebuger = new DebugNode();
@@ -45,7 +50,7 @@ public class Main {
         mqttOutNode.setInputWire(wire4);
 
         mqttInNode.start();
-        //mqttOutNode.start();
+        mqttOutNode.start();
         filterNode.start();
         splitNode.start();
         spliterDebugNode.start();
