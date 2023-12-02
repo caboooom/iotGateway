@@ -18,9 +18,10 @@ public class Node implements Runnable {
     protected int outCount = 0;
     protected int errCount = 0;
 
-    protected Node(int outputPortCount) {
-
-        this.inputPort = new Port();
+    protected Node(boolean hasInputPort, int outputPortCount) {
+        if (hasInputPort) {
+            this.inputPort = new Port();
+        }
         this.outputPorts = new Port[outputPortCount];
         name = getClass().getSimpleName() + "_" + nodeCount++;
         log.info("create node : " + name);
@@ -28,6 +29,10 @@ public class Node implements Runnable {
         for (int i = 0; i < outputPortCount; i++) {
             outputPorts[i] = new Port();
         }
+    }
+
+    protected Node(int outputPortCount) {
+        this(true, outputPortCount);
     }
 
     public void preprocess() {
