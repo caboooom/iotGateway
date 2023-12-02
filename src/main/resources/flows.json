@@ -3,6 +3,7 @@
         "id" : "1111",
         "nodeType" : "MqttInNode",
         "topic" : "#",
+        "topicFilter" : "application/",
         "qos" : 1,
         "broker" : "2222",
         "wires" : [
@@ -22,7 +23,7 @@
     {
         "id" : "3333",
         "nodeType" : "FilterNode",
-        "targetStrings" : ["a","b","c","d"],
+        "targetStrings" : ["deviceEui", "place", "object", "branch"],
 
         "wires" : [
             ["4444",
