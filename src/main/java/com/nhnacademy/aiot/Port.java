@@ -34,19 +34,19 @@ public class Port {
         }
     }
 
-    public boolean hasMessage() {
-        if (!messageQueue.isEmpty()) {
-            return true;
-        } else {
+    public boolean hasMessage(){
+
+        if(messageQueue.isEmpty()){
             collectMsgFromWire();
             return false;
         }
+        return true;
     }
 
     /**
      * 연결된 여러 wire 에서 메시지를 하나씩 가져와서 Port의 메시지 큐에 추가하여. wire로부터 오는 메시지를 큐에 모아주는 메서드.
      */
-    private void collectMsgFromWire() {
+    private void collectMsgFromWire(){
         for (Wire wire : wires) {
             if (wire.hasMessage()) {
                 messageQueue.add(wire.get());
