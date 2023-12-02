@@ -21,13 +21,13 @@ public class MqttOutNode extends Node {
     private String clientId;
     private Queue<Msg> innerMsgQueue;
 
-    public MqttOutNode(int inputWireCount) {
-        super(inputWireCount, 0);
+    public MqttOutNode(String id, int outputWireCount) {
+        super(id,outputWireCount);
         innerMsgQueue = new LinkedList<>();
     }
 
     public MqttOutNode(JsonNode jsonNode){
-        this(jsonNode.path("wires").size());
+        this(jsonNode.path("id").asText(), jsonNode.path("wires").size());
     }
 
 
@@ -41,8 +41,8 @@ public class MqttOutNode extends Node {
     @Override
     public void process() {
 
-        if (inputPorts[0].hasMessage()) {
-            innerMsgQueue.add(inputPorts[0].getMsg());
+        if (inputPort.hasMessage()) {
+            innerMsgQueue.add(inputPort.getMsg());
         }
 
     }
@@ -51,7 +51,7 @@ public class MqttOutNode extends Node {
         MqttClient client;
 
         protected ClientNode() {
-            super(0, 0);
+            super("id",0);
         }
 
         @Override

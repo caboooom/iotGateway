@@ -23,7 +23,8 @@ public class MqttInNode extends Node {
     
 
     public MqttInNode(String id, int outputWireCount) {
-        super(id, 0, outputWireCount);
+        super(id, outputWireCount);
+
         this.topic = "application/+/device/+/+/up";
         innerMsgQueue = new LinkedList<>();
     }
@@ -67,7 +68,8 @@ public class MqttInNode extends Node {
     public class ClientNode extends Node {
         MqttClient client;
         protected ClientNode() {
-            super("id", 0, 0);
+
+            super("id", 0);
         }
 
 
