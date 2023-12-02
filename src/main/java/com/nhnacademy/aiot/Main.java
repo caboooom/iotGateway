@@ -14,6 +14,10 @@ public class Main {
 
         Config command = new Config(args);
         command.set();
+
+
+        
+
         MqttInNode mqttInNode = new MqttInNode(1, "tcp://ems.nhnacademy.com", "cla");
         MqttOutNode mqttOutNode = new MqttOutNode(1, "tcp://localhost:1883");
         SensorTypeFilterNode filterNode = new SensorTypeFilterNode(1, 1);
