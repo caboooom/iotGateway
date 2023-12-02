@@ -1,26 +1,24 @@
 package com.nhnacademy.aiot.node;
 
-import java.util.Iterator;
-import java.util.Map;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.nhnacademy.aiot.Msg;
+import com.nhnacademy.aiot.util.JSONUtils;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.Map.Entry;
 
 public class FilterNode extends Node {
 
-    String[] targetStrings;
+    private Set<String> targetStrings;
 
-    protected FilterNode(int inputPortCount, int outputPortCount, String[] targetStrings) {
+    public FilterNode(int inputPortCount, int outputPortCount, String[] targetStrings) {
         super(inputPortCount, outputPortCount);
-        this.targetStrings = targetStrings;
-    }
-
-
-    @Override
-    public void preprocess() {
-        String[] targetStrings = {"id", "deviceId"};
+        this.targetStrings = new HashSet<>();
+        for (String targetString : targetStrings) {
+            this.targetStrings.add(targetString);
+        }
     }
 
     @Override
@@ -28,74 +26,39 @@ public class FilterNode extends Node {
         if (!inputPorts[0].hasMessage()) {
             return;
         }
+
         Msg inMsg = inputPorts[0].getMsg();
+        JsonNode inPayload = inMsg.getPayload();
 
-        Msg outMsg = new Msg();
+        ObjectNode outPayload = createFilteredPayload(inPayload);
 
-        // JSONObject inPayload = inMsg.getPayload();
-
-        for (String targetString : targetStrings) {
-            // inPayload.get(targetString);
-        }
+        Msg outMsg = new Msg("", outPayload);
+        out(outMsg);
     }
 
-    /***
-     * 
-     * @param payload
-     * @param key
-     * 
-     * 들어온 페이로드를 Key를 기준으로 새로 생성?
-     */
-    private static void spliter(JsonNode payload, String key) {
-        try {
-            if (!payload.has(key)) {
-                return;
+    private ObjectNode createFilteredPayload(JsonNode inPayload) {
+        ObjectNode outPayload = JSONUtils.getMapper().createObjectNode();
+
+        filterJsonNode(inPayload, outPayload);
+
+        return outPayload;
+    }
+
+    private void filterJsonNode(JsonNode inPayload, ObjectNode outPayload) {
+        Iterator<Entry<String, JsonNode>> entryIterator = inPayload.fields();
+        while (entryIterator.hasNext()) {
+            Entry<String, JsonNode> entry = entryIterator.next();
+
+            String fieldName = entry.getKey();
+            JsonNode fieldValue = entry.getValue();
+
+            if (targetStrings.contains(fieldName)) {
+                outPayload.set(fieldName, fieldValue);
             }
-            JsonNode objectNode = payload.get(key);
-
-            if (objectNode.isObject()) {
-                Iterator<Map.Entry<String, JsonNode>> fields = objectNode.fields();
-
-                while (fields.hasNext()) {
-                    Map.Entry<String, JsonNode> entry = fields.next();
-                    String fieldName = entry.getKey();
-                    JsonNode fieldValue = entry.getValue();
-
-                    Msg newMsg = createMsg(payload, key, fieldName, fieldValue);
-                }
+            if (fieldValue.isObject()) {
+                filterJsonNode(fieldValue, outPayload);
             }
 
-
-        } catch (Exception e) {
-            e.printStackTrace();
         }
     }
-
-    private static Msg createMsg(JsonNode payload, String key, String fieldName, JsonNode fieldValue) {
-        Msg newMsg = new Msg();
-
-        
-        // JSONObject sJsonObject = Msg.getPayload();
-        // newPayload.put("payload", payload);
-        // newPayload.put(fieldName, fieldValue.asInt());
-        
-
-        // newMsg.setPayload();
-        // System.out.println(newMsg + "Asdasdas");
-        return newMsg;
-    }
-
-    public static void main(String[] args) throws JsonMappingException, JsonProcessingException {
-        ObjectMapper mapper = new ObjectMapper();
-        JsonNode payload =
-                mapper.readTree("{\n" + "  \"deviceId\": \"xxxx\",\n" + "  \"place\": \"xxxxx\",\n"
-                        + "  \"branch\": \"gyungnam\",\n" + "  \"object\": {\n"
-                        + "    \"temperature\": 0,\n" + "    \"humidity\": 0\n" + "  }\n" + "}");
-
-        System.out.println("ASdasdas");
-
-        spliter(payload, "object");
-    }
-
-
 }

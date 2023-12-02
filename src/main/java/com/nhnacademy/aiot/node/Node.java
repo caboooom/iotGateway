@@ -14,7 +14,6 @@ public class Node implements Runnable {
     private static int nodeCount;
     protected String name;
     
-
     protected int inCount = 0;
     protected int outCount = 0;
     protected int errCount = 0;

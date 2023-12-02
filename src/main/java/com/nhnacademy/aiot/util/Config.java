@@ -32,6 +32,11 @@ public class Config {
         properties.setProperty(CmdOptions.APPLICATION_NAME.getKey(), SINGLE_LEVEL_WILDCARD);
 
     }
+
+    private void setProperty(String key, String value) {
+        properties.setProperty(key, value);
+    }
+
     public void set() {
 
         Options options = new Options();
@@ -51,26 +56,26 @@ public class Config {
                 JsonNode jsonObject = JSONUtils.parseJson(new FileReader(filePath));
 
                 if (jsonObject.get(CmdOptions.APPLICATION_NAME.getKey()) != null) {
-                    properties.setProperty(CmdOptions.APPLICATION_NAME.getKey(),
+                    setProperty(CmdOptions.APPLICATION_NAME.getKey(),
                             jsonObject.get(CmdOptions.APPLICATION_NAME.getKey()).toString());
                 }
 
                 if (jsonObject.get(CmdOptions.SENSOR_TYPES.getKey()) != null) {
                     String sensorTypes = jsonObject.get(CmdOptions.SENSOR_TYPES.getKey()).asText();
                     sensorTypes = sensorTypes.substring(1, sensorTypes.length() - 1);
-                    properties.setProperty(CmdOptions.SENSOR_TYPES.getKey(), sensorTypes);
+                    setProperty(CmdOptions.SENSOR_TYPES.getKey(), sensorTypes);
                 }
             }
             // 요구사항: 설정 파일과 cmd line argument가 함께 주어질 경우 cmd line argument가 우선된다.
             // 따라서 겹치는 내용이 있으면 cmd l ine argument가 기존의 내용을 덮어쓴다.
             if (commandLine.hasOption(CmdOptions.APPLICATION_NAME.getValue())) {
-                properties.setProperty(CmdOptions.APPLICATION_NAME.getKey(),
+                setProperty(CmdOptions.APPLICATION_NAME.getKey(),
                         commandLine.getOptionValue(CmdOptions.APPLICATION_NAME.getValue()));
             }
 
             if (commandLine.hasOption(CmdOptions.SENSOR_TYPES.getValue())) {
-                
-                properties.setProperty(CmdOptions.SENSOR_TYPES.getKey(),
+
+                setProperty(CmdOptions.SENSOR_TYPES.getKey(),
                         commandLine.getOptionValue(CmdOptions.SENSOR_TYPES.getValue()));
             }
 
