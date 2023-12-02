@@ -17,8 +17,8 @@ public class FilterNode extends Node {
 
     private Set<String> targetStrings;
 
-    public FilterNode(int inputPortCount, int outputPortCount, String[] targetStrings) {
-        super(inputPortCount, outputPortCount);
+    public FilterNode(String id, int inputPortCount, int outputPortCount, String[] targetStrings) {
+        super(id, inputPortCount, outputPortCount);
         this.targetStrings = new HashSet<>();
         for (String targetString : targetStrings) {
             this.targetStrings.add(targetString);
@@ -26,7 +26,7 @@ public class FilterNode extends Node {
     }
 
     public FilterNode(JsonNode jsonNode) {
-        this(0, jsonNode.path("wires").size(),
+        this(jsonNode.path("id").asText(), 0, jsonNode.path("wires").size(),
             StreamSupport.stream(jsonNode.path("targetStrings").spliterator(), false)
                     .map(JsonNode::asText)
                     .toArray(String[]::new));

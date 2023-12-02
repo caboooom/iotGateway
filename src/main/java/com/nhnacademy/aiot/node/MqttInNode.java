@@ -22,8 +22,8 @@ public class MqttInNode extends Node {
     private Queue<MqttMessage> innerMsgQueue;
     
 
-    public MqttInNode(int outputWireCount) {
-        super(0, outputWireCount);
+    public MqttInNode(String id, int outputWireCount) {
+        super(id, 0, outputWireCount);
         this.topic = "application/+/device/+/+/up";
         innerMsgQueue = new LinkedList<>();
     }
@@ -31,7 +31,7 @@ public class MqttInNode extends Node {
 
     public MqttInNode(JsonNode jsonNode){
        
-        this(jsonNode.path("wires").size());
+        this(jsonNode.path("id").asText(), jsonNode.path("wires").size());
 
     }
 
@@ -67,7 +67,7 @@ public class MqttInNode extends Node {
     public class ClientNode extends Node {
         MqttClient client;
         protected ClientNode() {
-            super(0, 0);
+            super("id", 0, 0);
         }
 
 

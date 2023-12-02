@@ -19,7 +19,13 @@ public class Node implements Runnable {
     protected int outCount = 0;
     protected int errCount = 0;
 
-    protected Node(int inputPortCount, int outputPortCount) {
+    protected final String id;
+
+    int outputPortCount;
+
+    protected Node(String id, int inputPortCount, int outputPortCount) {
+        this.id = id;
+        this.outputPortCount = outputPortCount;
         this.inputPorts = new Port[inputPortCount];
         this.outputPorts = new Port[outputPortCount];
         name = getClass().getSimpleName()+ "_" + nodeCount++;
@@ -31,6 +37,10 @@ public class Node implements Runnable {
         for (int i = 0; i < outputPortCount; i++) {
             outputPorts[i] = new Port();
         }
+    }
+
+    public int getOutportCount(){
+        return outputPortCount;
     }
 
     public void preprocess() {
@@ -70,6 +80,7 @@ public class Node implements Runnable {
         }
     }
 
+    
     public synchronized void start() {
         thread = new Thread(this, this.getClass().getSimpleName());
         thread.start();
