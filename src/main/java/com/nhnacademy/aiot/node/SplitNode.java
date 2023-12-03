@@ -29,12 +29,12 @@ public class SplitNode extends Node {
         
         if (inputPort.hasMessage()) {
             JsonNode inputMsg = inputPort.getMsg().getPayload();
-            spliter(inputMsg, splitKey);
+            splitter(inputMsg, splitKey);
         }
 
     }
 
-    private void spliter(JsonNode payload, String key) {
+    private void splitter(JsonNode payload, String key) {
         try {
             if (!payload.has(key)) {
                 return;

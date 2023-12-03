@@ -1,5 +1,9 @@
 package com.nhnacademy.aiot.enums;
 
+/**
+ *
+ */
+
 public enum CmdOptions {
     
     CONFIG_FILE( "configFile", "c" ,"Argument는 ','로 구분된 문자열로 주어짐"),

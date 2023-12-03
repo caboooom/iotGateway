@@ -1,11 +1,15 @@
 package com.nhnacademy.aiot;
 
+import lombok.Getter;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+
 public class Port {
+    @Getter
     private List<Wire> wires;
     private Queue<Msg> messageQueue;
 
@@ -20,10 +24,6 @@ public class Port {
 
     public void removeWire(Wire wire) {
         wires.remove(wire);
-    }
-
-    public List<Wire> getWires() {
-        return wires;
     }
 
     public void out(Msg outMessage) {
