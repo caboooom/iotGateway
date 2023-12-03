@@ -12,34 +12,14 @@ LoRa 디바이스를 관리하는 Chirpstack 서버와 연동하여 센서 데�
 # 개요
 
  - 프로젝트 이름 : IoT Gateway
- - 프로젝트 기간 : 2023.11.28 - 2023.12.
+ - 프로젝트 기간 : 2023.11.28 - 2023.12.03
  - 개발 언어 : JAVA
  - 개발 환경 : VSCODE
  - 멤버 : 박상진, 신민석, 유창은, 임세연
  <br>
 
 
-# 옵션 지정 방법 및 flows.json 파일 양식
-
-
- - Command line argument 옵션
-      - --an : application name을 설정 가능하며, 설정할 경우 해당 메시지만 수신한다.
-        
-      - -s : 허용 가능한 센서 종류를 지정할 수 있다. 센서 종류가 2개 이상일 경우 ','로 구분한다.
-      - 옵션 지정 예시
-        ```
-        --an myApplicationName123 -s temperature,humidity,co2
-        ```
-
- - 별도의 설정파일
-      - 반드시 JSON 형식으로 작성되어야 한다.
-        
-      - Command line argument 옵션과 마찬가지로, applicationName과 센서 종류를 지정할 수 있다.
-      - 설정파일 예시
-      ```
-      { "applicationName" : "myApplicationName123",
-         "sensors" :  ["temperature", "humidity", "co2"] }
-      ```
+# flows.json 파일 양식
 
  - flows.json 파일
       - 반드시 JSON 형식으로 작성되어야 한다.
