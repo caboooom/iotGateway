@@ -40,8 +40,9 @@ public class SwitchNode extends Node {
     private boolean isValid(JsonNode payload){
 
         for(String key : targetKeys){
-            if (payload.path(key) == null) return false;
+            if (payload.path(key).isMissingNode()) return false;
         }
+
         return true;
     }
 }
