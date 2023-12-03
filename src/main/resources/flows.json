@@ -25,9 +25,14 @@
         "targetStrings" : ["devEui", "place", "object", "branch"],
 
         "wires" : [
-            ["4444"]
+            ["4444","20"]
         ]
 
+    },
+    {
+        "id" : "20",
+        "nodeType" : "DebugNode",
+        "wires" : []
     },
     {
         "id" : "4444",
@@ -35,10 +40,13 @@
         "splitKey" : "object",
         "keyHolder" : "sensorType",
         "wires" : [
-            [
-                "5555"
-            ]
+            ["5555","21"]
         ]
+    },
+    {
+        "id" : "21",
+        "nodeType" : "DebugNode",
+        "wires" : []
     },
     {
         "id" : "5555",
@@ -46,53 +54,53 @@
         "topicPattern" : "data/d/+/b/+/p/+/e/+",
         "field" : ["devEui", "branch", "place", "sensorType"],
         "wires" : [
-            [ "11"]
+            [ "6666"]
         ]
     },
     {
-        "id" : "11",
+        "id" : "6666",
         "nodeType" : "ReplaceNode",
         "replaceTargets" : ["humidity", "temperature", "co2", "tvoc"], 
         "replacement" : "value",
         "wires" : [
             [
-                "10"
+                "7777"
             ]
         ]
     },
     {
-        "id" : "10",
+        "id" : "7777",
         "nodeType" : "SwitchNode",
-        "targetKeys" : ["devEui", "branch", "place", "sensorType" ,"value"] ,
+        "targetKeySet" : ["devEui", "branch", "place", "sensorType" ,"value"] ,
         "wires" : [
-            ["14"]
+            ["8888"]
         ]
     },
     {
-        "id" : "14",
+        "id" : "8888",
         "nodeType" : "FilterNode",
         "targetStrings" : ["time", "value"],
         "wires" : [
-            ["6666","12"]
+            ["9999","10"]
         ]
     },
     
     {
-        "id" : "12",
+        "id" : "9999",
         "nodeType" : "DebugNode",
         "wires" : []
     },
     {
-        "id" : "6666",
+        "id" : "10",
         "nodeType" : "MqttOutNode",
         "topic" : "", 
         "qos" : 2,
-        "broker" : "7777",
+        "broker" : "11",
         "wires" : []
 
     },
     {
-        "id" : "7777",
+        "id" : "11",
         "nodeType" : "ClientNode",
         "broker" : "tcp://localhost",
         "port" : 1883,

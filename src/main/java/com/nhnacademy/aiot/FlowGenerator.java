@@ -40,6 +40,25 @@ public class FlowGenerator {
         }
     }
 
+
+    /*
+     * flows.json 파일을 읽어 필요한 노드, 포트, 와이어를 동적으로 생성하고, 연결하여 실행하는 메서드
+     */
+    public void start() {
+
+        generateNodes();
+        injectClients();
+        generateOutputWires();
+        connectWires();
+
+        for (String key : nodeMap.keySet()) {
+            if(nodeMap.get(key) instanceof ClientNode) continue; // ClientNode는 MqttInNode/MqttOutNode에서 start시킨다.
+            ((Node) nodeMap.get(key)).start();
+        }
+
+    }
+
+
     /*
      * Reflection을 통해 flows.json 에 명시된 노드들을 생성해주는 메서드
      */
@@ -98,16 +117,6 @@ public class FlowGenerator {
         for (Map.Entry<String, Wire> entry : wireMap.entrySet()) {
             Node targetNode = (Node) nodeMap.get(entry.getKey());
             targetNode.setInputWire(entry.getValue());
-        }
-    }
-
-    /*
-     * nodeMap에 있는 모든 노드를 실행시키는 메서드
-     */
-    public void start() {
-        for (String key : nodeMap.keySet()) {
-            if(nodeMap.get(key) instanceof ClientNode) continue; // ClientNode는 MqttInNode/MqttOutNode에서 start시킨다.
-            ((Node) nodeMap.get(key)).start();
         }
     }
 
