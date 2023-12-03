@@ -106,6 +106,7 @@ public class FlowGenerator {
      */
     public void start() {
         for (String key : nodeMap.keySet()) {
+            if(nodeMap.get(key) instanceof ClientNode) continue; // ClientNode는 MqttInNode/MqttOutNode에서 start시킨다.
             ((Node) nodeMap.get(key)).start();
         }
     }
