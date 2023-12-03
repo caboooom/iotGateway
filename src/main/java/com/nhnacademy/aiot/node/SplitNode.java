@@ -39,17 +39,20 @@ public class SplitNode extends Node {
     @Override
     public void process() {
         
-        if (inputPort.hasMessage()) {
-            JsonNode inputMsg = inputPort.getMsg().getPayload();
-            spliter(inputMsg, splitKey);
+        if(!inputPort.hasMessage()) return;
+            
+        JsonNode inputMsg = inputPort.getMsg().getPayload();
+        Msg msg = spliter(inputMsg, splitKey);
+        if (msg != null){
+            out(msg);
         }
-
+        
     }
 
-    private void spliter(JsonNode payload, String key) {
+    private Msg spliter(JsonNode payload, String key) {
         try {
             if (!payload.has(key)) {
-                return;
+                return null;
             }
             JsonNode objectNode = payload.get(key);
 
@@ -60,15 +63,15 @@ public class SplitNode extends Node {
                     String fieldName = entry.getKey();
                     JsonNode fieldValue = entry.getValue();
 
-                    Msg newMsg = createMsg(payload, key, fieldName, fieldValue);
-
-                    out(newMsg);
+                    return createMsg(payload, key, fieldName, fieldValue);
                 }
             }
 
         } catch (Exception e) {
            log.error(e.getMessage());
         }
+
+        return null;
     }
 
     private Msg createMsg(JsonNode payload, String key, String fieldName, JsonNode fieldValue) {
