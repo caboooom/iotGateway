@@ -39,12 +39,12 @@ public class FilterNode extends Node {
         if (!inputPort.hasMessage()) {
             return;
         }
-        Msg inMsg = inputPort.getMsg();
-        JsonNode inPayload = inMsg.getPayload();
+        Msg msg = inputPort.getMsg();
+        JsonNode inPayload = msg.getPayload();
         ObjectNode outPayload = createFilteredPayload(inPayload);
 
-        Msg outMsg = new Msg("", outPayload);
-        out(outMsg);
+        msg.setPayload(outPayload);
+        out(msg);
     }
 
 
