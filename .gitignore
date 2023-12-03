@@ -1,5 +1,8 @@
-<<<<<<< HEAD
 target/
-=======
-target/
->>>>>>> origin/develop
+
+*.lck
+*.log
+*.vscode
+.idea/
+.vscode/
+

@@ -1,23 +1,27 @@
 package com.nhnacademy.aiot.node;
 
-import com.nhnacademy.aiot.Wire;
+import com.fasterxml.jackson.databind.JsonNode;
+
 import lombok.extern.log4j.Log4j2;
 
 @Log4j2
 public class DebugNode extends Node{
 
-    public DebugNode() {
-        super(1,0);
+    private static final String NODE_ID = "id";
+
+    public DebugNode(String id) {
+        super(id, 0);
+    }
+
+    public DebugNode(JsonNode jsonNode){
+        this(jsonNode.path(NODE_ID).asText());
     }
 
     @Override
     public void process() {
-        for (Wire wire : inputPorts[0].getWires()) {
-            if(wire.hasMessage()){
-                log.debug(getClass().getSimpleName() + " " +wire.get());
-            }
+        if(inputPort.hasMessage()){
+            log.debug(getClass().getSimpleName() + " " + inputPort.getMsg());
         }
     }
-
 
 }

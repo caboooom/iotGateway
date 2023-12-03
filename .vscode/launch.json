@@ -6,24 +6,17 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Main",
+            "name": "자식",
             "request": "launch",
-            "mainClass": "com.nhnacademy.aiot.Main",
-            "projectName": "gateway",
-            "args": [
-                "--an",
-                "asdasdas",
-                "-s",
-                "temperature,humidity,co2",
-                "-c",
-                "file"
-            ]
+            "mainClass": "com.nhnacademy.aiot.자식",
+            "projectName": "iotGateway"
         },
         {
             "type": "java",
-            "name": "Current File",
+            "name": "FilterNode",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "com.nhnacademy.aiot.node.FilterNode",
+            "projectName": "iotGateway"
         },
         {
             "type": "java",
@@ -32,13 +25,30 @@
             "mainClass": "com.nhnacademy.aiot.Main",
             "projectName": "iotGateway",
             "args": [
-                "--an",
-                "asdasdas",
+                "-s",
+                "temperature",
+                "-c",
+                "./src/main/resources/config.json"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.nhnacademy.aiot.Main",
+            "projectName": "gateway",
+            "args": [
                 "-s",
                 "temperature,humidity,co2",
                 "-c",
-                "file"
+                "./src/main/resources/configFile.json"
             ]
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
         }
     ]
 }
