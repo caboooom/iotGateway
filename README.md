@@ -30,7 +30,7 @@
  - 경로 및 파일명이 반드시 `src/main/java/com/nhnacademy/aiot/flows.json`이어야 한다.
  - 하나의 JSON 배열에 모든 노드들이 포함되어야 한다.
 
- - flows.json 파일 작성 예시:
+ - `flows.json` 작성 예시:
 ```
 [
     {
@@ -137,10 +137,13 @@
    
 ## 예시 파일 동작 방식
 
-#### 1️⃣ Main.java 실행하면, FilterGenerator 인스턴스가 생성되고 실행된다.
+#### 1️⃣ Main.java 실행
+ - FilterGenerator 인스턴스가 생성되고 실행된다.
  - FilerGenerator는 `flows.json` 파일을 읽어서 필요한 노드, 포트, 와이어를 동적으로 생성하고, 연결하여 실행한다.
+<br>
    
-#### 2️⃣ MqttInNode: 내부 노드인 ClientNode가 서버로부터 메시지를 받아온다. (ClientNode는 외부에서 별도로 생성되어 주입된다.)
+#### 2️⃣ MqttInNode
+ - 내부 노드인 ClientNode가 서버로부터 메시지를 받아온다. (ClientNode는 외부에서 별도로 생성되어 주입된다.)
    ```
     {
         "id" : "1111",
@@ -163,7 +166,10 @@
         "keepalive": "60"
     }
    ```
-#### 3️⃣ FilterNode: targetStrings에 지정한 key에 해당하는 오브젝트들만 가져온다.
+<br>
+
+#### 3️⃣ FilterNode
+ - targetStrings에 지정한 key에 해당하는 오브젝트들만 가져와 payload에 넣는다.
    ```
    {
         "id" : "3333",
@@ -176,9 +182,11 @@
     }
    ```
  ![image](https://github.com/caboooom/iotGateway/assets/124178635/761145b0-1c51-4336-af66-5617c87ce9cf)
+<br>
+<br>
 
-
- #### 4️⃣ SplitNode: splitKey와 keyHolder를 기준으로 필요한 정보를 추출하여, splitKey의 값에 해당하는 키 개수만큼의 payload로 분리해준다.
+ #### 4️⃣ SplitNode
+  - splitKey와 keyHolder를 기준으로 payload로 분리한다.
 
   ```
   {
@@ -193,7 +201,8 @@
   ```
 <img width="932" alt="image" src="https://github.com/caboooom/iotGateway/assets/124178635/40e3d1ff-717f-41d9-9821-a619a3ddf860">
 
-#### 5️⃣ GenerateTopicNode: MqttOutNode에서 내보낼 메시지의 토픽을 생성한다.
+#### 5️⃣ GenerateTopicNode
+ - MqttOutNode에서 publish할 메시지의 토픽을 생성한다.
    ```
    {
         "id" : "5555",
@@ -207,7 +216,8 @@
    ```
 <img width="1212" alt="image" src="https://github.com/caboooom/iotGateway/assets/124178635/bc57b366-603e-4c11-a2b5-198e4a33fd62">
 
-#### 6️⃣ ReplaceNode : 오브젝트가 replaceTargets에 지정한 키를 갖는다면, 해당 키를 replacement에 지정한 값으로 바꾼다.
+#### 6️⃣ ReplaceNode 
+ - 오브젝트가 replaceTargets에 지정한 키를 갖는다면, 해당 키를 replacement에 지정한 값으로 바꾼다.
    ```
    {
         "id" : "6666",
@@ -221,7 +231,9 @@
    ```
 <img width="1192" alt="image" src="https://github.com/caboooom/iotGateway/assets/124178635/357fa948-a6aa-4f54-b132-0e6998fbd86d">
 
-#### 7️⃣ SwitchNode : Payload가 targetKeySet에 지정한 key를 모두 가질 경우에만 0번 output port로 전송한다. 
+#### 7️⃣ SwitchNode
+ - Payload가 targetKeySet에 지정한 key를 모두 가질 경우에만 0번 output port로 전송한다.
+
    ```
    {
         "id" : "7777",
@@ -234,7 +246,8 @@
    ```
 <img width="440" alt="image" src="https://github.com/caboooom/iotGateway/assets/124178635/3750a14f-45af-4147-8a59-a24ddb8000f5">
 
-#### 8️⃣ FilterNode : targetStrings에 지정한 key에 해당하는 오브젝트들만 가져온다.
+#### 8️⃣ FilterNode
+ - targetStrings에 지정한 key에 해당하는 오브젝트들만 가져와 payload에 넣는다.
    ```
    {
         "id" : "8888",
@@ -247,7 +260,8 @@
    ```
 <img width="1180" alt="image" src="https://github.com/caboooom/iotGateway/assets/124178635/d26ecad6-855a-431e-b3b1-e9a8a5ce59d8">
 
-#### 9️⃣ MqttOutNode : 내부 노드인 ClientNode가 localhost에 메시지를 publish한다. (ClientNode는 외부에서 별도로 생성되어 주입된다.)
+#### 9️⃣ MqttOutNode
+ - 내부 노드인 ClientNode가 localhost에 메시지를 publish한다. (ClientNode는 외부에서 별도로 생성되어 주입된다.)
    ```
    {
         "id" : "10",
