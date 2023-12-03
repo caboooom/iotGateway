@@ -3,7 +3,6 @@ package com.nhnacademy.aiot.node;
 import java.util.stream.StreamSupport;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.nhnacademy.aiot.Msg;
 
 public class GenerateTopicNode extends Node {
@@ -11,10 +10,10 @@ public class GenerateTopicNode extends Node {
     private static final String NODE_ID = "id";
     private static final String WIRES = "wires";
     private static final String TOPIC_PATTERN = "topicPattern";
-    private static final String FIELDS = "field";    
+    private static final String FIELD = "field";    
     
-    public String topicPattern;
-    public String[] fields;
+    private String topicPattern;
+    private String[] fields;
 
     public GenerateTopicNode(String id, int outputWireCount, String topicPattern, String[] fields){
         super(id, outputWireCount);
@@ -26,7 +25,7 @@ public class GenerateTopicNode extends Node {
         this(jsonNode.path(NODE_ID).asText(), 
             jsonNode.path(WIRES).size(), 
             jsonNode.path(TOPIC_PATTERN).asText(),
-            StreamSupport.stream(jsonNode.path(FIELDS).spliterator(), false)
+            StreamSupport.stream(jsonNode.path(FIELD).spliterator(), false)
                     .map(JsonNode::asText)
                     .toArray(String[]::new));
     }
@@ -47,7 +46,6 @@ public class GenerateTopicNode extends Node {
 
     public String generate(JsonNode jsonNode){
         for(String field : fields){
-            System.out.println(jsonNode.path(field).asText());
             topicPattern = topicPattern.replaceFirst("\\+", jsonNode.path(field).asText());
         }
         return topicPattern;
