@@ -1,17 +1,33 @@
 package com.nhnacademy.aiot.node;
 
+import java.util.stream.StreamSupport;
+
+import com.fasterxml.jackson.databind.JsonNode;
 import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.util.JSONUtils;
 
 public class ReplaceNode extends Node{
 
+    private static final String NODE_ID = "id";
+    private static final String WIRES = "wires";
+    private static final String REPLACE_TARGETS = "replaceTargets";
+    private static final String REPLACEMENT = "replacement";
     private String[] replaceTargets;
     private String replacement;
     
-    protected ReplaceNode(String id, int outputPortCount, String[] replaceTargets, String replacement) {
+    public ReplaceNode(String id, int outputPortCount, String[] replaceTargets, String replacement) {
         super(id, true , outputPortCount);
         this.replaceTargets = replaceTargets;
         this.replacement = replacement;
+    }
+
+    public ReplaceNode(JsonNode jsonNode){
+        this(jsonNode.path(NODE_ID).asText(), jsonNode.path(WIRES).size(),
+            StreamSupport.stream(jsonNode.path(REPLACE_TARGETS).spliterator(), false)
+                    .map(JsonNode::asText)
+                    .toArray(String[]::new),
+            jsonNode.path(REPLACEMENT).asText()
+        );
     }
 
     @Override
