@@ -18,32 +18,34 @@ public class Msg {
         this.msgId = UUID.randomUUID().toString();
     }
 
-    public Msg(){
-        
-    }
-
     public void setTopic(String topic) {
         this.topic = topic;
     }
+
     public void setPayload(JsonNode payload) {
         this.payload = payload;
     }
+
     public JsonNode getPayload() {
         return payload;
     }
+
     public String getTopic() {
         return topic;
     }
-    public JsonNode getJSON(){
+
+    public JsonNode getJSON() {
 
         return JSONUtils.parseJson(this.toString());
     }
+
     @Override
     public String toString() {
-        
-        return "{" + "topic : \"" + topic +"\", "
-                   + "createTime : " + createTime + ","
-                   + "msgId : \"" + msgId +"\", "
-                   + "payload :" + payload + "}";
+
+        return "{" + "\"topic\" : \"" + topic + "\", " + 
+                     "\"time\" : " + createTime + ", "+
+                     "\"msgId\" : \"" + msgId + "\", " + 
+                     "\"payload\" : " + payload + "}";
+
     }
-}   
+}

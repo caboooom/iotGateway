@@ -14,9 +14,9 @@ public class SplitNode extends Node {
     private static final String WIRES = "wires";
     private static final String SPLIT_KEY = "splitKey";
     private static final String KEY_HOLDER = "keyHolder";
+    private static final String DEFAULT_KEY_HOLDER = "";
     
     private String keyHolder;
-
     private String splitKey;
     //keep Msg 구현해야됨
     //private boolean keepMsg;
@@ -29,7 +29,7 @@ public class SplitNode extends Node {
     }
 
     public SplitNode(String id, int outputPortCount, String splitKey) {
-        this( id, outputPortCount, splitKey , "");
+        this( id, outputPortCount, splitKey , DEFAULT_KEY_HOLDER);
     }
 
     public SplitNode(JsonNode jsonNode){
