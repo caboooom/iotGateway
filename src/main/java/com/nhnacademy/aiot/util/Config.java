@@ -23,12 +23,10 @@ public class Config {
     }
 
     public static String getProperty(String key) {
-
         return properties.getProperty(key);
     }
 
     public void initProperties() {
-
         properties.setProperty(CmdOptions.APPLICATION_NAME.getKey(), SINGLE_LEVEL_WILDCARD);
 
     }
