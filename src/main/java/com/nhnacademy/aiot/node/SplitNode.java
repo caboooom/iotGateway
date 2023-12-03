@@ -13,23 +13,21 @@ public class SplitNode extends Node {
     private static final String NODE_ID = "id";
     private static final String WIRES = "wires";
     private static final String SPLIT_KEY = "splitKey";
+    private static final String KEY_HOLDER = "keyHolder";
 
     private String splitKey;
-    //keep Msg 구현해야됨
-    private boolean keepMsg;
-
-    public SplitNode(String id, int outputPortCount, String splitKey, boolean keepMsg) {
+    
+    public SplitNode(String id, int outputPortCount, String splitKey, String keyHolder) {
         super(id, outputPortCount);
         this.splitKey = splitKey;
-        this.keepMsg = keepMsg;
     }
 
     public SplitNode(String id, int outputPortCount, String splitKey) {
-        this( id, outputPortCount, splitKey, true);
+        this( id, outputPortCount, splitKey, "");
     }
 
     public SplitNode(JsonNode jsonNode){
-        this(jsonNode.path(NODE_ID).asText(), jsonNode.path(WIRES).size(), jsonNode.path(SPLIT_KEY).asText());
+        this(jsonNode.path(NODE_ID).asText(), jsonNode.path(WIRES).size(), jsonNode.path(SPLIT_KEY).asText(), jsonNode.path(KEY_HOLDER).asText());
     }
 
     @Override

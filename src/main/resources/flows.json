@@ -6,7 +6,7 @@
         "qos" : 1,
         "broker" : "2222",
         "wires" : [
-            [ "3333"]
+            ["3333"]
         ]
     },
     {
@@ -22,7 +22,7 @@
     {
         "id" : "3333",
         "nodeType" : "FilterNode",
-        "targetStrings" : ["deviceEui", "place", "object", "branch"],
+        "targetStrings" : ["devEui", "place", "object", "branch"],
 
         "wires" : [
             ["4444",
@@ -34,12 +34,14 @@
         "id" : "4444",
         "nodeType" : "SplitNode",
         "splitKey" : "object",
+        "keyHolder" : "sensorType",
         "wires" : [
             [
                 "5555", "8888"
             ]
         ]
     },
+
     {
         "id" : "5555",
         "nodeType" : "MqttOutNode",
