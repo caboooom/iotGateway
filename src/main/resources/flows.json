@@ -25,8 +25,7 @@
         "targetStrings" : ["devEui", "place", "object", "branch"],
 
         "wires" : [
-            ["4444",
-            "8888"]
+            ["4444"]
         ]
 
     },
@@ -37,14 +36,24 @@
         "keyHolder" : "sensorType",
         "wires" : [
             [
-                "11", "9999"
+                "5555"
             ]
+        ]
+    },
+    {
+        "id" : "5555",
+        "nodeType" : "GenerateTopicNode",
+        "topicPattern" : "data/d/+/b/+/p/+/e/+",
+        "field" : ["devEui", "branch", "place", "sensorType"],
+        "wires" : [
+            [ "11"]
         ]
     },
     {
         "id" : "11",
         "nodeType" : "ReplaceNode",
         "replaceTargets" : ["humidity", "temperature", "co2", "tvoc"], 
+        "replacement" : "value",
         "wires" : [
             [
                 "10"
@@ -56,17 +65,22 @@
         "nodeType" : "SwitchNode",
         "targetKeys" : ["devEui", "branch", "place", "sensorType" ,"value"] ,
         "wires" : [
-            ["5555"]
+            ["14"]
         ]
     },
     {
-        "id" : "5555",
-        "nodeType" : "GenerateTopicNode",
-        "topicPattern" : "data/d/+/b/+/p/+/e/+",
-        "field" : ["devEui", "branch", "place", "sensorType"],
+        "id" : "14",
+        "nodeType" : "FilterNode",
+        "targetStrings" : ["time", "value"],
         "wires" : [
-            ["6666"]
+            ["6666","12"]
         ]
+    },
+    
+    {
+        "id" : "12",
+        "nodeType" : "DebugNode",
+        "wires" : []
     },
     {
         "id" : "6666",
@@ -87,16 +101,6 @@
         "cleansession": true,
         "keepalive": "60"
 
-    },
-    {
-        "id" : "8888",
-        "nodeType" : "DebugNode",
-        "wires" : []
-    },
-    {
-        "id" : "9999",
-        "nodeType" : "DebugNode",
-        "wires" : []
     }
 
 ]

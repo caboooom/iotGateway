@@ -13,12 +13,12 @@ public class ReplaceNode extends Node{
     private static final String REPLACE_TARGETS = "replaceTargets";
     private static final String REPLACEMENT = "replacement";
     private String[] replaceTargets;
-    private String replacement;
+    private String replacementStr;
     
-    public ReplaceNode(String id, int outputPortCount, String[] replaceTargets, String replacement) {
+    public ReplaceNode(String id, int outputPortCount, String[] replaceTargets, String replacementStr) {
         super(id, true , outputPortCount);
         this.replaceTargets = replaceTargets;
-        this.replacement = replacement;
+        this.replacementStr = replacementStr;
     }
 
     public ReplaceNode(JsonNode jsonNode){
@@ -39,7 +39,7 @@ public class ReplaceNode extends Node{
         String stringPayload = msg.getPayload().toString();
 
         for (String target : replaceTargets) {
-            stringPayload = stringPayload.replaceAll(target, replacement);
+            stringPayload = stringPayload.replaceAll(target, replacementStr);
         }
         
         msg.setPayload(JSONUtils.parseJson(stringPayload));

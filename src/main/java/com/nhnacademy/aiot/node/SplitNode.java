@@ -18,8 +18,7 @@ public class SplitNode extends Node {
     
     private String keyHolder;
     private String splitKey;
-    //keep Msg 구현해야됨
-    //private boolean keepMsg;
+    //private boolean keep Msg 구현해야됨
 
     public SplitNode(String id, int outputPortCount, String splitKey, String keyHolder) {
         super(id, outputPortCount);
