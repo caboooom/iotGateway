@@ -13,13 +13,13 @@ import org.apache.commons.cli.DefaultParser;
 @Log4j2
 public class Config {
 
-    String[] args;
+    String[] args; // args 를 담는 문자열 배열
     private static final String SINGLE_LEVEL_WILDCARD = "+";
     private static final Properties properties = new Properties();
 
     public Config(String[] args) {
         this.args = args;
-        initiateProperties();
+        initProperties();
     }
 
     public static String getProperty(String key) {
@@ -27,7 +27,7 @@ public class Config {
         return properties.getProperty(key);
     }
 
-    public void initiateProperties() {
+    public void initProperties() {
 
         properties.setProperty(CmdOptions.APPLICATION_NAME.getKey(), SINGLE_LEVEL_WILDCARD);
 
@@ -66,6 +66,7 @@ public class Config {
                     setProperty(CmdOptions.SENSOR_TYPES.getKey(), sensorTypes);
                 }
             }
+
             // 요구사항: 설정 파일과 cmd line argument가 함께 주어질 경우 cmd line argument가 우선된다.
             // 따라서 겹치는 내용이 있으면 cmd l ine argument가 기존의 내용을 덮어쓴다.
             if (commandLine.hasOption(CmdOptions.APPLICATION_NAME.getValue())) {

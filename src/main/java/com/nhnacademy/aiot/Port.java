@@ -7,7 +7,11 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-
+/**
+ * 사용자 정의 Port 클래스
+ * Wire Type 리스트를 가지고 있음
+ * Msg Type Queue를 가지고 있음
+ */
 public class Port {
     @Getter
     private List<Wire> wires;
@@ -44,7 +48,8 @@ public class Port {
     }
 
     /**
-     * 연결된 여러 wire 에서 메시지를 하나씩 가져와서 Port의 메시지 큐에 추가하여. wire로부터 오는 메시지를 큐에 모아주는 메서드.
+     * 연결된 여러 wire에서 메세지를 하나씩 가져와 Port안의 메시지 큐에 추가
+     * wire에서 오는 다수의 메세지를 큐에 담는 메서드.
      */
     private void collectMsgFromWire(){
         for (Wire wire : wires) {
