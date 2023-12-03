@@ -6,6 +6,7 @@
 # 목차
  - [개요](#개요)
  - [flows.json](#flowsjson)
+ - [동작 방식](#예시-파일-동작-방식)
  - [클래스 다이어그램](#클래스-다이어그램)
  - [사용한 라이브러리 목록](#사용한-라이브러리-목록)
  <br>
@@ -56,7 +57,6 @@
         "id" : "3333",
         "nodeType" : "FilterNode",
         "targetStrings" : ["devEui", "place", "object", "branch"],
-
         "wires" : [
             ["4444"]
         ]
@@ -77,7 +77,7 @@
         "topicPattern" : "data/d/+/b/+/p/+/e/+",
         "field" : ["devEui", "branch", "place", "sensorType"],
         "wires" : [
-            ["6666"]
+            [ "6666"]
         ]
     },
     {
@@ -92,7 +92,7 @@
     {
         "id" : "7777",
         "nodeType" : "SwitchNode",
-        "targetKeys" : ["devEui", "branch", "place", "sensorType" ,"value"] ,
+        "targetKeySet" : ["devEui", "branch", "place", "sensorType" ,"value"] ,
         "wires" : [
             ["8888"]
         ]
@@ -102,7 +102,7 @@
         "nodeType" : "FilterNode",
         "targetStrings" : ["time", "value"],
         "wires" : [
-            ["9999","10"]
+            ["9999", "10"]
         ]
     },
     
@@ -132,68 +132,154 @@
     }
 ]
 ```
- - 예시 파일을 지정 경로에 넣고 프로그램을 실행하면 다음과 같은 flow가 생성됩니다.
+#### 예시 파일을 지정 경로에 넣고 프로그램을 실행하면 다음과 같은 flow가 생성된다.
    ![image](https://github.com/caboooom/iotGateway/assets/124178635/0fb20d74-f537-4ccf-9540-d53a852856cc)
+   
+## 예시 파일 동작 방식
+
+#### 1️⃣ Main.java 실행하면, FilterGenerator 인스턴스가 생성되고 실행된다.
+ - FilerGenerator는 `flows.json` 파일을 읽어서 필요한 노드, 포트, 와이어를 동적으로 생성하고, 연결하여 실행한다.
+   
+#### 2️⃣ MqttInNode: 내부 노드인 ClientNode가 서버로부터 메시지를 받아온다. (ClientNode는 외부에서 별도로 생성되어 주입된다.)
+   ```
+    {
+        "id" : "1111",
+        "nodeType" : "MqttInNode",
+        "topic" : "application/#",
+        "qos" : 1,
+        "broker" : "2222",
+        "wires" : [
+            ["3333"]
+        ]
+    },
+    {
+        "id" : "2222",
+        "nodeType" : "ClientNode",
+        "broker" : "tcp://ems.nhnacademy.com",
+        "port" : 1883,
+        "clientId" : "abc123",
+        "autoConnect": true,
+        "cleansession": true,
+        "keepalive": "60"
+    }
+   ```
+#### 3️⃣ FilterNode: targetStrings에 지정한 key에 해당하는 오브젝트들만 가져온다.
+   ```
+   {
+        "id" : "3333",
+        "nodeType" : "FilterNode",
+        "targetStrings" : ["devEui", "place", "object", "branch"],
+        "wires" : [
+            ["4444"]
+        ]
+
+    }
+   ```
+ ![image](https://github.com/caboooom/iotGateway/assets/124178635/761145b0-1c51-4336-af66-5617c87ce9cf)
+
+
+ #### 4️⃣ SplitNode: splitKey와 keyHolder를 기준으로 필요한 정보를 추출하여, splitKey의 값에 해당하는 키 개수만큼의 payload로 분리해준다.
+
+  ```
+  {
+        "id" : "4444",
+        "nodeType" : "SplitNode",
+        "splitKey" : "object",
+        "keyHolder" : "sensorType",
+        "wires" : [
+            ["5555"]
+        ]
+    }
+  ```
+<img width="932" alt="image" src="https://github.com/caboooom/iotGateway/assets/124178635/40e3d1ff-717f-41d9-9821-a619a3ddf860">
+
+#### 5️⃣ GenerateTopicNode: MqttOutNode에서 내보낼 메시지의 토픽을 생성한다.
+   ```
+   {
+        "id" : "5555",
+        "nodeType" : "GenerateTopicNode",
+        "topicPattern" : "data/d/+/b/+/p/+/e/+",
+        "field" : ["devEui", "branch", "place", "sensorType"],
+        "wires" : [
+            [ "6666"]
+        ]
+    }
+   ```
+<img width="1212" alt="image" src="https://github.com/caboooom/iotGateway/assets/124178635/bc57b366-603e-4c11-a2b5-198e4a33fd62">
+
+#### 6️⃣ ReplaceNode : 오브젝트가 replaceTargets에 지정한 키를 갖는다면, 해당 키를 replacement에 지정한 값으로 바꾼다.
+   ```
+   {
+        "id" : "6666",
+        "nodeType" : "ReplaceNode",
+        "replaceTargets" : ["humidity", "temperature", "co2", "tvoc"], 
+        "replacement" : "value",
+        "wires" : [
+            ["7777"]
+        ]
+    }
+   ```
+<img width="1192" alt="image" src="https://github.com/caboooom/iotGateway/assets/124178635/357fa948-a6aa-4f54-b132-0e6998fbd86d">
+
+#### 7️⃣ SwitchNode : Payload가 targetKeySet에 지정한 key를 모두 가질 경우에만 0번 output port로 전송한다. 
+   ```
+   {
+        "id" : "7777",
+        "nodeType" : "SwitchNode",
+        "targetKeySet" : ["devEui", "branch", "place", "sensorType" ,"value"] ,
+        "wires" : [
+            ["8888"]
+        ]
+    }
+   ```
+<img width="440" alt="image" src="https://github.com/caboooom/iotGateway/assets/124178635/3750a14f-45af-4147-8a59-a24ddb8000f5">
+
+#### 8️⃣ FilterNode : targetStrings에 지정한 key에 해당하는 오브젝트들만 가져온다.
+   ```
+   {
+        "id" : "8888",
+        "nodeType" : "FilterNode",
+        "targetStrings" : ["time", "value"],
+        "wires" : [
+            ["9999", "10"]
+        ]
+    }
+   ```
+<img width="1180" alt="image" src="https://github.com/caboooom/iotGateway/assets/124178635/d26ecad6-855a-431e-b3b1-e9a8a5ce59d8">
+
+#### 9️⃣ MqttOutNode : 내부 노드인 ClientNode가 localhost에 메시지를 publish한다. (ClientNode는 외부에서 별도로 생성되어 주입된다.)
+   ```
+   {
+        "id" : "10",
+        "nodeType" : "MqttOutNode",
+        "topic" : "", 
+        "qos" : 2,
+        "broker" : "11",
+        "wires" : []
+
+    },
+    {
+        "id" : "11",
+        "nodeType" : "ClientNode",
+        "broker" : "tcp://localhost",
+        "port" : 1883,
+        "clientId" : "def456",
+        "autoConnect": true,
+        "cleansession": true,
+        "keepalive": "60"
+    }
+   ```
+
+#### 🔟 localhost에서 수신한 해당 데이터들은 influxDB에 저장된다.
 
 <br>
 
 # 클래스 다이어그램
 ![image](https://github.com/caboooom/iotGateway/assets/124178635/e579ef60-26c1-4981-b055-52078ef6310c)
 
-### Main.java
- - FlowGenerator 객체를 생성하여 실행한다.
+![image](https://github.com/caboooom/iotGateway/assets/124178635/42fab222-4e0e-4123-9380-f28d2f4c2978)
+(수정 예정)
 
-### FlowGenerator.java
- - `flows.json` 파일을 읽어 필요한 노드, 포트, 와이어를 동적으로 생성하고, 연결하여 실행한다.
-
-### ClientNode.java
- - 생성된 후 MqttInNode 또는 MqttOutNode에 주입된다.
- - Mqtt 클라이언트를 생성하여, 서버에 연결하고 publish/subscribe 작업을 수행한다.
-
-### MqttInNode.java
- - 내부에 clientNode를 가지고 있다.
- - clientNode는 외부에서 별도로 생성되어 주입된다.
-   
- - clientNode는 서버로부터 MQTT 메시지를 수신한다.
- - 수신한 데이터를 전처리하여, 다음 노드에게 전달한다.
-
-### FilterNode.java
- - 문자열 배열인 targetStrings의 키를 기준으로 해당 key:value 쌍만 남기고, 다음 노드에게 전달한다.
-
-### SplitNode.java
-
-- splitKey와 keyHolder를 기준으로 필요한 정보를 추출하여, splitKey의 값에 해당하는 키 개수만큼의 payload로 분리해준다.
-
- - 예를 들어, splitKey="object", keyHolder="sensorType"로 설정하는 경우, 다음과 같이 동작한다.
-
-<img width="800" alt="image" src="https://github.com/caboooom/iotGateway/assets/124178635/1bd796a9-fec9-4c33-ad3e-85b420a39edd">
-   
-
-### GenerateTopicNode.java
-
- - MqttOutNode에서 연결 서버로 publish할 메시지의 topic을 생성한다.
-
-### ReplaceNode.java
-
- - 변경할 문자열이 담긴 배열인 replaceTargets와 replacement 정보를 받는다.
- - 메시지의 payload의 key 중 replaceTarget이 존재하면, 해당 키를 replacement로 변경한다.
-
-### SwitchNode.java
- - 이전 노드에서 수신한 메시지의 payload가 주어진 targetKeySet의 모든 키를 갖고 있는 경우, 다음 노드로 전달한다.
- - 그렇지 않으면, 작업을 종료한다.
-
-### MqttOutNode.java
-
- - 내부에 clientNode를 가지고 있다.
- - clientNode는 외부에서 별도로 생성되어 주입된다.
-   
- - clientNode는 MQTT 메시지를 publish하여 localhost가 수신할 수 있도록 한다.
- - localhost에서 수신한 해당 데이터들은 influxDB에 저장된다.
-
-### DebugNode.java
- - 입력, 출력, 비정상 처리된 패킷 수를 로그로 남긴다.
-
-<br>
 
 # 사용한 라이브러리 목록
 
