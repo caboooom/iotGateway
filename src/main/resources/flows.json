@@ -34,6 +34,7 @@
         "id" : "4444",
         "nodeType" : "SplitNode",
         "splitKey" : "object",
+        "keyHolder" : "sensorType",
         "wires" : [
             [
                 "5555", "8888"

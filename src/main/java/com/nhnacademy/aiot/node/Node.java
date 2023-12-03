@@ -1,6 +1,5 @@
 package com.nhnacademy.aiot.node;
 
-import com.fasterxml.jackson.databind.JsonNode;
 import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.Port;
 import com.nhnacademy.aiot.Wire;
