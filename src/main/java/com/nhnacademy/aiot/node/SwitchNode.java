@@ -9,18 +9,18 @@ public class SwitchNode extends Node {
     
     private static final String NODE_ID = "id";
     private static final String WIRES ="wires";
-    private static final String TARGET_KEYS = "targetKeys";
+    private static final String TARGET_KEY_SET = "targetKeySet";
 
-    private String[] targetKeys;
+    private String[] targetKeySet;
 
-    public SwitchNode(String id, int outputPortCount, String[] targetKeys){
+    public SwitchNode(String id, int outputPortCount, String[] targetKeySet){
         super(id, outputPortCount);
-        this.targetKeys = targetKeys;
+        this.targetKeySet = targetKeySet;
     }
 
     public SwitchNode(JsonNode jsonNode){
         this(jsonNode.path(NODE_ID).asText(), jsonNode.path(WIRES).size(),
-            StreamSupport.stream(jsonNode.path(TARGET_KEYS).spliterator(), false)
+            StreamSupport.stream(jsonNode.path(TARGET_KEY_SET).spliterator(), false)
                     .map(JsonNode::asText)
                     .toArray(String[]::new));
     }
@@ -39,7 +39,7 @@ public class SwitchNode extends Node {
 
     private boolean isValid(JsonNode payload){
 
-        for(String key : targetKeys){
+        for(String key : targetKeySet){
             if (payload.path(key).isMissingNode()) return false;
         }
 

@@ -45,10 +45,10 @@ public class GenerateTopicNode extends Node {
 
     }
 
-    private String generate(JsonNode jsonNode) throws IllegalArgumentException {
+    private String generate(JsonNode jsonNode) {
         String newTopic = topicPattern;
         for (String field : fields) {
-            if (jsonNode.path(field) == null) {
+            if (jsonNode.path(field).isMissingNode()) {
                 return null;
             }
             newTopic = newTopic.replaceFirst("\\+", jsonNode.path(field).asText());
