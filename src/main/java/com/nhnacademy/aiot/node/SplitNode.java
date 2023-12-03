@@ -63,7 +63,7 @@ public class SplitNode extends Node {
                     String fieldName = entry.getKey();
                     JsonNode fieldValue = entry.getValue();
 
-                    return createMsg(payload, key, fieldName, fieldValue);;
+                    return createMsg(payload, key, fieldName, fieldValue);
                 }
             }
 
