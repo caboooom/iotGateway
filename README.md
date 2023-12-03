@@ -1,5 +1,3 @@
-쓰는즁
-
 LoRa 디바이스를 관리하는 Chirpstack 서버와 연동하여 센서 데이터를 수집하는 Gateway를 구현하였습니다. 
 <br>
 
@@ -33,7 +31,7 @@ LoRa 디바이스를 관리하는 Chirpstack 서버와 연동하여 센서 데�
         - wires :
 
  - flows.json 파일 작성 예시
-   
+```
 [
     {
         "id" : "1111",
@@ -71,9 +69,7 @@ LoRa 디바이스를 관리하는 Chirpstack 서버와 연동하여 센서 데�
         "splitKey" : "object",
         "keyHolder" : "sensorType",
         "wires" : [
-            [
-                "5555"
-            ]
+            ["5555"]
         ]
     },
     {
@@ -82,7 +78,7 @@ LoRa 디바이스를 관리하는 Chirpstack 서버와 연동하여 센서 데�
         "topicPattern" : "data/d/+/b/+/p/+/e/+",
         "field" : ["devEui", "branch", "place", "sensorType"],
         "wires" : [
-            [ "6666"]
+            ["6666"]
         ]
     },
     {
@@ -91,9 +87,7 @@ LoRa 디바이스를 관리하는 Chirpstack 서버와 연동하여 센서 데�
         "replaceTargets" : ["humidity", "temperature", "co2", "tvoc"], 
         "replacement" : "value",
         "wires" : [
-            [
-                "7777"
-            ]
+            ["7777"]
         ]
     },
     {
@@ -136,12 +130,9 @@ LoRa 디바이스를 관리하는 Chirpstack 서버와 연동하여 센서 데�
         "autoConnect": true,
         "cleansession": true,
         "keepalive": "60"
-
     }
-
 ]
-
-
+```
 
 <br>
 
@@ -151,7 +142,7 @@ LoRa 디바이스를 관리하는 Chirpstack 서버와 연동하여 센서 데�
 
  - 메시징 프로토콜: MQTT
 
-!!image
+![image](https://github.com/caboooom/iotGateway/assets/124178635/0fb20d74-f537-4ccf-9540-d53a852856cc)
 
 #### Main.java
  - FlowGenerator 객체를 생성하여 실행한다.
@@ -174,49 +165,13 @@ LoRa 디바이스를 관리하는 Chirpstack 서버와 연동하여 센서 데�
  - 문자열 배열인 targetStrings의 키를 기준으로 해당 key:value 쌍만 남기고, 다음 노드에게 전달한다.
 
 #### SplitNode.java
-# 수정해아함
-- splitKey와 keyHolder를 기준으로 필요한 정보를 추출하여,splitKey의 값에 해당하는 키 개수만큼의 payload로 분리해주는 노드이다.
 
- - 예를 들어, splitKey="object", keyHolder="sensorType"로 설정하는 경우,
-   다음과 같은 json object를
- ```
-{
-  topic : "application/#",
-  payload : {
-    deviceId : "xxxx",
-    place: "xxxxx",
-    branch : "gyungnam",
-    object : {
-    	temperature : 0,
-    	humidity : 0
-    }
-  }
-}
-```
- 아래의 json object들로 분리시키고, 각각을 다음 노드로 전달한다.
-```
-{
-  topic : "application/#",
-  payload : {
-    deviceId : "xxxx",
-    place: "xxxxx",
-    branch : "gyungnam",
-    temperature : 0,
-  }
-}
+- splitKey와 keyHolder를 기준으로 필요한 정보를 추출하여, splitKey의 값에 해당하는 키 개수만큼의 payload로 분리해준다.
 
+ - 예를 들어, splitKey="object", keyHolder="sensorType"로 설정하는 경우, 다음과 같이 동작한다.
 
-{
-  topic : "application/#",
-  payload : {
-    deviceId : "xxxx",
-    place: "xxxxx",
-    branch : "gyungnam",
-    humidity : 0
-    	
-  }
-}
-```
+<img width="800" alt="image" src="https://github.com/caboooom/iotGateway/assets/124178635/1bd796a9-fec9-4c33-ad3e-85b420a39edd">
+   
 
 #### GenerateTopicNode.java
 
@@ -245,3 +200,12 @@ LoRa 디바이스를 관리하는 Chirpstack 서버와 연동하여 센서 데�
 <br>
 
 # 사용한 라이브러리 목록
+
+- [Jackson Databind](https://github.com/FasterXML/jackson-databind)
+- [Commons CLI](https://commons.apache.org/proper/commons-cli/)
+- [Log4j API](https://logging.apache.org/log4j/2.x/log4j-api/)
+- [Log4j Core](https://logging.apache.org/log4j/2.x/log4j-core/)
+- [Eclipse Paho](https://www.eclipse.org/paho/)
+- [Project Lombok](https://projectlombok.org/)
+- [JUnit Jupiter](https://junit.org/junit5/docs/current/user-guide/)
+- [JUnit Jupiter Engine](https://junit.org/junit5/docs/current/user-guide/)
