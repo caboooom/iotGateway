@@ -14,14 +14,14 @@ import lombok.extern.log4j.Log4j2;
 
 @Log4j2
 public class ClientNode extends Node {
-    private MqttClient client;
-    private Queue<Msg> clientToMqttQueue;
-    private Queue<Msg> mqttToClientQueue;
-
     private static final String NODE_ID = "id";
     private static final String CLIENT_ID = "clientId";
     private static final String SERVER_URI = "broker";
+
     private static final String PORT = "port";
+    private MqttClient client;
+    private Queue<Msg> clientToMqttQueue;
+    private Queue<Msg> mqttToClientQueue;
 
     public ClientNode(String id, String serverURI, String clientId) {
         super(id, 0);
@@ -53,8 +53,10 @@ public class ClientNode extends Node {
             Msg msg = mqttToClientQueue.poll();
             MqttMessage mqttMessage = new MqttMessage(msg.getPayload().toString().getBytes());
             try {
+                
                 //msg.getTopic() topic 만들면 토픽 바꿔줘야함
-                client.publish("888888888888888888", mqttMessage);
+                
+                client.publish(msg.getTopic(), mqttMessage);
             } catch (MqttPersistenceException e) {
                 log.error(e.getMessage());
             } catch (MqttException e) {
@@ -66,8 +68,8 @@ public class ClientNode extends Node {
     /**
      * @param topicFilter
      * @throws MqttException
-     * topicFiter 문자열을 받아서 생성한 client 구독 후 받은 MQTT메시지를
-     * Msg객체로 변환해서 innerMsgQueue에 추가하는 메서드
+     * topicFiter 문자열을 받아서 생성한 client를 구독 후
+     * 받은 MQTT메시지를 Msg객체로 만들어서 innerMsgQueue에 추가하는 메서드
      * 
      */
     public void subscribe(String topicFilter) throws MqttException {
