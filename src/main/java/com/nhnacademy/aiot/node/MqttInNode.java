@@ -12,23 +12,15 @@ import com.nhnacademy.aiot.Msg;
 import com.nhnacademy.aiot.util.JSONUtils;
 import lombok.extern.log4j.Log4j2;
 
-/**
- *  MQTT 에서 받는 클래스
- */
 @Log4j2
 public class MqttInNode extends Node {
+
     private String topic;
     private String serverURI;
     private String clientId;
     private Queue<MqttMessage> innerMsgQueue;
+    
 
-    /**
-     * MqttInNode 생성자
-     *
-     * @param outputWireCount outputWire 개수
-     * @param serverURI serverURI
-     * @param clientId client 식별자
-     */
     public MqttInNode(int outputWireCount, String serverURI, String clientId) {
         super(outputWireCount);
         this.topic = "application/+/device/+/+/up";
@@ -37,19 +29,11 @@ public class MqttInNode extends Node {
         innerMsgQueue = new LinkedList<>();
     }
 
-    /**
-     * MqttInNode 생성자 -> outputWire 개수, serverURI 로 만들고 , 식별자ID 생성후 위 생성자 호출
-     *
-     * @param outputWireCount outputWire 개수
-     * @param serverURI serverURI
-     */
     public MqttInNode(int outputWireCount, String serverURI) {
         this(outputWireCount, serverURI, UUID.randomUUID().toString());
     }
 
-    /**
-     * 사전 수행 단계
-     */
+
     @Override
     public void preprocess() {
         log.info("start node : " + name );
@@ -58,10 +42,6 @@ public class MqttInNode extends Node {
         node.run();
     }
 
-    /**
-     * 수행 단계
-     * Queue 에 MESSAGE 가 있으면 createMSG Method 를 통해 계속 out(msg) 해줌
-     */
     @Override
     public void process() {
         if (!innerMsgQueue.isEmpty()) {
@@ -73,12 +53,6 @@ public class MqttInNode extends Node {
         }
     }
 
-    /**
-     * 받은 데이터로 Msg 형태로 만들어줌 (시간을 추가로 넣어서)
-     * @param topic TOPIC
-     * @param payload 받은 데이터(String Type)
-     * @return Msg(payload로부터 원하는 topic으로 새로운 Msg를 만듬)
-     */
     private Msg createMsg(String topic, String payload) {
         if (JSONUtils.isJson(payload)) {
                 ObjectNode jsonObject = (ObjectNode) JSONUtils.parseJson(payload);

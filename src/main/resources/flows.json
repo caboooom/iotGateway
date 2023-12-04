@@ -1,17 +1,17 @@
 [
     {
         "id" : "1111",
-        "nodeType" : "mqttInNode",
-        "topic" : "",
+        "nodeType" : "MqttInNode",
+        "topic" : "application/#",
         "qos" : 1,
         "broker" : "2222",
         "wires" : [
-            [ "3333"] 
+            ["3333"]
         ]
     },
     {
         "id" : "2222",
-        "nodeType" : "mqttBroker",
+        "nodeType" : "ClientNode",
         "broker" : "tcp://ems.nhnacademy.com",
         "port" : 1883,
         "clientId" : "abc123",
@@ -21,27 +21,88 @@
     },
     {
         "id" : "3333",
-        "nodeType" : "filterNode",
-        "targetKeys" : [],
+        "nodeType" : "FilterNode",
+        "targetStrings" : ["devEui", "place", "object", "branch"],
 
         "wires" : [
-            ["4444"]
+            ["4444","20"]
         ]
 
     },
     {
+        "id" : "20",
+        "nodeType" : "DebugNode",
+        "wires" : []
+    },
+    {
         "id" : "4444",
-        "nodeType" : "mqttOutNode",
+        "nodeType" : "SplitNode",
+        "splitKey" : "object",
+        "keyHolder" : "sensorType",
+        "wires" : [
+            ["5555","21"]
+        ]
+    },
+    {
+        "id" : "21",
+        "nodeType" : "DebugNode",
+        "wires" : []
+    },
+    {
+        "id" : "5555",
+        "nodeType" : "GenerateTopicNode",
+        "topicPattern" : "data/d/+/b/+/p/+/e/+",
+        "field" : ["devEui", "branch", "place", "sensorType"],
+        "wires" : [
+            [ "6666"]
+        ]
+    },
+    {
+        "id" : "6666",
+        "nodeType" : "ReplaceNode",
+        "replaceTargets" : ["humidity", "temperature", "co2", "tvoc"], 
+        "replacement" : "value",
+        "wires" : [
+            [
+                "7777"
+            ]
+        ]
+    },
+    {
+        "id" : "7777",
+        "nodeType" : "SwitchNode",
+        "targetKeySet" : ["devEui", "branch", "place", "sensorType" ,"value"] ,
+        "wires" : [
+            ["8888"]
+        ]
+    },
+    {
+        "id" : "8888",
+        "nodeType" : "FilterNode",
+        "targetStrings" : ["time", "value"],
+        "wires" : [
+            ["9999","10"]
+        ]
+    },
+    
+    {
+        "id" : "9999",
+        "nodeType" : "DebugNode",
+        "wires" : []
+    },
+    {
+        "id" : "10",
+        "nodeType" : "MqttOutNode",
         "topic" : "", 
         "qos" : 2,
-        "broker" : "5555",
+        "broker" : "11",
         "wires" : []
 
     },
     {
-        "id" : "5555",
-        "nodeType" : "mqttBroker",
-        "broker" : "mosquitto",
+        "id" : "11",
+        "nodeType" : "ClientNode",
+        "broker" : "tcp://localhost",
         "port" : 1883,
         "clientId" : "def456",
         "autoConnect": true,
