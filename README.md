@@ -186,7 +186,7 @@
 <br>
 
  #### 4️⃣ SplitNode
-  - splitKey를 기준으로 Msg를 나누고, keyHolder에 나눈 Key를 저장한다.
+  - splitKey를 기준으로 Msg를 나누고, keyHolder로 지정한 Key에 splitKey를 기준으로 나눈 기존 Key를 Value로 저장한다.
 
   ```
   {
@@ -217,7 +217,7 @@
 <img width="1212" alt="image" src="https://github.com/caboooom/iotGateway/assets/124178635/bc57b366-603e-4c11-a2b5-198e4a33fd62">
 
 #### 6️⃣ ReplaceNode 
- - 오브젝트가 replaceTargets에 지정한 키를 갖는다면, 해당 키를 replacement에 지정한 값으로 바꾼다.
+ - payload에 replaceTargets에 지정한 문자열이 있으면, 해당 문자열을 replacement에 지정한 값으로 바꾼다.
    ```
    {
         "id" : "6666",
@@ -232,7 +232,7 @@
 <img width="1192" alt="image" src="https://github.com/caboooom/iotGateway/assets/124178635/357fa948-a6aa-4f54-b132-0e6998fbd86d">
 
 #### 7️⃣ SwitchNode
- - Payload가 targetKeySet에 지정한 key를 모두 가질 경우에만 0번 output port로 전송한다.
+ - payload가 targetKeySet에 지정한 key를 모두 가질 경우에만 output port로 전송한다.
 
    ```
    {
@@ -247,7 +247,7 @@
 <img width="440" alt="image" src="https://github.com/caboooom/iotGateway/assets/124178635/3750a14f-45af-4147-8a59-a24ddb8000f5">
 
 #### 8️⃣ FilterNode
- - targetStrings에 지정한 key에 해당하는 오브젝트들만 가져와 payload에 넣는다.
+ - targetStrings에 지정한 key에 해당하는 Value만 가져와 payload에 넣는다.
    ```
    {
         "id" : "8888",
