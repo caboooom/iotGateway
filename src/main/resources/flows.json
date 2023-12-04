@@ -102,7 +102,7 @@
     {
         "id" : "11",
         "nodeType" : "ClientNode",
-        "broker" : "tcp://192.168.71.99",
+        "broker" : "tcp://192.168.71.88",
         "port" : 1883,
         "clientId" : "def456",
         "autoConnect": true,
