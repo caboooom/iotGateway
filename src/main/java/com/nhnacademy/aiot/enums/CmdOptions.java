@@ -1,9 +1,12 @@
 package com.nhnacademy.aiot.enums;
 
+import lombok.Getter;
+
 /**
  *
  */
 
+@Getter
 public enum CmdOptions {
     
     CONFIG_FILE( "configFile", "c" ,"Argument는 ','로 구분된 문자열로 주어짐"),
@@ -21,14 +24,4 @@ public enum CmdOptions {
 
     }
 
-    public String getValue() {
-        return value;
-    }
-    public String getKey() {
-        return key;
-    }
-
-    public String getDescription() {
-        return description;
-    }
 }

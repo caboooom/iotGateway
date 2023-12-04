@@ -3,7 +3,9 @@ package com.nhnacademy.aiot.enums;
 import com.nhnacademy.aiot.node.DebugNode;
 import com.nhnacademy.aiot.node.FilterNode;
 import com.nhnacademy.aiot.node.Node;
+import lombok.Getter;
 
+@Getter
 public enum NodeClazz {
 
     FILTER_NODE("filterNode", FilterNode.class),
@@ -19,10 +21,6 @@ public enum NodeClazz {
         this.clazz = class1;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public static Class<?> searchClass(String name) {
         for (NodeClazz node : NodeClazz.values()) {
             if (node.name.equals(name)) {
@@ -32,7 +30,4 @@ public enum NodeClazz {
         return null;
     }
 
-    public Class<?> getClazz() {
-        return clazz;
-    }
 }

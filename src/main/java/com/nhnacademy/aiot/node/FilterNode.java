@@ -16,6 +16,7 @@ public class FilterNode extends Node {
     public FilterNode(int outputPortCount, String[] targetStrings) {
         super(outputPortCount);
         this.targetStrings = new HashSet<>();
+
         for (String targetString : targetStrings) {
             this.targetStrings.add(targetString);
         }

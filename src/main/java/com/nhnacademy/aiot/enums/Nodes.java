@@ -1,7 +1,9 @@
 package com.nhnacademy.aiot.enums;
 
 import com.nhnacademy.aiot.node.Node;
+import lombok.Getter;
 
+@Getter
 public enum Nodes {
     
     FUNCTION_NODE("functionNode", Node.class),
@@ -17,10 +19,6 @@ public enum Nodes {
         this.clazz = clazz;
     }
 
-    public String getNodeType() {
-        return nodeType;
-    }
-
     public static Class<?> getNodeClass(String nodeType) {
         for (Nodes node : Nodes.values()) {
             if (node.getNodeType().equals(nodeType)) {
@@ -30,7 +28,4 @@ public enum Nodes {
         return null;
     }
 
-    public Class<?> getClazz() {
-        return clazz;
-    }
 }

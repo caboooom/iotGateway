@@ -28,7 +28,6 @@ public class Config {
 
     public void initProperties() {
         properties.setProperty(CmdOptions.APPLICATION_NAME.getKey(), SINGLE_LEVEL_WILDCARD);
-
     }
 
     private void setProperty(String key, String value) {

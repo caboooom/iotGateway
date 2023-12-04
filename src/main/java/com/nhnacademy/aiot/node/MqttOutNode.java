@@ -13,6 +13,9 @@ import com.nhnacademy.aiot.Msg;
 
 import lombok.extern.log4j.Log4j2;
 
+/**
+ *
+ */
 @Log4j2
 public class MqttOutNode extends Node {
 
@@ -20,6 +23,11 @@ public class MqttOutNode extends Node {
     private String clientId;
     private Queue<Msg> innerMsgQueue;
 
+    /**
+     *
+     * @param serverURI serverURI
+     * @param clientId client 식별자
+     */
     public MqttOutNode( String serverURI, String clientId) {
         super(0);
         this.serverURI = serverURI;
@@ -27,6 +35,11 @@ public class MqttOutNode extends Node {
         innerMsgQueue = new LinkedList<>();
     }
 
+    /**
+     * MqttOutNode 생성자 -> serverURI가 주어지면 식별자ID 생성후 위 생성자 호출
+     *
+     * @param serverURI serverURI
+     */
     public MqttOutNode(String serverURI) {
         this( serverURI, UUID.randomUUID().toString());
     }

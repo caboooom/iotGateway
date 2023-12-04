@@ -77,7 +77,7 @@ public class MqttInNode extends Node {
      * 받은 데이터로 Msg 형태로 만들어줌 (시간을 추가로 넣어서)
      * @param topic TOPIC
      * @param payload 받은 데이터(String Type)
-     * @return
+     * @return Msg(payload로부터 원하는 topic으로 새로운 Msg를 만듬)
      */
     private Msg createMsg(String topic, String payload) {
         if (JSONUtils.isJson(payload)) {
@@ -87,6 +87,7 @@ public class MqttInNode extends Node {
             }
             return null;
         }
+
     public class ClientNode extends Node {
         MqttClient client;
         protected ClientNode() {
