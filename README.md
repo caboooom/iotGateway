@@ -186,7 +186,7 @@
 <br>
 
  #### 4️⃣ SplitNode
-  - splitKey와 keyHolder를 기준으로 payload로 분리한다.
+  - splitKey를 기준으로 Msg를 나누고, keyHolder에 나눈 Key를 저장한다.
 
   ```
   {
