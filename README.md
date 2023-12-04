@@ -289,10 +289,8 @@
 <br>
 
 # 클래스 다이어그램
-![image](https://github.com/caboooom/iotGateway/assets/124178635/e579ef60-26c1-4981-b055-52078ef6310c)
+![image](https://github.com/caboooom/iotGateway/assets/124178635/82356394-e37b-4d8f-8822-e0821c0ff2e0)
 
-![image](https://github.com/caboooom/iotGateway/assets/124178635/42fab222-4e0e-4123-9380-f28d2f4c2978)
-(수정 예정)
 
 
 # 사용한 라이브러리 목록
