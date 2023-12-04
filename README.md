@@ -138,8 +138,8 @@
 ## 예시 파일 동작 방식
 
 #### 1️⃣ Main.java 실행
- - FilterGenerator 인스턴스가 생성되고 실행된다.
- - FilerGenerator는 `flows.json` 파일을 읽어서 필요한 노드, 포트, 와이어를 동적으로 생성하고, 연결하여 실행한다.
+ - FlowGenerator 인스턴스가 생성되고 실행된다.
+ - FlowGenerator는 `flows.json` 파일을 읽어서 필요한 노드, 포트, 와이어를 동적으로 생성하고, 연결하여 실행한다.
 <br>
    
 #### 2️⃣ MqttInNode
