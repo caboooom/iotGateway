@@ -53,9 +53,7 @@ public class ClientNode extends Node {
             Msg msg = mqttToClientQueue.poll();
             MqttMessage mqttMessage = new MqttMessage(msg.getPayload().toString().getBytes());
             try {
-                
                 //msg.getTopic() topic 만들면 토픽 바꿔줘야함
-                
                 client.publish(msg.getTopic(), mqttMessage);
             } catch (MqttPersistenceException e) {
                 log.error(e.getMessage());
