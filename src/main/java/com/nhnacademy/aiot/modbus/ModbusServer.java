@@ -1,4 +1,4 @@
-package com.nhnacademy.iot;
+package com.nhnacademy.aiot.modbus;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
