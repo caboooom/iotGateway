@@ -37,7 +37,7 @@ public enum FunctionCodes {
         byte[] responsePdu = new byte[5];
 
         // Function code
-        responsePdu[0] = 0x16;
+        responsePdu[0] = 0x10;
 
         // Starting Address
         responsePdu[1] = request[1];
