@@ -24,7 +24,31 @@ public enum FunctionCodes {
 
     READ_INPUT_REGISTERS(0x04, request -> { return null;}),
     WRITE_SINGLE_HOLDING_REGISTER(0x06, request -> { return null;}),
-    WRITE_MULTIPLE_HOLDING_REGISTERS(0x10, request -> { return null;});
+    WRITE_MULTIPLE_HOLDING_REGISTERS(0x10, request -> {
+
+        int address = (request[1] << 8) | request[2];
+        int quantity = (request[3] << 8) | request[4];
+        int byteCount = (request[5]);
+
+        for(int i = address, j = 6; i < address + quantity; i++, j+=2){
+            ModbusServer.holdingRegisters[address] = (request[j] << 8) | request[j+1];
+        }
+
+        byte[] responsePdu = new byte[5];
+
+        // Function code
+        responsePdu[0] = 0x10;
+
+        // Starting Address
+        responsePdu[1] = request[1];
+        responsePdu[2] = request[2];
+
+        // quantity
+        responsePdu[3] = request[3];
+        responsePdu[4] = request[4];
+
+
+        return responsePdu;});
 
     private final int code;
     private final UnaryOperator<byte[]> function;
