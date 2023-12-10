@@ -34,6 +34,7 @@ public class ModbusServer {
                 while (socket.isConnected()) {
                     byte[] inputBuffer = new byte[1024];
                     int receivedLength = inputStream.read(inputBuffer, 0, inputBuffer.length);
+                    byte[] mbapHeader = Arrays.copyOfRange(inputBuffer, 0, 7);
 
                     if (receivedLength < 0)
                         break; // 수신한 길이가 0보다 작으면 멈춤
@@ -53,14 +54,21 @@ public class ModbusServer {
                     byte[] requestPdu = Arrays.copyOfRange(inputBuffer, 7, receivedLength);
                     //System.out.println("pdu  - " + Arrays.toString(requestPdu));
                     
-                    FunctionCodes function = FunctionCodes.getByCode(functionCode); 
-                    
+
+                    FunctionCodes function = FunctionCodes.getByCode(functionCode);
+
                     byte[] responsePdu = function.getFunction().apply(requestPdu);
-                    System.out.println("Response : "+ Arrays.toString(responsePdu));
+                    //System.out.println("Response : " + Arrays.toString(responsePdu));
+                    int length = responsePdu.length + 1;
+                    byte[] modbusResponse = new byte[mbapHeader.length + responsePdu.length];
+                    System.arraycopy(mbapHeader, 0, modbusResponse , 0,  mbapHeader.length);
+                    System.arraycopy(responsePdu, 0, modbusResponse, 7, responsePdu.length);
+                    modbusResponse[5] = (byte) length;
+                    System.out.println("modbusResponse " + Arrays.toString(modbusResponse));
 
+                    outputStream.write(modbusResponse);
+                    outputStream.flush();
                     // 여기다가 헤더 더해서 보내는 코드 만들어야 함
-
-                    break;
                 }
             } catch (IOException e) {
                 System.err.println(e.getMessage());

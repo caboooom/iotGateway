@@ -7,8 +7,8 @@ import java.util.function.UnaryOperator;
 public enum FunctionCodes {
 
     READ_HOLDING_REGISTERS(0x03, request -> { 
-        int address = (request[1] << 8) | request[2];
-        int quantity = (request[3] << 8) | request[4];
+        int address = concatBytes(request[1] , request[2]);
+        int quantity = concatBytes(request[3], request[4]);
 
         byte[] pdu = new byte[1+1 + (quantity*2)];
 
@@ -26,7 +26,7 @@ public enum FunctionCodes {
     WRITE_SINGLE_HOLDING_REGISTER(0x06, request -> { return null;}),
     WRITE_MULTIPLE_HOLDING_REGISTERS(0x10, request -> {
 
-        int address = (request[1] << 8) | request[2];
+        int address = (request[1] << 8) | request[2] & 0xff;
         int quantity = (request[3] << 8) | request[4];
         int byteCount = (request[5]);
 
@@ -59,7 +59,10 @@ public enum FunctionCodes {
             codeMap.put(func.code, func);
         }
     }
-
+    private static int concatBytes(byte firstByte, byte secondByte) {
+        return (firstByte << 8) & 0xff | secondByte & 0xff;
+    }
+    
     FunctionCodes(int code, UnaryOperator<byte[]> function) {
         this.code = code;
         this.function = function;
