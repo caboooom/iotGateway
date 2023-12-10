@@ -19,7 +19,7 @@ import lombok.extern.log4j.Log4j2;
 public class ModbusServerNode extends Node {
     private static final int REGISTERS_SIZE = 10000;
     private static final int THREADPOOL_SIZE = 20;
-    private static final byte UNIT_ID = 0;
+    private static final byte UNIT_ID = 1;
     private static final int INPUT_BUFFER_SIZE = 1024;
     private static final int FUNCTION_CODE_IDX = 7;
     private static final int LENGTH_IDX = 5;
@@ -27,19 +27,21 @@ public class ModbusServerNode extends Node {
     private static final int MBAP_HEADER_LENGTH = 7;
     private static final int DEFAULT_PORT = 11502;
 
+    static int[] holdingRegisters = new int[REGISTERS_SIZE];
+    static int[] inputRegisters = new int[REGISTERS_SIZE];
 
-    int[] holdingRegisters = new int[REGISTERS_SIZE];
-    int[] inputRegisters = new int[REGISTERS_SIZE];
+    static{
+        for (int i = 0; i < holdingRegisters.length; i++) {
+            holdingRegisters[i] = i;
+            inputRegisters[i] = holdingRegisters.length - i;
+        }
+    }
 
     ExecutorService executorService = Executors.newFixedThreadPool(THREADPOOL_SIZE);
     ServerSocket serverSocket;
 
     public ModbusServerNode(String id, int outputPortCount) {
         super(id, outputPortCount);
-        for (int i = 0; i < holdingRegisters.length; i++) {
-            holdingRegisters[i] = i;
-            inputRegisters[i] = holdingRegisters.length - i;
-        }
     }
 
     @Override
@@ -83,14 +85,14 @@ public class ModbusServerNode extends Node {
                 byte[] responsePdu = function.getFunction().apply(requestPdu);
 
                 byte[] modbusResponse = new byte[mbapHeader.length + responsePdu.length];
-
+ 
                 // 인풋으로 받은 헤더를 modbusResponse에 복사
                 System.arraycopy(mbapHeader, 0, modbusResponse, 0, mbapHeader.length);
-                // 요청에 응답할 PDU를 modbusResponse의 헤더 뒤에 복사
+                // 요청에 응답할 PDU를 modbusResponse의 MBAP 헤더 뒤에 복사
                 System.arraycopy(responsePdu, 0, modbusResponse, 7, responsePdu.length);
 
                 modbusResponse[LENGTH_IDX] = (byte) (responsePdu.length + 1);
-
+ 
                 ObjectNode jsonNode = JSONUtils.getMapper().createObjectNode();
                 jsonNode.put("ModbusResponse", Arrays.toString(modbusResponse));
 
